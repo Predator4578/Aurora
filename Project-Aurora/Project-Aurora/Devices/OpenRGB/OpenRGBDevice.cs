@@ -95,9 +95,49 @@ namespace Aurora.Devices.OpenRGB
                                 //  Method for Mousepads
                                 if (dev.Type == OpenRGBDeviceType.Mousemat)
                                 {
-                                    if (k < 15)
+                                    if (k < 20)
                                     {
                                         _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.MousepadLights[k];
+                                    }
+                                }
+                                else
+
+                                //  Method for Headset stands
+                                if (dev.Type == OpenRGBDeviceType.HeadsetStand)
+                                {
+                                    if (k < 20)
+                                    {
+                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.PeripheralLights[k];
+                                    }
+                                }
+                                else
+
+                                //  Method for RAM Modules with 5 LEDs
+                                if (dev.Type == OpenRGBDeviceType.Dram)
+                                {
+                                    if (k < 5)
+                                    {
+                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.RAMLights[k];
+                                    }
+                                }
+                                else
+
+                                //  Method for Mainboards with up to 5 LEDs
+                                if (dev.Type == OpenRGBDeviceType.Motherboard)
+                                {
+                                    if (k < 5)
+                                    {
+                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.MainboardLights[k];
+                                    }
+                                }
+                                else
+
+                                //  Method for Coolers with up to 8 LEDs
+                                if (dev.Type == OpenRGBDeviceType.Cooler)
+                                {
+                                    if (k < 8)
+                                    {
+                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.CoolerLights[k];
                                     }
                                 }
                                 else
