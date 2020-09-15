@@ -145,7 +145,7 @@ namespace Aurora.Devices.OpenRGB
                                 //  Method for Ledstrips up to 200 LED Lights
                                 if (dev.Type == OpenRGBDeviceType.Ledstrip)
                                 {
-                                    if (k < 200)
+                                    if (k < 240)
                                     {
                                         _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.LedLights[k];
                                     }

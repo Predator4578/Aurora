@@ -2836,6 +2836,247 @@ namespace Aurora.Devices
         [Description("Led Light 200")]
         LEDLIGHT200 = 1200,
 
-//////////////////////////////////////////////   to Support up to 1000 LED Lights i need more time to Edit
+        /// <summary>
+        /// Led Light 201
+        /// </summary>
+        [Description("Led Light 201")]
+        LEDLIGHT201 = 1201,
+
+        /// <summary>
+        /// Led Light 202
+        /// </summary>
+        [Description("Led Light 202")]
+        LEDLIGHT202 = 1202,
+
+        /// <summary>
+        /// Led Light 203
+        /// </summary>
+        [Description("Led Light 203")]
+        LEDLIGHT203 = 1203,
+
+        /// <summary>
+        /// Led Light 204
+        /// </summary>
+        [Description("Led Light 204")]
+        LEDLIGHT204 = 204,
+
+        /// <summary>
+        /// Led Light 205
+        /// </summary>
+        [Description("Led Light 205")]
+        LEDLIGHT205 = 1205,
+
+        /// <summary>
+        /// Led Light 206
+        /// </summary>
+        [Description("Led Light 206")]
+        LEDLIGHT206 = 1206,
+
+        /// <summary>
+        /// Led Light 207
+        /// </summary>
+        [Description("Led Light 207")]
+        LEDLIGHT207 = 1207,
+
+        /// <summary>
+        /// Led Light 208
+        /// </summary>
+        [Description("Led Light 208")]
+        LEDLIGHT208 = 1208,
+
+        /// <summary>
+        /// Led Light 209
+        /// </summary>
+        [Description("Led Light 209")]
+        LEDLIGHT209 = 1209,
+
+        /// <summary>
+        /// Led Light 210
+        /// </summary>
+        [Description("Led Light 210")]
+        LEDLIGHT210 = 1210,
+
+        /// <summary>
+        /// Led Light 211
+        /// </summary>
+        [Description("Led Light 211")]
+        LEDLIGHT211 = 1211,
+
+        /// <summary>
+        /// Led Light 212
+        /// </summary>
+        [Description("Led Light 212")]
+        LEDLIGHT212 = 1212,
+
+        /// <summary>
+        /// Led Light 213
+        /// </summary>
+        [Description("Led Light 213")]
+        LEDLIGHT213 = 1213,
+
+        /// <summary>
+        /// Led Light 214
+        /// </summary>
+        [Description("Led Light 214")]
+        LEDLIGHT214 = 1214,
+
+        /// <summary>
+        /// Led Light 215
+        /// </summary>
+        [Description("Led Light 215")]
+        LEDLIGHT215 = 1215,
+
+        /// <summary>
+        /// Led Light 216
+        /// </summary>
+        [Description("Led Light 216")]
+        LEDLIGHT216 = 1216,
+
+        /// <summary>
+        /// Led Light 217
+        /// </summary>
+        [Description("Led Light 217")]
+        LEDLIGHT217 = 2217,
+
+        /// <summary>
+        /// Led Light 218
+        /// </summary>
+        [Description("Led Light 218")]
+        LEDLIGHT218 = 1218,
+
+        /// <summary>
+        /// Led Light 219
+        /// </summary>
+        [Description("Led Light 219")]
+        LEDLIGHT219 = 1219,
+
+        /// <summary>
+        /// Led Light 220
+        /// </summary>
+        [Description("Led Light 220")]
+        LEDLIGHT220 = 1220,
+
+        /// <summary>
+        /// Led Light 221
+        /// </summary>
+        [Description("Led Light 221")]
+        LEDLIGHT221 = 1221,
+
+        /// <summary>
+        /// Led Light 222
+        /// </summary>
+        [Description("Led Light 222")]
+        LEDLIGHT222 = 1222,
+
+        /// <summary>
+        /// Led Light 223
+        /// </summary>
+        [Description("Led Light 223")]
+        LEDLIGHT223 = 1223,
+
+        /// <summary>
+        /// Led Light 224
+        /// </summary>
+        [Description("Led Light 224")]
+        LEDLIGHT224 = 1224,
+
+        /// <summary>
+        /// Led Light 225
+        /// </summary>
+        [Description("Led Light 225")]
+        LEDLIGHT225 = 1225,
+
+        /// <summary>
+        /// Led Light 226
+        /// </summary>
+        [Description("Led Light 226")]
+        LEDLIGHT226 = 1226,
+
+        /// <summary>
+        /// Led Light 227
+        /// </summary>
+        [Description("Led Light 227")]
+        LEDLIGHT227 = 1227,
+
+        /// <summary>
+        /// Led Light 228
+        /// </summary>
+        [Description("Led Light 228")]
+        LEDLIGHT228 = 1228,
+
+        /// <summary>
+        /// Led Light 229
+        /// </summary>
+        [Description("Led Light 229")]
+        LEDLIGHT229 = 1229,
+
+        /// <summary>
+        /// Led Light 230
+        /// </summary>
+        [Description("Led Light 230")]
+        LEDLIGHT230 = 1230,
+
+        /// <summary>
+        /// Led Light 231
+        /// </summary>
+        [Description("Led Light 231")]
+        LEDLIGHT231 = 1231,
+
+        /// <summary>
+        /// Led Light 232
+        /// </summary>
+        [Description("Led Light 232")]
+        LEDLIGHT232 = 1232,
+
+        /// <summary>
+        /// Led Light 233
+        /// </summary>
+        [Description("Led Light 233")]
+        LEDLIGHT233 = 1233,
+
+        /// <summary>
+        /// Led Light 234
+        /// </summary>
+        [Description("Led Light 234")]
+        LEDLIGHT234 = 1234,
+
+        /// <summary>
+        /// Led Light 235
+        /// </summary>
+        [Description("Led Light 235")]
+        LEDLIGHT235 = 1235,
+
+        /// <summary>
+        /// Led Light 236
+        /// </summary>
+        [Description("Led Light 236")]
+        LEDLIGHT236 = 1236,
+
+        /// <summary>
+        /// Led Light 237
+        /// </summary>
+        [Description("Led Light 237")]
+        LEDLIGHT237 = 1237,
+
+        /// <summary>
+        /// Led Light 238
+        /// </summary>
+        [Description("Led Light 238")]
+        LEDLIGHT238 = 1238,
+
+        /// <summary>
+        /// Led Light 239
+        /// </summary>
+        [Description("Led Light 239")]
+        LEDLIGHT239 = 1239,
+
+        /// <summary>
+        /// Led Light 240
+        /// </summary>
+        [Description("Led Light 240")]
+        LEDLIGHT240 = 1240,
+
+
+        //////////////////////////////////////////////   to Support up to 1000 LED Lights i need more time to Edit
     };
 }
