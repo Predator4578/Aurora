@@ -484,8 +484,7 @@ namespace Aurora
             Global.InputEvents?.Dispose();
             Global.LightingStateManager?.Dispose();
             Global.net_listener?.Stop();
-            Global.dev_manager?.ShutdownDevices();
-
+            
             try
             {
                 Global.razerSdkManager?.Dispose();
@@ -495,6 +494,8 @@ namespace Aurora
                 Global.logger.Fatal("RazerManager failed to dispose!");
                 Global.logger.Fatal(exc.ToString());
             }
+
+            Global.dev_manager?.ShutdownDevices();
 
             InputInterceptor?.Dispose();
 
