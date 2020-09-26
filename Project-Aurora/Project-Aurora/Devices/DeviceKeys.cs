@@ -1429,8 +1429,19 @@ namespace Aurora.Devices
         [Description("None")]
         NONE = -1,
 
-//////////////////////////////////////////////   MOUSEPADLIGHTS begin here 
-//////////////////////////////////////////////   Added up to No 20 Mousepad Lights
+
+        //////////////////////////////////////////////   MOUSEPADLOGO begin here 
+        //////////////////////////////////////////////   Added 1 Mousepad LOGO (Razer goliathus extended)
+
+        /// <summary>
+        /// Mousepad Logo 
+        /// </summary>
+        [Description("Mousepad Logo")]
+        MOUSEPAD_LOGO = 799,
+
+
+        //////////////////////////////////////////////   MOUSEPADLIGHTS begin here 
+        //////////////////////////////////////////////   Added up to No 20 Mousepad Lights
 
         /// <summary>
         /// Mousepad Light 16
@@ -1461,6 +1472,22 @@ namespace Aurora.Devices
         /// </summary>
         [Description("Mousepad Light 20")]
         MOUSEPADLIGHT20 = 804,
+
+//////////////////////////////////////////////   HEADSETLIGHTS begin here 
+//////////////////////////////////////////////   Added up to No 2 Headset Lights
+
+        /// <summary>
+        /// Headset Light 1
+        /// </summary>
+        [Description("Headset Logo")]
+        HEADSETLIGHT1 = 820,
+
+        /// <summary>
+        /// Headset Light 2
+        /// </summary>
+        [Description("Headset Lightstrip")]
+        HEADSETLIGHT2 = 821,
+
 
 //////////////////////////////////////////////   RAMLIGHTS begin here 
 //////////////////////////////////////////////   Added up to 5 RAMLights

@@ -173,8 +173,8 @@ namespace Aurora.Devices.Logitech
             [DeviceKeys.PERIPHERAL_LIGHT2] = (DeviceType.Speaker, 1),
             [DeviceKeys.PERIPHERAL_LIGHT3] = (DeviceType.Speaker, 2),
             [DeviceKeys.PERIPHERAL_LIGHT4] = (DeviceType.Speaker, 3),
-            [DeviceKeys.PERIPHERAL_LIGHT5] = (DeviceType.Headset, 0),
-            [DeviceKeys.PERIPHERAL_LIGHT6] = (DeviceType.Headset, 1),
+            [DeviceKeys.HEADSETLIGHT1] = (DeviceType.Headset, 0),
+            [DeviceKeys.HEADSETLIGHT2] = (DeviceType.Headset, 1),
         };
     }
 }

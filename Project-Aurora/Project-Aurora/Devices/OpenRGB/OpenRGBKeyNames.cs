@@ -149,6 +149,11 @@ namespace Aurora.Devices.OpenRGB
             { "Front"                 , DK.Peripheral_FrontLight  },
         };
 
+        public static readonly Dictionary<string, DK> Mousemat = new Dictionary<string, DK>()
+        {
+            { "Logo"                  , DK.MOUSEPAD_LOGO        },
+        };
+
         public static readonly List<DK> MousepadLights = new List<DK>(new[]
         {
             DK.MOUSEPADLIGHT15,
