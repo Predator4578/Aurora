@@ -173,6 +173,10 @@ namespace Aurora.Settings
         CoolerMaster = 5,
         */
 
+        // Custom Layouts here
+        [Description("Logitech - G910 - Codename-Antares Edition")]
+        Logitech_G910_Codename_Antares_Edition = 99,
+
         //Logitech range is 100-199
         [Description("Logitech - G910")]
         Logitech_G910 = 100,
@@ -188,7 +192,8 @@ namespace Aurora.Settings
         Logitech_G815 = 105,
         [Description("Logitech - G513")]
         Logitech_G513 = 106,
-		
+
+
         //Corsair range is 200-299
         [Description("Corsair - K95")]
         Corsair_K95 = 200,
@@ -359,6 +364,10 @@ namespace Aurora.Settings
         Generic_Peripheral = 1,
         [Description("Razer/Corsair Mousepad + Mouse")]
         Generic_Mousepad = 2,
+
+        //Custom Layouts here
+        [Description("Razer/Corsair Mousepad + Mouse - Codename Antares Edition")]
+        Generic_Mousepad_Codename_Antares_Edition = 99,
 
         //Logitech range is 100-199
         [Description("Logitech - G900")]

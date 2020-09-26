@@ -690,6 +690,8 @@ namespace Aurora.Settings
 
             if (keyboard_preference == PreferredKeyboard.Logitech_G910)
                 layoutConfigPath = Path.Combine(layoutsPath, "logitech_g910.json");
+            else if (keyboard_preference == PreferredKeyboard.Logitech_G910_Codename_Antares_Edition)
+                layoutConfigPath = Path.Combine(layoutsPath, "logitech_g910_Codename_Antares_Edition.json");
             else if (keyboard_preference == PreferredKeyboard.Logitech_G810)
                 layoutConfigPath = Path.Combine(layoutsPath, "logitech_g810.json");
             else if (keyboard_preference == PreferredKeyboard.Logitech_GPRO)
@@ -866,6 +868,9 @@ namespace Aurora.Settings
                         break;
                     case PreferredMouse.Generic_Mousepad:
                         mouse_feature_path = Path.Combine(layoutsPath, "Extra Features", "generic_mousepad.json");
+                        break;
+                    case PreferredMouse.Generic_Mousepad_Codename_Antares_Edition:
+                        mouse_feature_path = Path.Combine(layoutsPath, "Extra Features", "generic_mousepad_Codename_Antares_Edition.json");
                         break;
                     case PreferredMouse.Logitech_G900:
                         mouse_feature_path = Path.Combine(layoutsPath, "Extra Features", "logitech_g900_features.json");
