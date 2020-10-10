@@ -171,7 +171,7 @@ namespace Aurora.Devices.OpenRGB
             DK.MOUSEPADLIGHT3,
             DK.MOUSEPADLIGHT2,
             DK.MOUSEPADLIGHT1,
-//////////////////////////////////////////////   Added 5 more Mousepad Lights
+//////////////////////////////////////////////   Added 5 more Mousepad Lights for support newer models mousepad
             DK.MOUSEPADLIGHT16,
             DK.MOUSEPADLIGHT17,
             DK.MOUSEPADLIGHT18,
@@ -213,7 +213,7 @@ namespace Aurora.Devices.OpenRGB
             DK.ADDITIONALLIGHT30,
             DK.ADDITIONALLIGHT31,
             DK.ADDITIONALLIGHT32,
-//////////////////////////////////////////////   Added 8 more Additional Lights
+//////////////////////////////////////////////   Added 8 more Additional Lights to fit Hue plus devices
             DK.ADDITIONALLIGHT33,
             DK.ADDITIONALLIGHT34,
             DK.ADDITIONALLIGHT35,
@@ -225,7 +225,7 @@ namespace Aurora.Devices.OpenRGB
         });
 
         public static readonly List<DK> PeripheralLights = new List<DK>(new[]
-         {
+        {
             DK.PERIPHERAL_LIGHT1,
             DK.PERIPHERAL_LIGHT2,
             DK.PERIPHERAL_LIGHT3,
@@ -249,7 +249,7 @@ namespace Aurora.Devices.OpenRGB
             });
 
         public static readonly List<DK> RAMLights = new List<DK>(new[]
-         {
+        {
             DK.RAMLIGHT1,
             DK.RAMLIGHT2,
             DK.RAMLIGHT3,
@@ -257,13 +257,23 @@ namespace Aurora.Devices.OpenRGB
             DK.RAMLIGHT5,
             });
 
+        public static readonly List<DK> C1RAMLights = new List<DK>(new[]
+        {
+            DK.C1RAMLIGHT1,
+            DK.C1RAMLIGHT2,
+            DK.C1RAMLIGHT3,
+            DK.C1RAMLIGHT4,
+            DK.C1RAMLIGHT5,
+            });
+
+
         public static readonly Dictionary<string, DK> MoboLogo = new Dictionary<string, DK>()
         {
             { "Logo"                  , DK.Mobo_Logo        },
             };
 
         public static readonly List<DK> MainboardLights = new List<DK>(new[]
-         {
+        {
             DK.MOBOLIGHT1,
             DK.MOBOLIGHT2,
             DK.MOBOLIGHT3,
@@ -278,7 +288,7 @@ namespace Aurora.Devices.OpenRGB
             };
 
         public static readonly List<DK> CoolerLights = new List<DK>(new[]
-         {
+        {
             DK.COOLERLIGHT1,
             DK.COOLERLIGHT2,
             DK.COOLERLIGHT3,
@@ -288,6 +298,35 @@ namespace Aurora.Devices.OpenRGB
             DK.COOLERLIGHT7,
             DK.COOLERLIGHT8,
             });
+
+        public static readonly List<DK> LedLightsC0 = new List<DK>(new[]
+        {
+            DK.C0LEDLIGHT1,
+            DK.C0LEDLIGHT2,
+            DK.C0LEDLIGHT3,
+            DK.C0LEDLIGHT4,
+            DK.C0LEDLIGHT5,
+            DK.C0LEDLIGHT6,
+            DK.C0LEDLIGHT7,
+            DK.C0LEDLIGHT8,
+            DK.C0LEDLIGHT9,
+            DK.C0LEDLIGHT10,
+            });
+
+        public static readonly List<DK> LedLightsC1 = new List<DK>(new[]
+        {
+            DK.C1LEDLIGHT1,
+            DK.C1LEDLIGHT2,
+            DK.C1LEDLIGHT3,
+            DK.C1LEDLIGHT4,
+            DK.C1LEDLIGHT5,
+            DK.C1LEDLIGHT6,
+            DK.C1LEDLIGHT7,
+            DK.C1LEDLIGHT8,
+            DK.C1LEDLIGHT9,
+            DK.C1LEDLIGHT10,
+            });
+
 
         public static readonly List<DK> LedLights = new List<DK>(new[]
         {

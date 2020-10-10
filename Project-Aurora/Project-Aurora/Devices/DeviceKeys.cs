@@ -1522,9 +1522,38 @@ namespace Aurora.Devices
         [Description("RAM Light 5")]
         RAMLIGHT5 = 854,
 
+        /// <summary>
+        /// RAM Light C1 1
+        /// </summary>
+        [Description("RAM Light C1 1")]
+        C1RAMLIGHT1 = 861,
 
-//////////////////////////////////////////////   MOBOLIGHTS begin here 
-//////////////////////////////////////////////   Added up to 5 Mainboard Lights + MOBOLogo
+        /// <summary>
+        /// RAM Light C1 2
+        /// </summary>
+        [Description("RAM Light C1 2")]
+        C1RAMLIGHT2 = 862,
+
+        /// <summary>
+        /// RAM Light C1 3
+        /// </summary>
+        [Description("RAM Light C1 3")]
+        C1RAMLIGHT3 = 863,
+
+        /// <summary>
+        /// RAM Light C1 4
+        /// </summary>
+        [Description("RAM Light C1 4")]
+        C1RAMLIGHT4 = 864,
+
+        /// <summary>
+        /// RAM Light C1 5
+        /// </summary>
+        [Description("RAM Light C1 5")]
+        C1RAMLIGHT5 = 865,
+
+        //////////////////////////////////////////////   MOBOLIGHTS begin here 
+        //////////////////////////////////////////////   Added up to 5 Mainboard Lights + MOBOLogo
         ///
         /// <summary>
         /// Cooler Logo
@@ -2875,6 +2904,128 @@ namespace Aurora.Devices
         [Description("Led Light 200")]
         LEDLIGHT200 = 1200,
 
-//////////////////////////////////////////////   to Support up to 1000 LED Lights i need more time to Edit
+        //////////////////////////////////////////////   to Support up to 1000 LED Lights i need more time to Edit
+
+        /// <summary>
+        /// Led Light C0 1
+        /// </summary>
+        [Description("Led Light C0 1")]
+        C0LEDLIGHT1 = 2001,
+
+        /// <summary>
+        /// Led Light C0 2
+        /// </summary>
+        [Description("Led Light C0 2")]
+        C0LEDLIGHT2 = 2002,
+
+        /// <summary>
+        /// Led Light C0 3
+        /// </summary>
+        [Description("Led Light C0 3")]
+        C0LEDLIGHT3 = 2003,
+
+        /// <summary>
+        /// Led Light C0 4
+        /// </summary>
+        [Description("Led Light C0 4")]
+        C0LEDLIGHT4 = 2004,
+
+        /// <summary>
+        /// Led Light C0 5
+        /// </summary>
+        [Description("Led Light C0 5")]
+        C0LEDLIGHT5 = 2005,
+
+        /// <summary>
+        /// Led Light C0 6
+        /// </summary>
+        [Description("Led Light C0 6")]
+        C0LEDLIGHT6 = 2006,
+
+        /// <summary>
+        /// Led Light C0 7
+        /// </summary>
+        [Description("Led Light C0 7")]
+        C0LEDLIGHT7 = 2007,
+
+        /// <summary>
+        /// Led Light C0 8
+        /// </summary>
+        [Description("Led Light C0 8")]
+        C0LEDLIGHT8 = 2008,
+
+        /// <summary>
+        /// Led Light C0 9
+        /// </summary>
+        [Description("Led Light C0 9")]
+        C0LEDLIGHT9 = 2009,
+
+        /// <summary>
+        /// Led Light C0 10
+        /// </summary>
+        [Description("Led Light C0 10")]
+        C0LEDLIGHT10 = 2010,
+
+        /// <summary>
+        /// Led Light C1 1
+        /// </summary>
+        [Description("Led Light C1 1")]
+        C1LEDLIGHT1 = 2501,
+
+        /// <summary>
+        /// Led Light C1 2
+        /// </summary>
+        [Description("Led Light C1 2")]
+        C1LEDLIGHT2 = 2502,
+
+        /// <summary>
+        /// Led Light C1 3
+        /// </summary>
+        [Description("Led Light C1 3")]
+        C1LEDLIGHT3 = 2503,
+
+        /// <summary>
+        /// Led Light C1 4
+        /// </summary>
+        [Description("Led Light C1 4")]
+        C1LEDLIGHT4 = 2504,
+
+        /// <summary>
+        /// Led Light C1 5
+        /// </summary>
+        [Description("Led Light C1 5")]
+        C1LEDLIGHT5 = 2505,
+
+        /// <summary>
+        /// Led Light C1 6
+        /// </summary>
+        [Description("Led Light C1 6")]
+        C1LEDLIGHT6 = 2506,
+
+        /// <summary>
+        /// Led Light C1 7
+        /// </summary>
+        [Description("Led Light C1 7")]
+        C1LEDLIGHT7 = 2507,
+
+        /// <summary>
+        /// Led Light C1 8
+        /// </summary>
+        [Description("Led Light C1 8")]
+        C1LEDLIGHT8 = 2508,
+
+        /// <summary>
+        /// Led Light C1 9
+        /// </summary>
+        [Description("Led Light C1 9")]
+        C1LEDLIGHT9 = 2509,
+
+        /// <summary>
+        /// Led Light C1 10
+        /// </summary>
+        [Description("Led Light C1 10")]
+        C1LEDLIGHT10 = 2510,
+
+        //////////////////////////////////////////////   to Support up to 1000 LED Lights i need more time to Edit
     };
 }

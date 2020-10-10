@@ -688,7 +688,13 @@ namespace Aurora.Settings
 
             var layoutConfigPath = "";
 
-            if (keyboard_preference == PreferredKeyboard.Logitech_G910)
+            if (keyboard_preference == PreferredKeyboard.Custom_Keyboard_Layout_1)
+                layoutConfigPath = Path.Combine(layoutsPath, "Custom_Keyboard_Layout_1.json");
+            else if (keyboard_preference == PreferredKeyboard.Custom_Keyboard_Layout_2)
+                layoutConfigPath = Path.Combine(layoutsPath, "Custom_Keyboard_Layout_2.json");
+            else if (keyboard_preference == PreferredKeyboard.Custom_Keyboard_Layout_3)
+                layoutConfigPath = Path.Combine(layoutsPath, "Custom_Keyboard_Layout_3.json");
+            else if (keyboard_preference == PreferredKeyboard.Logitech_G910)
                 layoutConfigPath = Path.Combine(layoutsPath, "logitech_g910.json");
             else if (keyboard_preference == PreferredKeyboard.Logitech_G910_Codename_Antares_Edition)
                 layoutConfigPath = Path.Combine(layoutsPath, "logitech_g910_Codename_Antares_Edition.json");
@@ -863,6 +869,15 @@ namespace Aurora.Settings
 
                 switch (mouse_preference)
                 {
+                    case PreferredMouse.Custom_Mouse_Layout_1:
+                        mouse_feature_path = Path.Combine(layoutsPath, "Extra Features", "Custom_Mouse_Layout_1.json");
+                        break;
+                    case PreferredMouse.Custom_Mouse_Layout_2:
+                        mouse_feature_path = Path.Combine(layoutsPath, "Extra Features", "Custom_Mouse_Layout_2.json");
+                        break;
+                    case PreferredMouse.Custom_Mouse_Layout_3:
+                        mouse_feature_path = Path.Combine(layoutsPath, "Extra Features", "Custom_Mouse_Layout_3.json");
+                        break;
                     case PreferredMouse.Generic_Peripheral:
                         mouse_feature_path = Path.Combine(layoutsPath, "Extra Features", "generic_peripheral.json");
                         break;
