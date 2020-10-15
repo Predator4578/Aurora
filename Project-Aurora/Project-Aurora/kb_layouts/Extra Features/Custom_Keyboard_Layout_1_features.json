@@ -156,7 +156,7 @@
     //********************ADDITIONAL LIGHTS TABLE********************
     {
       "visualName": "A01",
-      "tag": 142,
+      "tag": 2001,
       "margin_left": 850.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -171,7 +171,7 @@
     },
     {
       "visualName": "A02",
-      "tag": 143,
+      "tag": 2002,
       "margin_left": 827.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -186,7 +186,7 @@
     },
     {
       "visualName": "A03",
-      "tag": 144,
+      "tag": 2003,
       "margin_left": 804.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -201,7 +201,7 @@
     },
     {
       "visualName": "A04",
-      "tag": 145,
+      "tag": 2004,
       "margin_left": 781.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -216,7 +216,7 @@
     },
     {
       "visualName": "A05",
-      "tag": 146,
+      "tag": 2005,
       "margin_left": 758.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -231,7 +231,7 @@
     },
     {
       "visualName": "A06",
-      "tag": 147,
+      "tag": 2006,
       "margin_left": 735.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -246,7 +246,7 @@
     },
     {
       "visualName": "A07",
-      "tag": 148,
+      "tag": 2007,
       "margin_left": 712.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -261,7 +261,7 @@
     },
     {
       "visualName": "A08",
-      "tag": 149,
+      "tag": 2008,
       "margin_left": 689.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -276,7 +276,7 @@
     },
     {
       "visualName": "A09",
-      "tag": 150,
+      "tag": 2009,
       "margin_left": 666.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -291,7 +291,7 @@
     },
     {
       "visualName": "A10",
-      "tag": 151,
+      "tag": 2010,
       "margin_left": 643.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -306,7 +306,7 @@
     },
     {
       "visualName": "A11",
-      "tag": 172,
+      "tag": 2501,
       "margin_left": 620.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -321,7 +321,7 @@
     },
     {
       "visualName": "A12",
-      "tag": 173,
+      "tag": 2502,
       "margin_left": 597.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -336,7 +336,7 @@
     },
     {
       "visualName": "A13",
-      "tag": 174,
+      "tag": 2503,
       "margin_left": 574.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -351,7 +351,7 @@
     },
     {
       "visualName": "A14",
-      "tag": 175,
+      "tag": 2504,
       "margin_left": 551.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -366,7 +366,7 @@
     },
     {
       "visualName": "A15",
-      "tag": 176,
+      "tag": 2505,
       "margin_left": 528.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -381,7 +381,7 @@
     },
     {
       "visualName": "A16",
-      "tag": 177,
+      "tag": 2506,
       "margin_left": 505.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -396,7 +396,7 @@
     },
     {
       "visualName": "A17",
-      "tag": 178,
+      "tag": 2507,
       "margin_left": 482.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -411,7 +411,7 @@
     },
     {
       "visualName": "A18",
-      "tag": 179,
+      "tag": 2508,
       "margin_left": 459.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -426,7 +426,7 @@
     },
     {
       "visualName": "A19",
-      "tag": 180,
+      "tag": 2509,
       "margin_left": 436.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -441,7 +441,7 @@
     },
     {
       "visualName": "A20",
-      "tag": 181,
+      "tag": 2510,
       "margin_left": 413.0,
       "margin_top": -55.0,
       "width": 20.0,

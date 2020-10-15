@@ -43,6 +43,8 @@ namespace Aurora.Devices.OpenRGB
                 _deviceColors = new OpenRGBColor[_devices.Length][];
                 _keyMappings = new List<DK>[_devices.Length];
 
+                int ramIndex = 0;
+                int ledLightIndex = 0;
                 for (var i = 0; i < _devices.Length; i++)
                 {
                     var dev = _devices[i];
@@ -154,7 +156,8 @@ namespace Aurora.Devices.OpenRGB
                                 {
                                     if (k < 5)
                                     {
-                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.RAMLights[k];
+                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.AllRAMLights[ramIndex][k];
+                                        //_keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.RAMLights[k];
                                     }
                                 }
                                 else
@@ -182,9 +185,9 @@ namespace Aurora.Devices.OpenRGB
                                 //  Method for Ledstrips up to 200 LED Lights
                                 if (dev.Type == OpenRGBDeviceType.Ledstrip)
                                 {
-                                    if (k < 200)
+                                    if (k < OpenRGBKeyNames.AllLedLights[ledLightIndex][j].Count)
                                     {
-                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.LedLights[k];
+                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.AllLedLights[ledLightIndex][j][k];
                                     }
                                 }
                                 else
@@ -198,6 +201,15 @@ namespace Aurora.Devices.OpenRGB
                             }
                         }
                         LedOffset += dev.Zones[j].LedCount;
+                    }
+                    if (dev.Type == OpenRGBDeviceType.Dram)
+                    {
+                        ramIndex++;
+                    }
+                    else
+                    if (dev.Type == OpenRGBDeviceType.Ledstrip)
+                    {
+                        ledLightIndex++;
                     }
                 }
             }

@@ -835,7 +835,7 @@
       "absolute_location": true
     },
     {
-      "tag": -1,
+      "tag": 861,
       "visualName": "RAM 2-01",
       "font_size": 10.0,
       "margin_left": 629.0,
@@ -846,7 +846,7 @@
       "absolute_location": true
     },
     {
-      "tag": -1,
+      "tag": 862,
       "visualName": "RAM 2-02",
       "font_size": 10.0,
       "margin_left": 629.0,
@@ -857,7 +857,7 @@
       "absolute_location": true
     },
     {
-      "tag": -1,
+      "tag": 863,
       "visualName": "RAM 2-03",
       "font_size": 10.0,
       "margin_left": 629.0,
@@ -868,7 +868,7 @@
       "absolute_location": true
     },
     {
-      "tag": -1,
+      "tag": 864,
       "visualName": "RAM 2-04",
       "font_size": 10.0,
       "margin_left": 629.0,
@@ -879,7 +879,7 @@
       "absolute_location": true
     },
     {
-      "tag": -1,
+      "tag": 865,
       "visualName": "RAM 2-05",
       "font_size": 10.0,
       "margin_left": 629.0,

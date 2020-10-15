@@ -757,7 +757,7 @@
     //********************LED LIGHTS TABLE********************
     {
       "visualName": "L01",
-      "tag": 1001,
+      "tag": 2001,
       "margin_left": 850.0,
       "margin_top": 215.0,
       "width": 20.0,
@@ -772,7 +772,7 @@
     },
     {
       "visualName": "L02",
-      "tag": 1002,
+      "tag": 2002,
       "margin_left": 827.0,
       "margin_top": 215.0,
       "width": 20.0,
@@ -787,7 +787,7 @@
     },
     {
       "visualName": "L03",
-      "tag": 1003,
+      "tag": 2003,
       "margin_left": 804.0,
       "margin_top": 215.0,
       "width": 20.0,
@@ -802,7 +802,7 @@
     },
     {
       "visualName": "L04",
-      "tag": 1004,
+      "tag": 2004,
       "margin_left": 781.0,
       "margin_top": 215.0,
       "width": 20.0,
@@ -817,7 +817,7 @@
     },
     {
       "visualName": "L05",
-      "tag": 1005,
+      "tag": 2005,
       "margin_left": 758.0,
       "margin_top": 215.0,
       "width": 20.0,
@@ -832,7 +832,7 @@
     },
     {
       "visualName": "L06",
-      "tag": 1006,
+      "tag": 2006,
       "margin_left": 735.0,
       "margin_top": 215.0,
       "width": 20.0,
@@ -847,7 +847,7 @@
     },
     {
       "visualName": "L07",
-      "tag": 1007,
+      "tag": 2007,
       "margin_left": 712.0,
       "margin_top": 215.0,
       "width": 20.0,
@@ -862,7 +862,7 @@
     },
     {
       "visualName": "L08",
-      "tag": 1008,
+      "tag": 2008,
       "margin_left": 689.0,
       "margin_top": 215.0,
       "width": 20.0,
@@ -877,7 +877,7 @@
     },
     {
       "visualName": "L09",
-      "tag": 1009,
+      "tag": 2009,
       "margin_left": 666.0,
       "margin_top": 215.0,
       "width": 20.0,
@@ -892,7 +892,7 @@
     },
     {
       "visualName": "L10",
-      "tag": 1010,
+      "tag": 2010,
       "margin_left": 643.0,
       "margin_top": 215.0,
       "width": 20.0,
@@ -1358,7 +1358,7 @@
     //********************LED LIGHTS channel 2 TABLE********************
     {
       "visualName": "L41",
-      "tag": 1041,
+      "tag": 2501,
       "margin_left": 850.0,
       "margin_top": 235.0,
       "width": 20.0,
@@ -1373,7 +1373,7 @@
     },
     {
       "visualName": "L42",
-      "tag": 1042,
+      "tag": 2502,
       "margin_left": 827.0,
       "margin_top": 235.0,
       "width": 20.0,
@@ -1388,7 +1388,7 @@
     },
     {
       "visualName": "L43",
-      "tag": 1043,
+      "tag": 2503,
       "margin_left": 804.0,
       "margin_top": 235.0,
       "width": 20.0,
@@ -1403,7 +1403,7 @@
     },
     {
       "visualName": "L44",
-      "tag": 1044,
+      "tag": 2504,
       "margin_left": 781.0,
       "margin_top": 235.0,
       "width": 20.0,
@@ -1418,7 +1418,7 @@
     },
     {
       "visualName": "L45",
-      "tag": 1045,
+      "tag": 2505,
       "margin_left": 758.0,
       "margin_top": 235.0,
       "width": 20.0,
@@ -1433,7 +1433,7 @@
     },
     {
       "visualName": "L46",
-      "tag": 1046,
+      "tag": 2506,
       "margin_left": 735.0,
       "margin_top": 235.0,
       "width": 20.0,
@@ -1448,7 +1448,7 @@
     },
     {
       "visualName": "L47",
-      "tag": 1047,
+      "tag": 2507,
       "margin_left": 712.0,
       "margin_top": 235.0,
       "width": 20.0,
@@ -1463,7 +1463,7 @@
     },
     {
       "visualName": "L48",
-      "tag": 1048,
+      "tag": 2508,
       "margin_left": 689.0,
       "margin_top": 235.0,
       "width": 20.0,
@@ -1478,7 +1478,7 @@
     },
     {
       "visualName": "L49",
-      "tag": 1049,
+      "tag": 2509,
       "margin_left": 666.0,
       "margin_top": 235.0,
       "width": 20.0,
@@ -1493,7 +1493,7 @@
     },
     {
       "visualName": "L50",
-      "tag": 1050,
+      "tag": 2510,
       "margin_left": 643.0,
       "margin_top": 235.0,
       "width": 20.0,
@@ -1833,7 +1833,7 @@
       "height_bits": 1,
       "margin_left_bits": 27,
       "margin_top_bits": -4,
-      "enabled": true,
+      "enabled": true,z
       "absolute_location": true
     },
     {
