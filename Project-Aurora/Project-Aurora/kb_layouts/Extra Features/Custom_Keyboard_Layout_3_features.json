@@ -636,7 +636,7 @@
     },
     {
       "visualName": "A33",
-      "tag": 993,
+      "tag": 1201,
       "margin_left": 114.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -651,7 +651,7 @@
     },
     {
       "visualName": "A34",
-      "tag": 994,
+      "tag": 1202,
       "margin_left": 91.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -666,7 +666,7 @@
     },
     {
       "visualName": "A35",
-      "tag": 995,
+      "tag": 1203,
       "margin_left": 68.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -681,7 +681,7 @@
     },
     {
       "visualName": "A36",
-      "tag": 996,
+      "tag": 1204,
       "margin_left": 45.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -696,7 +696,7 @@
     },
     {
       "visualName": "A37",
-      "tag": 997,
+      "tag": 1205,
       "margin_left": 22.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -711,7 +711,7 @@
     },
     {
       "visualName": "A38",
-      "tag": 998,
+      "tag": 1206,
       "margin_left": -1.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -726,7 +726,7 @@
     },
     {
       "visualName": "A39",
-      "tag": 999,
+      "tag": 1207,
       "margin_left": -24.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -741,7 +741,7 @@
     },
     {
       "visualName": "A40",
-      "tag": 1000,
+      "tag": 1208,
       "margin_left": -47.0,
       "margin_top": -55.0,
       "width": 20.0,
@@ -1201,7 +1201,7 @@
     {
       "visualName": "TEST 0",
       "tag": -1,
-      "margin_left": 0.0,
+      "margin_left": -200.0,
       "margin_top": -100.0,
       "width": 40.0,
       "height": 40.0,
@@ -1213,23 +1213,23 @@
     //////////////////////////////////////////////   Creating Devices for seamless Setup
     //////////////////////////////////////////////   Mouse and Keyboard Layouts
     {
-      "visualName": "TEST LINKS OBEN",
+      "visualName": "TEST KB LINKS OBEN",
       "tag": -1,
       "margin_left": -80.0,
       "margin_top": -100.0,
-      "width": 30.0,
-      "height": 30.0,
+      "width": 80.0,
+      "height": 10.0,
       "font_size": 6.0,
       "enabled": true,
       "absolute_location": true
     },
     {
-      "visualName": "TEST LINKS UNTEN",
+      "visualName": "TEST KB LINKS UNTEN",
       "tag": -1,
       "margin_left": -80.0,
-      "margin_top": 294.0,
-      "width": 30.0,
-      "height": 30.0,
+      "margin_top": 315.0,
+      "width": 80.0,
+      "height": 10.0,
       "font_size": 6.0,
       "enabled": true,
       "absolute_location": true
@@ -1237,10 +1237,10 @@
     {
       "visualName": "TEST KB RECHTS OBEN",
       "tag": -1,
-      "margin_left": 798.0,
+      "margin_left": 748.0,
       "margin_top": -100.0,
-      "width": 30.0,
-      "height": 30.0,
+      "width": 80.0,
+      "height": 10.0,
       "font_size": 6.0,
       "enabled": true,
       "absolute_location": true
@@ -1248,10 +1248,10 @@
     {
       "visualName": "TEST KB RECHTS UNTEN",
       "tag": -1,
-      "margin_left": 798.0,
-      "margin_top": 294.0,
-      "width": 30.0,
-      "height": 30.0,
+      "margin_left": 748.0,
+      "margin_top": 315.0,
+      "width": 80.0,
+      "height": 10.0,
       "font_size": 6.0,
       "enabled": true,
       "absolute_location": true

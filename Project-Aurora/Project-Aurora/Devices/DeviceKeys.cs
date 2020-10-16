@@ -1450,7 +1450,7 @@ namespace Aurora.Devices
         /// <summary>
         /// Mousepad Logo 
         /// </summary>
-        [Description("Mousepad Logo")]
+        [Description("Headset Stand Logo")]
         HEADSETSTAND_LOGO = 1010,
 
         //////////////////////////////////////////////   HEADSETLIGHTS begin here 
