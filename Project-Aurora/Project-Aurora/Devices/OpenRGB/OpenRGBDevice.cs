@@ -43,8 +43,8 @@ namespace Aurora.Devices.OpenRGB
                 _deviceColors = new OpenRGBColor[_devices.Length][];
                 _keyMappings = new List<DK>[_devices.Length];
 
-                int ramIndex = 0;
-                int ledLightIndex = 0;
+                int ramIndex = 0;                                           // INDEX for RAM DEVICE Count
+                int ledLightIndex = 0;                                      // INDEX for LEDLIGHT DEVICE Count
                 for (var i = 0; i < _devices.Length; i++)
                 {
                     var dev = _devices[i];
@@ -84,7 +84,7 @@ namespace Aurora.Devices.OpenRGB
                         //  Method for Mousemat Logo
                         else if (dev.Type == OpenRGBDeviceType.Mousemat)
                         {
-                            if (OpenRGBKeyNames.Mousemat.TryGetValue(dev.Leds[j].Name, out var dk))
+                            if (OpenRGBKeyNames.MOUSEMAT_LOGO.TryGetValue(dev.Leds[j].Name, out var dk))
                             {
                                 _keyMappings[i].Add(dk);
                             }
@@ -93,30 +93,43 @@ namespace Aurora.Devices.OpenRGB
                                 _keyMappings[i].Add(DK.MOUSEPAD_LOGO);
                             }
                         }
-                        //  Method for Cooler Logo Lights
-                        else if (dev.Type == OpenRGBDeviceType.Cooler)
+                        //  Method for Head Set Stand Logo
+                        else if (dev.Type == OpenRGBDeviceType.HeadsetStand)
                         {
-                            if (OpenRGBKeyNames.CoolerLogo.TryGetValue(dev.Leds[j].Name, out var dk))
+                            if (OpenRGBKeyNames.HEADSETSTAND_LOGO.TryGetValue(dev.Leds[j].Name, out var dk))
                             {
                                 _keyMappings[i].Add(dk);
                             }
                             else
                             {
-                                _keyMappings[i].Add(DK.Cooler_Logo);
+                                _keyMappings[i].Add(DK.HEADSETSTAND_LOGO);
                             }
                         }
                         //  Method for Motherboard Logo Lights
                         else if (dev.Type == OpenRGBDeviceType.Motherboard)
                         {
-                            if (OpenRGBKeyNames.MoboLogo.TryGetValue(dev.Leds[j].Name, out var dk))
+                            if (OpenRGBKeyNames.MOBO_LOGO.TryGetValue(dev.Leds[j].Name, out var dk))
                             {
                                 _keyMappings[i].Add(dk);
                             }
                             else
                             {
-                                _keyMappings[i].Add(DK.Mobo_Logo);
+                                _keyMappings[i].Add(DK.MOBO_LOGO);
                             }
                         }
+                        //  Method for Cooler Logo Lights
+                        else if (dev.Type == OpenRGBDeviceType.Cooler)
+                        {
+                            if (OpenRGBKeyNames.COOLER_LOGO.TryGetValue(dev.Leds[j].Name, out var dk))
+                            {
+                                _keyMappings[i].Add(dk);
+                            }
+                            else
+                            {
+                                _keyMappings[i].Add(DK.COOLER_LOGO);
+                            }
+                        }
+
                         //  Method for All other Single Logo Lights
                         else
                         {
@@ -131,57 +144,60 @@ namespace Aurora.Devices.OpenRGB
                         {
                             for (int k = 0; k < dev.Zones[j].LedCount; k++)
                             {
-                                //  Method for Mousepads
+                                //  Method for Mousepads with up to 20 LEDs
                                 if (dev.Type == OpenRGBDeviceType.Mousemat)
                                 {
                                     if (k < 20)
                                     {
-                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.MousepadLights[k];
+                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.MOUSEPAD_LIGHTS[k];
                                     }
                                 }
                                 else
-
-                                //  Method for Headset stands
+                                //  Method for HeadsetStands with up to 20 LEDs
                                 if (dev.Type == OpenRGBDeviceType.HeadsetStand)
                                 {
                                     if (k < 20)
                                     {
-                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.PeripheralLights[k];
+                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.HEADSETSTAND_LIGHTS[k];
                                     }
                                 }
                                 else
-
+                                //  Method for Mainboards with up to 5 LEDs
+                                if (dev.Type == OpenRGBDeviceType.Motherboard)
+                                {
+                                    if (k < 5)
+                                    {
+                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.MOBO_LIGHTS[k];
+                                    }
+                                }
+                                else
+                                //  Method for Coolers with up to 8 LEDs
+                                if (dev.Type == OpenRGBDeviceType.Cooler)
+                                {
+                                    if (k < 8)
+                                    {
+                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.COOLER_LIGHTS[k];
+                                    }
+                                }
+                                else
+                                //  Method for Peripherals 
+                                if (dev.Type == OpenRGBDeviceType.Unknown)
+                                {
+                                    if (k < 20)
+                                    {
+                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.PERIPHERAL_LIGHTS[k];
+                                    }
+                                }
+                                else
                                 //  Method for RAM Modules with 5 LEDs
                                 if (dev.Type == OpenRGBDeviceType.Dram)
                                 {
                                     if (k < 5)
                                     {
                                         _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.AllRAMLights[ramIndex][k];
-                                        //_keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.RAMLights[k];
                                     }
                                 }
                                 else
-
-                                //  Method for Mainboards with up to 5 LEDs
-                                if (dev.Type == OpenRGBDeviceType.Motherboard)
-                                {
-                                    if (k < 5)
-                                    {
-                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.MainboardLights[k];
-                                    }
-                                }
-                                else
-
-                                //  Method for Coolers with up to 8 LEDs
-                                if (dev.Type == OpenRGBDeviceType.Cooler)
-                                {
-                                    if (k < 8)
-                                    {
-                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.CoolerLights[k];
-                                    }
-                                }
-                                else
-
                                 //  Method for Ledstrips up to 200 LED Lights
                                 if (dev.Type == OpenRGBDeviceType.Ledstrip)
                                 {
@@ -195,14 +211,15 @@ namespace Aurora.Devices.OpenRGB
                                 //  Method for all other devices up to 32 Additional Lights
                                     if (k < 32)
                                     {
-                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.AdditionalLights[k];
+                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.ADDITIONAL_LIGHTS[k];
                                     }
                                 }
                             }
                         }
                         LedOffset += dev.Zones[j].LedCount;
                     }
-                    if (dev.Type == OpenRGBDeviceType.Dram)
+                    //CREATING DEVICE COUNTERS
+                    if (dev.Type == OpenRGBDeviceType.Dram) 
                     {
                         ramIndex++;
                     }
