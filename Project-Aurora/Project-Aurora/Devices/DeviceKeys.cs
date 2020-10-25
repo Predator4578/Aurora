@@ -2899,6 +2899,24 @@ namespace Aurora.Devices
         [Description("C4 Led Light 1")]
         C4LEDLIGHT1 = 2201,
 
+        /// <summary>
+        /// C4 Led Light 2
+        /// </summary>
+        [Description("C4 Led Light 2")]
+        C4LEDLIGHT2 = 2202,
+
+        /// <summary>
+        /// C4 Led Light 3
+        /// </summary>
+        [Description("C4 Led Light 3")]
+        C4LEDLIGHT3 = 2203,
+
+        /// <summary>
+        /// C4 Led Light 4
+        /// </summary>
+        [Description("C4 Led Light 4")]
+        C4LEDLIGHT4 = 2204,
+
         //////////////////////////////////////////////   Second Zone (70, Channel 4 Lights)(Monitor Links)
 
         /// <summary>
@@ -2907,6 +2925,24 @@ namespace Aurora.Devices
         [Description("C5 Led Light 1")]
         C5LEDLIGHT1 = 2401,
 
+        /// <summary>
+        /// C5 Led Light 2
+        /// </summary>
+        [Description("C5 Led Light 2")]
+        C5LEDLIGHT2 = 2402,
+
+        /// <summary>
+        /// C5 Led Light 3
+        /// </summary>
+        [Description("C5 Led Light 3")]
+        C5LEDLIGHT3 = 2403,
+
+        /// <summary>
+        /// C5 Led Light 4
+        /// </summary>
+        [Description("C5 Led Light 4")]
+        C5LEDLIGHT4 = 2404,
+
         //////////////////////////////////////////////   Third Zone (70, Channel 4 Lights)(Monitor Rechts)
 
         /// <summary>
@@ -2914,6 +2950,24 @@ namespace Aurora.Devices
         /// </summary>
         [Description("C6 Led Light 1")]
         C6LEDLIGHT1 = 2601,
+
+        /// <summary>
+        /// C6 Led Light 2
+        /// </summary>
+        [Description("C6 Led Light 2")]
+        C6LEDLIGHT2 = 2602,
+
+        /// <summary>
+        /// C6 Led Light 3
+        /// </summary>
+        [Description("C6 Led Light 3")]
+        C6LEDLIGHT3 = 2603,
+
+        /// <summary>
+        /// C6 Led Light 4
+        /// </summary>
+        [Description("C6 Led Light 4")]
+        C6LEDLIGHT4 = 2604,
 
         //////////////////////////////////////////////   Fourth Zone (50, Channel 4 Lights)(NEW DESK STRIP)
 

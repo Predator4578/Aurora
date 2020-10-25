@@ -534,9 +534,9 @@ namespace Aurora.Devices.OpenRGB
                 new List<DK>(new[]
                 {
                     DK.C4LEDLIGHT1,
-                    DK.NONE,
-                    DK.NONE,
-                    DK.NONE,
+                    DK.C4LEDLIGHT2,
+                    DK.C4LEDLIGHT3,
+                    DK.C4LEDLIGHT4,
                     DK.NONE,
                     DK.NONE,
                     DK.NONE,
@@ -588,10 +588,9 @@ namespace Aurora.Devices.OpenRGB
                 new List<DK>(new[]
                 {
                     DK.C5LEDLIGHT1,
-                    DK.NONE,
-                    DK.NONE,
-                    DK.NONE,
-                    DK.NONE,
+                    DK.C5LEDLIGHT2,
+                    DK.C5LEDLIGHT3,
+                    DK.C5LEDLIGHT4,
                     DK.NONE,
                     DK.NONE,
                     DK.NONE,
@@ -642,9 +641,9 @@ namespace Aurora.Devices.OpenRGB
                 new List<DK>(new[]
                 {
                     DK.C6LEDLIGHT1,
-                    DK.NONE,
-                    DK.NONE,
-                    DK.NONE,
+                    DK.C6LEDLIGHT2,
+                    DK.C6LEDLIGHT3,
+                    DK.C6LEDLIGHT4,
                     DK.NONE,
                     DK.NONE,
                     DK.NONE,
