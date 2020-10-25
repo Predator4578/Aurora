@@ -2880,10 +2880,10 @@
     },
 
     //////////////////////////////////////////////   Creating Devices for E131 (Middle Monitor)
-    //////////////////////////////////////////////   Using Border and C4 LEDLIGHTS 0 - 50
+    //////////////////////////////////////////////   Using Border and C5 LEDLIGHTS 0 - 50
 
     {
-      //"visualName": "E131 MM Left Border", (C4 L1 - C7 L9)
+      //"visualName": "E131 MM Left Border", (C5 L1 - C7 L9)
       "tag": -1,
       "margin_left": -1000.0,
       "margin_top": -360.0,
@@ -2893,9 +2893,9 @@
       "absolute_location": true
     },
     {
-      "visualName": "C4 L1",
+      "visualName": "C5 L1",
       "font_size": 8.0,
-      "tag": 2201,
+      "tag": -1,
       "margin_left": -997.0,
       "margin_top": -11.0,
       "width": 15.0,
@@ -2904,7 +2904,7 @@
       "absolute_location": true
     },
     {
-      //"visualName": "E131 MM Top Border", (C4 L10 - C7 L25)
+      //"visualName": "E131 MM Top Border", (C5 L10 - C7 L25)
       "tag": -1,
       "margin_left": -976.0,
       "margin_top": -384.0,
@@ -2914,9 +2914,9 @@
       "absolute_location": true
     },
     {
-      "visualName": "C4 L10",
+      "visualName": "C5 L10",
       "font_size": 8.0,
-      "tag": 2202,
+      "tag": -1,
       "margin_left": -973.0,
       "margin_top": -381.0,
       "width": 40.0,
@@ -2925,7 +2925,7 @@
       "absolute_location": true
     },
     {
-      //"visualName": "E131 MM Right Border", (C4 L26 - C7 L34)
+      //"visualName": "E131 MM Right Border", (C5 L26 - C7 L34)
       "tag": -1,
       "margin_left": 116.0,
       "margin_top": -360.0,
@@ -2935,9 +2935,9 @@
       "absolute_location": true
     },
     {
-      "visualName": "C4 L26",
+      "visualName": "C5 L26",
       "font_size": 8.0,
-      "tag": 2203,
+      "tag": -1,
       "margin_left": 119.0,
       "margin_top": -357.0,
       "width": 15.0,
@@ -2946,7 +2946,7 @@
       "absolute_location": true
     },
     {
-      //"visualName": "E131 MM Bottom Border", (C4 L35 - C5 L50)
+      //"visualName": "E131 MM Bottom Border", (C5 L35 - C5 L50)
       "tag": -1,
       "margin_left": -976.0,
       "margin_top": 30.0,
@@ -2956,9 +2956,9 @@
       "absolute_location": true
     },
     {
-      "visualName": "C4 L35",
+      "visualName": "C5 L35",
       "font_size": 8.0,
-      "tag": 2204,
+      "tag": -1,
       "margin_left": 73.0,
       "margin_top": 33.0,
       "width": 40.0,
@@ -2969,11 +2969,11 @@
 
 
     //////////////////////////////////////////////   Creating Devices for E131 (Left Monitor)
-    //////////////////////////////////////////////   Using Border and C5 LEDLIGHTS 0 - 50
+    //////////////////////////////////////////////   Using Border and C6 LEDLIGHTS 0 - 50
 
 
     {
-      //"visualName": "E131 LM Left Border", (C5 L1 - C7 L9)
+      //"visualName": "E131 LM Left Border", (C6 L1 - C7 L9)
       "tag": -1,
       "margin_left": -1768.0,
       "margin_top": -360.0,
@@ -2983,9 +2983,9 @@
       "absolute_location": true
     },
     {
-      "visualName": "C5 L1",
+      "visualName": "C6 L1",
       "font_size": 8.0,
-      "tag": 2401,
+      "tag": -1,
       "margin_left": -1765.0,
       "margin_top": -11.0,
       "width": 15.0,
@@ -2994,7 +2994,7 @@
       "absolute_location": true
     },
     {
-      //"visualName": "E131 LM Top Border", (C5 L10 - C7 L25)
+      //"visualName": "E131 LM Top Border", (C6 L10 - C7 L25)
       "tag": -1,
       "margin_left": -1744.0,
       "margin_top": -384.0,
@@ -3004,9 +3004,9 @@
       "absolute_location": true
     },
     {
-      "visualName": "C5 L10",
+      "visualName": "C6 L10",
       "font_size": 8.0,
-      "tag": 2402,
+      "tag": -1,
       "margin_left": -1741.0,
       "margin_top": -381.0,
       "width": 40.0,
@@ -3015,7 +3015,7 @@
       "absolute_location": true
     },
     {
-      //"visualName": "E131 LM Right Border", (C5 L26 - C7 L34)
+      //"visualName": "E131 LM Right Border", (C6 L26 - C7 L34)
       "tag": -1,
       "margin_left": -1024.0,
       "margin_top": -360.0,
@@ -3025,9 +3025,9 @@
       "absolute_location": true
     },
     {
-      "visualName": "C5 L26",
+      "visualName": "C6 L26",
       "font_size": 8.0,
-      "tag": 2403,
+      "tag": -1,
       "margin_left": -1021.0,
       "margin_top": -357.0,
       "width": 15.0,
@@ -3036,7 +3036,7 @@
       "absolute_location": true
     },
     {
-      //"visualName": "E131 LM Bottom Border", (C5 L35 - C7 L50)
+      //"visualName": "E131 LM Bottom Border", (C6 L35 - C7 L50)
       "tag": -1,
       "margin_left": -1744.0,
       "margin_top": 30.0,
@@ -3046,9 +3046,9 @@
       "absolute_location": true
     },
     {
-      "visualName": "C5 L35",
+      "visualName": "C6 L35",
       "font_size": 8.0,
-      "tag": 2404,
+      "tag": -1,
       "margin_left": -1067.0,
       "margin_top": 33.0,
       "width": 40.0,
@@ -3063,7 +3063,7 @@
     //////////////////////////////////////////////   Using Border and C7 LEDLIGHTS 0 - 50
 
     {
-      //"visualName": "E131 RM Left Border", (C6 L1 - C6 L9)
+      //"visualName": "E131 RM Left Border", (C7 L1 - C7 L9)
       "tag": -1,
       "margin_left": 140.0,
       "margin_top": -360.0,
@@ -3073,9 +3073,9 @@
       "absolute_location": true
     },
     {
-      "visualName": "C6 L1",
+      "visualName": "C7 L1",
       "font_size": 8.0,
-      "tag": 2601,
+      "tag": -1,
       "margin_left": 143.0,
       "margin_top": -11.0,
       "width": 15.0,
@@ -3084,7 +3084,7 @@
       "absolute_location": true
     },
     {
-      //"visualName": "E131 RM Top Border", (C6 L10 - C7 L25)
+      //"visualName": "E131 RM Top Border", (C7 L10 - C7 L25)
       "tag": -1,
       "margin_left": 164.0,
       "margin_top": -384.0,
@@ -3094,9 +3094,9 @@
       "absolute_location": true
     },
     {
-      "visualName": "C6 L10",
+      "visualName": "C7 L10",
       "font_size": 8.0,
-      "tag": 2602,
+      "tag": -1,
       "margin_left": 167.0,
       "margin_top": -381.0,
       "width": 40.0,
@@ -3105,7 +3105,7 @@
       "absolute_location": true
     },
     {
-      //"visualName": "E131 RM Right Border", (C6 L26 - C7 L34)
+      //"visualName": "E131 RM Right Border", (C7 L26 - C7 L34)
       "tag": -1,
       "margin_left": 884.0,
       "margin_top": -360.0,
@@ -3115,9 +3115,9 @@
       "absolute_location": true
     },
     {
-      "visualName": "C6 L26",
+      "visualName": "C7 L26",
       "font_size": 8.0,
-      "tag": 2603,
+      "tag": -1,
       "margin_left": 887.0,
       "margin_top": -357.0,
       "width": 15.0,
@@ -3126,7 +3126,7 @@
       "absolute_location": true
     },
     {
-      //"visualName": "E131 RM Bottom Border", (C6 L35 - C7 L50)
+      //"visualName": "E131 RM Bottom Border", (C7 L35 - C7 L50)
       "tag": -1,
       "margin_left": 164.0,
       "margin_top": 30.0,
@@ -3136,9 +3136,9 @@
       "absolute_location": true
     },
     {
-      "visualName": "C6 L35",
+      "visualName": "C7 L35",
       "font_size": 8.0,
-      "tag": 2604,
+      "tag": -1,
       "margin_left": 841.0,
       "margin_top": 33.0,
       "width": 40.0,
@@ -3157,7 +3157,7 @@
       "tag": -1,
       "visualName": "TEST MP 0",
       "font_size": 6.0,
-      "margin_left": 1000.0,
+      "margin_left": 920.0,
       "margin_top": -400.0,
       "width": 30.0,
       "height": 30.0,
@@ -3168,8 +3168,8 @@
       "tag": -1,
       "visualName": "TEST MP 1",
       "font_size": 6.0,
-      "margin_left": -1400.0,
-      "margin_top": -125.0,
+      "margin_left": 920.0,
+      "margin_top": 50.0,
       "width": 30.0,
       "height": 30.0,
       "enabled": true,
@@ -3183,7 +3183,7 @@
     {
       "visualName": "TEST M LINKS OBEN",
       "tag": -1,
-      "margin_left": -88.0,
+      "margin_left": 150.0,
       "margin_top": -425.0,
       "width": 80.0,
       "height": 10.0,
@@ -3194,7 +3194,7 @@
     {
       "visualName": "TEST M LINKS UNTEN",
       "tag": -1,
-      "margin_left": -88.0,
+      "margin_left": 162.0,
       "margin_top": 90.0,
       "width": 80.0,
       "height": 10.0,
@@ -3205,7 +3205,7 @@
     {
       "visualName": "TEST M LINKS WIDE OBEN",
       "tag": -1,
-      "margin_left": -1800.0,
+      "margin_left": -1770.0,
       "margin_top": -425.0,
       "width": 80.0,
       "height": 10.0,
@@ -3216,7 +3216,7 @@
     {
       "visualName": "TEST M LINKS WIDE UNTEN",
       "tag": -1,
-      "margin_left": -1800.0,
+      "margin_left": -1770.0,
       "margin_top": 90.0,
       "width": 80.0,
       "height": 10.0,
@@ -3227,7 +3227,7 @@
     {
       "visualName": "TEST M RECHTS OBEN",
       "tag": -1,
-      "margin_left": 780.0,
+      "margin_left": 875.0,
       "margin_top": -425.0,
       "width": 80.0,
       "height": 10.0,
@@ -3238,29 +3238,7 @@
     {
       "visualName": "TEST M RECHTS UNTEN",
       "tag": -1,
-      "margin_left": 780.0,
-      "margin_top": 90.0,
-      "width": 80.0,
-      "height": 10.0,
-      "font_size": 6.0,
-      "enabled": true,
-      "absolute_location": true
-    },
-    {
-      "visualName": "TEST M RECHTS WIDE OBEN",
-      "tag": -1,
-      "margin_left": 1350.0,
-      "margin_top": -425.0,
-      "width": 80.0,
-      "height": 10.0,
-      "font_size": 6.0,
-      "enabled": true,
-      "absolute_location": true
-    },
-    {
-      "visualName": "TEST M RECHTS WIDE UNTEN",
-      "tag": -1,
-      "margin_left": 1350.0,
+      "margin_left": 875.0,
       "margin_top": 90.0,
       "width": 80.0,
       "height": 10.0,
