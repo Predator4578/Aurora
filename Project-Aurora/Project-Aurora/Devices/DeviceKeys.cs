@@ -1486,8 +1486,53 @@ namespace Aurora.Devices
         [Description("Cooler Logo")]
         COOLER_LOGO = 1040,
 
+        //////////////////////////////////////////////   GPULOGO begin here 
+        //////////////////////////////////////////////   Added 1 GPU Logo (Gainward GTX 1080 1)
+
+        /// <summary>
+        /// GPU Logo
+        /// </summary>
+        [Description("GPU Logo")]
+        GPU_LOGO = 1050,
+
+        //////////////////////////////////////////////   DRAMLOGO begin here 
+        //////////////////////////////////////////////   Added 1 DRAM Logo (Generic RAM 1)
+
+        /// <summary>
+        /// DRAM Logo
+        /// </summary>
+        [Description("DRAM Logo")]
+        DRAM_LOGO = 1060,
+
+        //////////////////////////////////////////////   LEDLOGO begin here 
+        //////////////////////////////////////////////   Added 1 LED Logo (Generic LEDstrip 1)
+
+        /// <summary>
+        /// LED Logo
+        /// </summary>
+        [Description("LED Logo")]
+        LED_LOGO = 1070,
+
+        //////////////////////////////////////////////   GAMEPADLOGO begin here 
+        //////////////////////////////////////////////   Added 1 GAMEPAD Logo (Various 1)
+
+        /// <summary>
+        /// GAMEPAD Logo
+        /// </summary>
+        [Description("Gamepad Logo")]
+        GAMEPAD_LOGO = 1080,
+
+        //////////////////////////////////////////////   HUELOGO begin here 
+        //////////////////////////////////////////////   Added 1 Hue Logo (HUE BULB 1)
+
+        /// <summary>
+        /// Hue Logo
+        /// </summary>
+        [Description("Hue Logo")]
+        HUE_LOGO = 1090,
+
         //////////////////////////////////////////////   ADDITIONALLIGHTS begin here 
-        //////////////////////////////////////////////   "ADDITIONALLIGHTS" Range is 1201 - 1300
+        //////////////////////////////////////////////   "ADDITIONALLIGHTS" Range is 1201 - 1250
         //////////////////////////////////////////////   Added up to Nr. 40 Additional Lights (32 Originally)(Hueplus 40)
 
         /// <summary>
@@ -1538,9 +1583,42 @@ namespace Aurora.Devices
         [Description("Additional Light 40")]
         ADDITIONALLIGHT40 = 1208,
 
+        //////////////////////////////////////////////   MOUSELIGHTS begin here 
+        //////////////////////////////////////////////   "MOUSELIGHTS" Range is 1251 - 1300
+        //////////////////////////////////////////////   Added up to 5 MouseLights (Various)
+
+        /// <summary>
+        /// Mouse Light 1
+        /// </summary>
+        [Description("Mouse Light 1")]
+        MOUSELIGHT1 = 1251,
+
+        /// <summary>
+        /// Mouse Light 2
+        /// </summary>
+        [Description("Mouse Light 2")]
+        MOUSELIGHT2 = 1252,
+
+        /// <summary>
+        /// Mouse Light 3
+        /// </summary>
+        [Description("Mouse Light 3")]
+        MOUSELIGHT3 = 1253,
+
+        /// <summary>
+        /// Mouse Light 4
+        /// </summary>
+        [Description("Mouse Light 4")]
+        MOUSELIGHT4 = 1254,
+
+        /// <summary>
+        /// Mouse Light 5
+        /// </summary>
+        [Description("Mouse Light 5")]
+        MOUSELIGHT5 = 1255,
 
         //////////////////////////////////////////////   MOUSEPADLIGHTS begin here 
-        //////////////////////////////////////////////   "MOUSEPADLIGHTS" Range is 1301 - 1400
+        //////////////////////////////////////////////   "MOUSEPADLIGHTS" Range is 1301 - 1350
         //////////////////////////////////////////////   Added up to Nr. 20 Mousepad Lights (15 Originally)(Firefly Chroma 15)
 
         /// <summary>
@@ -1573,9 +1651,42 @@ namespace Aurora.Devices
         [Description("Mousepad Light 20")]
         MOUSEPADLIGHT20 = 1305,
 
+        //////////////////////////////////////////////   HEADSETLIGHTS begin here 
+        //////////////////////////////////////////////   "HEADSETLIGHTS" Range is 1351 - 1400
+        //////////////////////////////////////////////   Added up to 5 HeadsetLights (Various)
+
+        /// <summary>
+        /// Headset Light 1
+        /// </summary>
+        [Description("Headset Light 1")]
+        HEADSETLIGHT1 = 1351,
+
+        /// <summary>
+        /// Headset Light 2
+        /// </summary>
+        [Description("Headset Light 2")]
+        HEADSETLIGHT2 = 1352,
+
+        /// <summary>
+        /// Headset Light 3
+        /// </summary>
+        [Description("Headset Light 3")]
+        HEADSETLIGHT3 = 1353,
+
+        /// <summary>
+        /// Headset Light 4
+        /// </summary>
+        [Description("Headset Light 4")]
+        HEADSETLIGHT4 = 1354,
+
+        /// <summary>
+        /// Headset Light 5
+        /// </summary>
+        [Description("Headset Light 5")]
+        HEADSETLIGHT5 = 1355,
 
         //////////////////////////////////////////////   HEADSETSTANDLIGHTS begin here 
-        //////////////////////////////////////////////   "HEADSETSTANDLIGHTS" Range is 1401 - 1500
+        //////////////////////////////////////////////   "HEADSETSTANDLIGHTS" Range is 1401 - 1450
         //////////////////////////////////////////////   Added up to 20 HeadsetStandLights (Basestation Chroma 15)
 
         /// <summary>
@@ -1698,6 +1809,40 @@ namespace Aurora.Devices
         [Description("Headset Stand Light 20")]
         HEADSETSTANDLIGHT20 = 1420,
 
+        //////////////////////////////////////////////   GPULIGHTS begin here 
+        //////////////////////////////////////////////   "GPULIGHTS" Range is 1451 - 1500
+        //////////////////////////////////////////////   Added up to 5 GPU Lights (Various)
+
+        /// <summary>
+        /// GPU Light 1
+        /// </summary>
+        [Description("GPU Light 1")]
+        GPULIGHT1 = 1451,
+
+        /// <summary>
+        /// GPU Light 2
+        /// </summary>
+        [Description("GPU Light 2")]
+        GPULIGHT2 = 1452,
+
+        /// <summary>
+        /// GPU Light 3
+        /// </summary>
+        [Description("GPU Light 3")]
+        GPULIGHT3 = 1453,
+
+        /// <summary>
+        /// GPU Light 4
+        /// </summary>
+        [Description("GPU Light 4")]
+        GPULIGHT4 = 1454,
+
+        /// <summary>
+        /// GPU Light 5
+        /// </summary>
+        [Description("GPU Light 5")]
+        GPULIGHT5 = 1455,
+
         //////////////////////////////////////////////   MOBOLIGHTS begin here 
         //////////////////////////////////////////////   "MOBOLIGHTS" Range is 1501 - 1600
         //////////////////////////////////////////////   Added up to 5 MOBOLIGHTS (Asus Z270 Formula 2+2)
@@ -1733,7 +1878,7 @@ namespace Aurora.Devices
         MOBOLIGHT5 = 1505,
 
         //////////////////////////////////////////////   COOLERLIGHTS begin here 
-        //////////////////////////////////////////////   COOLERLIGHTS Range 1601 - 1700 
+        //////////////////////////////////////////////   COOLERLIGHTS Range 1601 - 1650 
         //////////////////////////////////////////////   Added up to 8 Cooler Lights (NZXT KRAKEN SERIES X62)
 
         /// <summary>
@@ -1784,10 +1929,45 @@ namespace Aurora.Devices
         [Description("Cooler Light 8")]
         COOLERLIGHT8 = 1608,
 
+        //////////////////////////////////////////////   GAMEPADLIGHTS begin here 
+        //////////////////////////////////////////////   "GAMEPADLIGHTS" Range is 1651 - 1700
+        //////////////////////////////////////////////   Added up to 5 GAMEPAD Lights (Various)
+
+        /// <summary>
+        /// GAMEPAD Light 1
+        /// </summary>
+        [Description("GAMEPAD Light 1")]
+        GAMEPADLIGHT1 = 1651,
+
+        /// <summary>
+        /// GAMEPAD Light 2
+        /// </summary>
+        [Description("GAMEPAD Light 2")]
+        GAMEPADLIGHT2 = 1652,
+
+        /// <summary>
+        /// GAMEPAD Light 3
+        /// </summary>
+        [Description("GAMEPAD Light 3")]
+        GAMEPADLIGHT3 = 1653,
+
+        /// <summary>
+        /// GAMEPAD Light 4
+        /// </summary>
+        [Description("GAMEPAD Light 4")]
+        GAMEPADLIGHT4 = 1654,
+
+        /// <summary>
+        /// GAMEPAD Light 5
+        /// </summary>
+        [Description("GAMEPAD Light 5")]
+        GAMEPADLIGHT5 = 1655,
+
+
         //////////////////////////////////////////////   RAMLIGHTS begin here 
         //////////////////////////////////////////////   RAMLIGHTS Range 1701 - 1900 (8x25 Leds max.) 
         //////////////////////////////////////////////   Added up to 5 RAMLights for 4 DIMMs
-        
+
         ////////////////////////////////// DIMM 1
 
         /// <summary>
@@ -1915,6 +2095,40 @@ namespace Aurora.Devices
         /// </summary>
         [Description("C3 RAM Light 5")]
         C3RAMLIGHT5 = 1720,
+
+        //////////////////////////////////////////////   HUELIGHTS begin here 
+        //////////////////////////////////////////////   "HUELIGHTS" Range is 1901 - 1950
+        //////////////////////////////////////////////   Added up to 5 HUE Lights (Various)
+
+        /// <summary>
+        /// HUE Light 1
+        /// </summary>
+        [Description("HUE Light 1")]
+        HUELIGHT1 = 1901,
+
+        /// <summary>
+        /// HUE Light 2
+        /// </summary>
+        [Description("HUE Light 2")]
+        HUELIGHT2 = 1902,
+
+        /// <summary>
+        /// HUE Light 3
+        /// </summary>
+        [Description("HUE Light 3")]
+        HUELIGHT3 = 1903,
+
+        /// <summary>
+        /// HUE Light 4
+        /// </summary>
+        [Description("HUE Light 4")]
+        HUELIGHT4 = 1904,
+
+        /// <summary>
+        /// HUE Light 5
+        /// </summary>
+        [Description("HUE Light 5")]
+        HUELIGHT5 = 1905,
 
         //////////////////////////////////////////////   LEDLIGHTS begin here 
         //////////////////////////////////////////////   LEDLIGHTS Range 2001 - 3000 (1000 Leds) 
@@ -2169,241 +2383,241 @@ namespace Aurora.Devices
         /// C1 Led Light 1
         /// </summary>
         [Description("C1 Led Light 1")]
-        C1LEDLIGHT1 = 2041,
+        C1LEDLIGHT1 = 2101,
 
         /// <summary>
         /// C1 Led Light 2
         /// </summary>
         [Description("C1 Led Light 2")]
-        C1LEDLIGHT2 = 2042,
+        C1LEDLIGHT2 = 2102,
 
         /// <summary>
         /// C1 Led Light 3
         /// </summary>
         [Description("C1 Led Light 3")]
-        C1LEDLIGHT3 = 2043,
+        C1LEDLIGHT3 = 2103,
 
         /// <summary>
         /// C1 Led Light 4
         /// </summary>
         [Description("C1 Led Light 4")]
-        C1LEDLIGHT4 = 2044,
+        C1LEDLIGHT4 = 2104,
 
         /// <summary>
         /// C1 Led Light 5
         /// </summary>
         [Description("C1 Led Light 5")]
-        C1LEDLIGHT5 = 2045,
+        C1LEDLIGHT5 = 2105,
 
         /// <summary>
         /// C1 Led Light 6
         /// </summary>
         [Description("C1 Led Light 6")]
-        C1LEDLIGHT6 = 2046,
+        C1LEDLIGHT6 = 2106,
 
         /// <summary>
         /// C1 Led Light 7
         /// </summary>
         [Description("C1 Led Light 7")]
-        C1LEDLIGHT7 = 2047,
+        C1LEDLIGHT7 = 2107,
 
         /// <summary>
         /// C1 Led Light 8
         /// </summary>
         [Description("C1 Led Light 8")]
-        C1LEDLIGHT8 = 2048,
+        C1LEDLIGHT8 = 2108,
 
         /// <summary>
         /// C1 Led Light 9
         /// </summary>
         [Description("C1 Led Light 9")]
-        C1LEDLIGHT9 = 2049,
+        C1LEDLIGHT9 = 2109,
 
         /// <summary>
         /// C1 Led Light 10
         /// </summary>
         [Description("C1 Led Light 10")]
-        C1LEDLIGHT10 = 2050,
+        C1LEDLIGHT10 = 2110,
 
         /// <summary>
         /// C1 Led Light 11
         /// </summary>
         [Description("C1 Led Light 11")]
-        C1LEDLIGHT11 = 2051,
+        C1LEDLIGHT11 = 2111,
 
         /// <summary>
         /// C1 Led Light 12
         /// </summary>
         [Description("C1 Led Light 12")]
-        C1LEDLIGHT12 = 2052,
+        C1LEDLIGHT12 = 2112,
 
         /// <summary>
         /// C1 Led Light 13
         /// </summary>
         [Description("C1 Led Light 13")]
-        C1LEDLIGHT13 = 2053,
+        C1LEDLIGHT13 = 2113,
 
         /// <summary>
         /// C1 Led Light 14
         /// </summary>
         [Description("C1 Led Light 14")]
-        C1LEDLIGHT14 = 2054,
+        C1LEDLIGHT14 = 2114,
 
         /// <summary>
         /// C1 Led Light 15
         /// </summary>
         [Description("C1 Led Light 15")]
-        C1LEDLIGHT15 = 2055,
+        C1LEDLIGHT15 = 2115,
 
         /// <summary>
         /// C1 Led Light 16
         /// </summary>
         [Description("C1 Led Light 16")]
-        C1LEDLIGHT16 = 2056,
+        C1LEDLIGHT16 = 2116,
 
         /// <summary>
         /// C1 Led Light 17
         /// </summary>
         [Description("C1 Led Light 17")]
-        C1LEDLIGHT17 = 2057,
+        C1LEDLIGHT17 = 2117,
 
         /// <summary>
         /// C1 Led Light 18
         /// </summary>
         [Description("C1 Led Light 18")]
-        C1LEDLIGHT18 = 2058,
+        C1LEDLIGHT18 = 2118,
 
         /// <summary>
         /// C1 Led Light 19
         /// </summary>
         [Description("C1 Led Light 19")]
-        C1LEDLIGHT19 = 2059,
+        C1LEDLIGHT19 = 2119,
 
         /// <summary>
         /// C1 Led Light 20
         /// </summary>
         [Description("C1 Led Light 20")]
-        C1LEDLIGHT20 = 2060,
+        C1LEDLIGHT20 = 2120,
 
         /// <summary>
         /// C1 Led Light 21
         /// </summary>
         [Description("C1 Led Light 21")]
-        C1LEDLIGHT21 = 2061,
+        C1LEDLIGHT21 = 2121,
 
         /// <summary>
         /// C1 Led Light 22
         /// </summary>
         [Description("C1 Led Light 22")]
-        C1LEDLIGHT22 = 2062,
+        C1LEDLIGHT22 = 2122,
 
         /// <summary>
         /// C1 Led Light 23
         /// </summary>
         [Description("C1 Led Light 23")]
-        C1LEDLIGHT23 = 2063,
+        C1LEDLIGHT23 = 2123,
 
         /// <summary>
         /// C1 Led Light 24
         /// </summary>
         [Description("C1 Led Light 24")]
-        C1LEDLIGHT24 = 2064,
+        C1LEDLIGHT24 = 2124,
 
         /// <summary>
         /// C1 Led Light 25
         /// </summary>
         [Description("C1 Led Light 25")]
-        C1LEDLIGHT25 = 2065,
+        C1LEDLIGHT25 = 2125,
 
         /// <summary>
         /// C1 Led Light 26
         /// </summary>
         [Description("C1 Led Light 26")]
-        C1LEDLIGHT26 = 2066,
+        C1LEDLIGHT26 = 2126,
 
         /// <summary>
         /// C1 Led Light 27
         /// </summary>
         [Description("C1 Led Light 27")]
-        C1LEDLIGHT27 = 2067,
+        C1LEDLIGHT27 = 2127,
 
         /// <summary>
         /// C1 Led Light 28
         /// </summary>
         [Description("C1 Led Light 28")]
-        C1LEDLIGHT28 = 2068,
+        C1LEDLIGHT28 = 2128,
 
         /// <summary>
         /// C1 Led Light 29
         /// </summary>
         [Description("C1 Led Light 29")]
-        C1LEDLIGHT29 = 2069,
+        C1LEDLIGHT29 = 2129,
 
         /// <summary>
         /// C1 Led Light 30
         /// </summary>
         [Description("C1 Led Light 30")]
-        C1LEDLIGHT30 = 2070,
+        C1LEDLIGHT30 = 2130,
 
         /// <summary>
         /// C1 Led Light 31
         /// </summary>
         [Description("C1 Led Light 31")]
-        C1LEDLIGHT31 = 2071,
+        C1LEDLIGHT31 = 2131,
 
         /// <summary>
         /// C1 Led Light 32
         /// </summary>
         [Description("C1 Led Light 32")]
-        C1LEDLIGHT32 = 2072,
+        C1LEDLIGHT32 = 2132,
 
         /// <summary>
         /// C1 Led Light 33
         /// </summary>
         [Description("C1 Led Light 33")]
-        C1LEDLIGHT33 = 2073,
+        C1LEDLIGHT33 = 2133,
 
         /// <summary>
         /// C1 Led Light 34
         /// </summary>
         [Description("C1 Led Light 34")]
-        C1LEDLIGHT34 = 2074,
+        C1LEDLIGHT34 = 2134,
 
         /// <summary>
         /// C1 Led Light 35
         /// </summary>
         [Description("C1 Led Light 35")]
-        C1LEDLIGHT35 = 2075,
+        C1LEDLIGHT35 = 2135,
 
         /// <summary>
         /// C1 Led Light 36
         /// </summary>
         [Description("C1 Led Light 36")]
-        C1LEDLIGHT36 = 2076,
+        C1LEDLIGHT36 = 2136,
 
         /// <summary>
         /// C1 Led Light 37
         /// </summary>
         [Description("C1 Led Light 37")]
-        C1LEDLIGHT37 = 2077,
+        C1LEDLIGHT37 = 2137,
 
         /// <summary>
         /// C1 Led Light 38
         /// </summary>
         [Description("C1 Led Light 38")]
-        C1LEDLIGHT38 = 2078,
+        C1LEDLIGHT38 = 2138,
 
         /// <summary>
         /// C1 Led Light 39
         /// </summary>
         [Description("C1 Led Light 39")]
-        C1LEDLIGHT39 = 2079,
+        C1LEDLIGHT39 = 2139,
 
         /// <summary>
         /// C1 Led Light 40
         /// </summary>
         [Description("C1 Led Light 40")]
-        C1LEDLIGHT40 = 2080,
+        C1LEDLIGHT40 = 2140,
 
         //////////////////////////////////////////////   Adding Second NZXT HUE PLUS (2 Zones)
         //////////////////////////////////////////////   First Zone (40, Channel 2 Lights)
@@ -2412,241 +2626,241 @@ namespace Aurora.Devices
         /// C2 Led Light 1
         /// </summary>
         [Description("C2 Led Light 1")]
-        C2LEDLIGHT1 = 2101,
+        C2LEDLIGHT1 = 2201,
 
         /// <summary>
         /// C2 Led Light 2
         /// </summary>
         [Description("C2 Led Light 2")]
-        C2LEDLIGHT2 = 2102,
+        C2LEDLIGHT2 = 2202,
 
         /// <summary>
         /// C2 Led Light 3
         /// </summary>
         [Description("C2 Led Light 3")]
-        C2LEDLIGHT3 = 2103,
+        C2LEDLIGHT3 = 2203,
 
         /// <summary>
         /// C2 Led Light 4
         /// </summary>
         [Description("C2 Led Light 4")]
-        C2LEDLIGHT4 = 2104,
+        C2LEDLIGHT4 = 2204,
 
         /// <summary>
         /// C2 Led Light 5
         /// </summary>
         [Description("C2 Led Light 5")]
-        C2LEDLIGHT5 = 2105,
+        C2LEDLIGHT5 = 2205,
 
         /// <summary>
         /// C2 Led Light 6
         /// </summary>
         [Description("C2 Led Light 6")]
-        C2LEDLIGHT6 = 2106,
+        C2LEDLIGHT6 = 2206,
 
         /// <summary>
         /// C2 Led Light 7
         /// </summary>
         [Description("C2 Led Light 7")]
-        C2LEDLIGHT7 = 2107,
+        C2LEDLIGHT7 = 2207,
 
         /// <summary>
         /// C2 Led Light 8
         /// </summary>
         [Description("C2 Led Light 8")]
-        C2LEDLIGHT8 = 2108,
+        C2LEDLIGHT8 = 2208,
 
         /// <summary>
         /// C2 Led Light 9
         /// </summary>
         [Description("C2 Led Light 9")]
-        C2LEDLIGHT9 = 2109,
+        C2LEDLIGHT9 = 2209,
 
         /// <summary>
         /// C2 Led Light 10
         /// </summary>
         [Description("C2 Led Light 10")]
-        C2LEDLIGHT10 = 2110,
+        C2LEDLIGHT10 = 2210,
 
         /// <summary>
         /// C2 Led Light 11
         /// </summary>
         [Description("C2 Led Light 11")]
-        C2LEDLIGHT11 = 2111,
+        C2LEDLIGHT11 = 2211,
 
         /// <summary>
         /// C2 Led Light 12
         /// </summary>
         [Description("C2 Led Light 12")]
-        C2LEDLIGHT12 = 2112,
+        C2LEDLIGHT12 = 2212,
 
         /// <summary>
         /// C2 Led Light 13
         /// </summary>
         [Description("C2 Led Light 13")]
-        C2LEDLIGHT13 = 2113,
+        C2LEDLIGHT13 = 2213,
 
         /// <summary>
         /// C2 Led Light 14
         /// </summary>
         [Description("C2 Led Light 14")]
-        C2LEDLIGHT14 = 2114,
+        C2LEDLIGHT14 = 2214,
 
         /// <summary>
         /// C2 Led Light 15
         /// </summary>
         [Description("C2 Led Light 15")]
-        C2LEDLIGHT15 = 2115,
+        C2LEDLIGHT15 = 2215,
 
         /// <summary>
         /// C2 Led Light 16
         /// </summary>
         [Description("C2 Led Light 16")]
-        C2LEDLIGHT16 = 2116,
+        C2LEDLIGHT16 = 2216,
 
         /// <summary>
         /// C2 Led Light 17
         /// </summary>
         [Description("C2 Led Light 17")]
-        C2LEDLIGHT17 = 2117,
+        C2LEDLIGHT17 = 2217,
 
         /// <summary>
         /// C2 Led Light 18
         /// </summary>
         [Description("C2 Led Light 18")]
-        C2LEDLIGHT18 = 2118,
+        C2LEDLIGHT18 = 2218,
 
         /// <summary>
         /// C2 Led Light 19
         /// </summary>
         [Description("C2 Led Light 19")]
-        C2LEDLIGHT19 = 2119,
+        C2LEDLIGHT19 = 2219,
 
         /// <summary>
         /// C2 Led Light 20
         /// </summary>
         [Description("C2 Led Light 20")]
-        C2LEDLIGHT20 = 2120,
+        C2LEDLIGHT20 = 2220,
 
         /// <summary>
         /// C2 Led Light 21
         /// </summary>
         [Description("C2 Led Light 21")]
-        C2LEDLIGHT21 = 2121,
+        C2LEDLIGHT21 = 2221,
 
         /// <summary>
         /// C2 Led Light 22
         /// </summary>
         [Description("C2 Led Light 22")]
-        C2LEDLIGHT22 = 2122,
+        C2LEDLIGHT22 = 2222,
 
         /// <summary>
         /// C2 Led Light 23
         /// </summary>
         [Description("C2 Led Light 23")]
-        C2LEDLIGHT23 = 2123,
+        C2LEDLIGHT23 = 2223,
 
         /// <summary>
         /// C2 Led Light 24
         /// </summary>
         [Description("C2 Led Light 24")]
-        C2LEDLIGHT24 = 2124,
+        C2LEDLIGHT24 = 2224,
 
         /// <summary>
         /// C2 Led Light 25
         /// </summary>
         [Description("C2 Led Light 25")]
-        C2LEDLIGHT25 = 2125,
+        C2LEDLIGHT25 = 2225,
 
         /// <summary>
         /// C2 Led Light 26
         /// </summary>
         [Description("C2 Led Light 26")]
-        C2LEDLIGHT26 = 2126,
+        C2LEDLIGHT26 = 2226,
 
         /// <summary>
         /// C2 Led Light 27
         /// </summary>
         [Description("C2 Led Light 27")]
-        C2LEDLIGHT27 = 2127,
+        C2LEDLIGHT27 = 2227,
 
         /// <summary>
         /// C2 Led Light 28
         /// </summary>
         [Description("C2 Led Light 28")]
-        C2LEDLIGHT28 = 2128,
+        C2LEDLIGHT28 = 2228,
 
         /// <summary>
         /// C2 Led Light 29
         /// </summary>
         [Description("C2 Led Light 29")]
-        C2LEDLIGHT29 = 2129,
+        C2LEDLIGHT29 = 2229,
 
         /// <summary>
         /// C2 Led Light 30
         /// </summary>
         [Description("C2 Led Light 30")]
-        C2LEDLIGHT30 = 2130,
+        C2LEDLIGHT30 = 2230,
 
         /// <summary>
         /// C2 Led Light 31
         /// </summary>
         [Description("C2 Led Light 31")]
-        C2LEDLIGHT31 = 2131,
+        C2LEDLIGHT31 = 2231,
 
         /// <summary>
         /// C2 Led Light 32
         /// </summary>
         [Description("C2 Led Light 32")]
-        C2LEDLIGHT32 = 2132,
+        C2LEDLIGHT32 = 2232,
 
         /// <summary>
         /// C2 Led Light 33
         /// </summary>
         [Description("C2 Led Light 33")]
-        C2LEDLIGHT33 = 2133,
+        C2LEDLIGHT33 = 2233,
 
         /// <summary>
         /// C2 Led Light 34
         /// </summary>
         [Description("C2 Led Light 34")]
-        C2LEDLIGHT34 = 2134,
+        C2LEDLIGHT34 = 2234,
 
         /// <summary>
         /// C2 Led Light 35
         /// </summary>
         [Description("C2 Led Light 35")]
-        C2LEDLIGHT35 = 2135,
+        C2LEDLIGHT35 = 2235,
 
         /// <summary>
         /// C2 Led Light 36
         /// </summary>
         [Description("C2 Led Light 36")]
-        C2LEDLIGHT36 = 2136,
+        C2LEDLIGHT36 = 2236,
 
         /// <summary>
         /// C2 Led Light 37
         /// </summary>
         [Description("C2 Led Light 37")]
-        C2LEDLIGHT37 = 2137,
+        C2LEDLIGHT37 = 2237,
 
         /// <summary>
         /// C2 Led Light 38
         /// </summary>
         [Description("C2 Led Light 38")]
-        C2LEDLIGHT38 = 2138,
+        C2LEDLIGHT38 = 2238,
 
         /// <summary>
         /// C2 Led Light 39
         /// </summary>
         [Description("C2 Led Light 39")]
-        C2LEDLIGHT39 = 2139,
+        C2LEDLIGHT39 = 2239,
 
         /// <summary>
         /// C2 Led Light 40
         /// </summary>
         [Description("C2 Led Light 40")]
-        C2LEDLIGHT40 = 2140,
+        C2LEDLIGHT40 = 2240,
 
         //////////////////////////////////////////////   Second Zone (40, Channel 3 Lights)
 
@@ -2654,241 +2868,241 @@ namespace Aurora.Devices
         /// C3 Led Light 1
         /// </summary>
         [Description("C3 Led Light 1")]
-        C3LEDLIGHT1 = 2141,
+        C3LEDLIGHT1 = 2301,
 
         /// <summary>
         /// C3 Led Light 2
         /// </summary>
         [Description("C3 Led Light 2")]
-        C3LEDLIGHT2 = 2142,
+        C3LEDLIGHT2 = 2302,
 
         /// <summary>
         /// C3 Led Light 3
         /// </summary>
         [Description("C3 Led Light 3")]
-        C3LEDLIGHT3 = 2143,
+        C3LEDLIGHT3 = 2303,
 
         /// <summary>
         /// C3 Led Light 4
         /// </summary>
         [Description("C3 Led Light 4")]
-        C3LEDLIGHT4 = 2144,
+        C3LEDLIGHT4 = 2304,
 
         /// <summary>
         /// C3 Led Light 5
         /// </summary>
         [Description("C3 Led Light 5")]
-        C3LEDLIGHT5 = 2145,
+        C3LEDLIGHT5 = 2305,
 
         /// <summary>
         /// C3 Led Light 6
         /// </summary>
         [Description("C3 Led Light 6")]
-        C3LEDLIGHT6 = 2146,
+        C3LEDLIGHT6 = 2306,
 
         /// <summary>
         /// C3 Led Light 7
         /// </summary>
         [Description("C3 Led Light 7")]
-        C3LEDLIGHT7 = 2147,
+        C3LEDLIGHT7 = 2307,
 
         /// <summary>
         /// C3 Led Light 8
         /// </summary>
         [Description("C3 Led Light 8")]
-        C3LEDLIGHT8 = 2148,
+        C3LEDLIGHT8 = 2308,
 
         /// <summary>
         /// C3 Led Light 9
         /// </summary>
         [Description("C3 Led Light 9")]
-        C3LEDLIGHT9 = 2149,
+        C3LEDLIGHT9 = 2309,
 
         /// <summary>
         /// C3 Led Light 10
         /// </summary>
         [Description("C3 Led Light 10")]
-        C3LEDLIGHT10 = 2150,
+        C3LEDLIGHT10 = 2310,
 
         /// <summary>
         /// C3 Led Light 11
         /// </summary>
         [Description("C3 Led Light 11")]
-        C3LEDLIGHT11 = 2151,
+        C3LEDLIGHT11 = 2311,
 
         /// <summary>
         /// C3 Led Light 12
         /// </summary>
         [Description("C3 Led Light 12")]
-        C3LEDLIGHT12 = 2152,
+        C3LEDLIGHT12 = 2312,
 
         /// <summary>
         /// C3 Led Light 13
         /// </summary>
         [Description("C3 Led Light 13")]
-        C3LEDLIGHT13 = 2153,
+        C3LEDLIGHT13 = 2313,
 
         /// <summary>
         /// C3 Led Light 14
         /// </summary>
         [Description("C3 Led Light 14")]
-        C3LEDLIGHT14 = 2154,
+        C3LEDLIGHT14 = 2314,
 
         /// <summary>
         /// C3 Led Light 15
         /// </summary>
         [Description("C3 Led Light 15")]
-        C3LEDLIGHT15 = 2155,
+        C3LEDLIGHT15 = 2315,
 
         /// <summary>
         /// C3 Led Light 16
         /// </summary>
         [Description("C3 Led Light 16")]
-        C3LEDLIGHT16 = 2156,
+        C3LEDLIGHT16 = 2316,
 
         /// <summary>
         /// C3 Led Light 17
         /// </summary>
         [Description("C3 Led Light 17")]
-        C3LEDLIGHT17 = 2157,
+        C3LEDLIGHT17 = 2317,
 
         /// <summary>
         /// C3 Led Light 18
         /// </summary>
         [Description("C3 Led Light 18")]
-        C3LEDLIGHT18 = 2158,
+        C3LEDLIGHT18 = 2318,
 
         /// <summary>
         /// C3 Led Light 19
         /// </summary>
         [Description("C3 Led Light 19")]
-        C3LEDLIGHT19 = 2159,
+        C3LEDLIGHT19 = 2319,
 
         /// <summary>
         /// C3 Led Light 20
         /// </summary>
         [Description("C3 Led Light 20")]
-        C3LEDLIGHT20 = 2160,
+        C3LEDLIGHT20 = 2320,
 
         /// <summary>
         /// C3 Led Light 21
         /// </summary>
         [Description("C3 Led Light 21")]
-        C3LEDLIGHT21 = 2161,
+        C3LEDLIGHT21 = 2321,
 
         /// <summary>
         /// C3 Led Light 22
         /// </summary>
         [Description("C3 Led Light 22")]
-        C3LEDLIGHT22 = 2162,
+        C3LEDLIGHT22 = 2322,
 
         /// <summary>
         /// C3 Led Light 23
         /// </summary>
         [Description("C3 Led Light 23")]
-        C3LEDLIGHT23 = 2163,
+        C3LEDLIGHT23 = 2323,
 
         /// <summary>
         /// C3 Led Light 24
         /// </summary>
         [Description("C3 Led Light 24")]
-        C3LEDLIGHT24 = 2164,
+        C3LEDLIGHT24 = 2324,
 
         /// <summary>
         /// C3 Led Light 25
         /// </summary>
         [Description("C3 Led Light 25")]
-        C3LEDLIGHT25 = 2165,
+        C3LEDLIGHT25 = 2325,
 
         /// <summary>
         /// C3 Led Light 26
         /// </summary>
         [Description("C3 Led Light 26")]
-        C3LEDLIGHT26 = 2166,
+        C3LEDLIGHT26 = 2326,
 
         /// <summary>
         /// C3 Led Light 27
         /// </summary>
         [Description("C3 Led Light 27")]
-        C3LEDLIGHT27 = 2167,
+        C3LEDLIGHT27 = 2327,
 
         /// <summary>
         /// C3 Led Light 28
         /// </summary>
         [Description("C3 Led Light 28")]
-        C3LEDLIGHT28 = 2168,
+        C3LEDLIGHT28 = 2328,
 
         /// <summary>
         /// C3 Led Light 29
         /// </summary>
         [Description("C3 Led Light 29")]
-        C3LEDLIGHT29 = 2169,
+        C3LEDLIGHT29 = 2329,
 
         /// <summary>
         /// C3 Led Light 30
         /// </summary>
         [Description("C3 Led Light 30")]
-        C3LEDLIGHT30 = 2170,
+        C3LEDLIGHT30 = 2330,
 
         /// <summary>
         /// C3 Led Light 31
         /// </summary>
         [Description("C3 Led Light 31")]
-        C3LEDLIGHT31 = 2171,
+        C3LEDLIGHT31 = 2331,
 
         /// <summary>
         /// C3 Led Light 32
         /// </summary>
         [Description("C3 Led Light 32")]
-        C3LEDLIGHT32 = 2172,
+        C3LEDLIGHT32 = 2332,
 
         /// <summary>
         /// C3 Led Light 33
         /// </summary>
         [Description("C3 Led Light 33")]
-        C3LEDLIGHT33 = 2173,
+        C3LEDLIGHT33 = 2333,
 
         /// <summary>
         /// C3 Led Light 34
         /// </summary>
         [Description("C3 Led Light 34")]
-        C3LEDLIGHT34 = 2174,
+        C3LEDLIGHT34 = 2334,
 
         /// <summary>
         /// C3 Led Light 35
         /// </summary>
         [Description("C3 Led Light 35")]
-        C3LEDLIGHT35 = 2175,
+        C3LEDLIGHT35 = 2335,
 
         /// <summary>
         /// C3 Led Light 36
         /// </summary>
         [Description("C3 Led Light 36")]
-        C3LEDLIGHT36 = 2176,
+        C3LEDLIGHT36 = 2336,
 
         /// <summary>
         /// C3 Led Light 37
         /// </summary>
         [Description("C3 Led Light 37")]
-        C3LEDLIGHT37 = 2177,
+        C3LEDLIGHT37 = 2337,
 
         /// <summary>
         /// C3 Led Light 38
         /// </summary>
         [Description("C3 Led Light 38")]
-        C3LEDLIGHT38 = 2178,
+        C3LEDLIGHT38 = 2338,
 
         /// <summary>
         /// C3 Led Light 39
         /// </summary>
         [Description("C3 Led Light 39")]
-        C3LEDLIGHT39 = 2179,
+        C3LEDLIGHT39 = 2339,
 
         /// <summary>
         /// C3 Led Light 40
         /// </summary>
         [Description("C3 Led Light 40")]
-        C3LEDLIGHT40 = 2180,
+        C3LEDLIGHT40 = 2340,
 
         //////////////////////////////////////////////   Adding E1.31 Devices (4 Zones)
         //////////////////////////////////////////////   First Zone (70, Channel 4 Lights)(Monitor Mitte)
@@ -2897,53 +3111,53 @@ namespace Aurora.Devices
         /// C4 Led Light 1
         /// </summary>
         [Description("C4 Led Light 1")]
-        C4LEDLIGHT1 = 2201,
+        C4LEDLIGHT1 = 2401,
 
         /// <summary>
-        /// C4 Led Light 2
+        /// C4 Led Light 10
         /// </summary>
-        [Description("C4 Led Light 2")]
-        C4LEDLIGHT2 = 2202,
+        [Description("C4 Led Light 10")]
+        C4LEDLIGHT10 = 2410,
 
         /// <summary>
-        /// C4 Led Light 3
+        /// C4 Led Light 26
         /// </summary>
-        [Description("C4 Led Light 3")]
-        C4LEDLIGHT3 = 2203,
+        [Description("C4 Led Light 26")]
+        C4LEDLIGHT26 = 2426,
 
         /// <summary>
-        /// C4 Led Light 4
+        /// C4 Led Light 35
         /// </summary>
-        [Description("C4 Led Light 4")]
-        C4LEDLIGHT4 = 2204,
+        [Description("C4 Led Light 35")]
+        C4LEDLIGHT35 = 2435,
 
-        //////////////////////////////////////////////   Second Zone (70, Channel 4 Lights)(Monitor Links)
+        //////////////////////////////////////////////   Second Zone (70, Channel 5 Lights)(Monitor Links)
 
         /// <summary>
         /// C5 Led Light 1
         /// </summary>
         [Description("C5 Led Light 1")]
-        C5LEDLIGHT1 = 2401,
+        C5LEDLIGHT1 = 2501,
 
         /// <summary>
-        /// C5 Led Light 2
+        /// C5 Led Light 10
         /// </summary>
-        [Description("C5 Led Light 2")]
-        C5LEDLIGHT2 = 2402,
+        [Description("C5 Led Light 10")]
+        C5LEDLIGHT10 = 2510,
 
         /// <summary>
-        /// C5 Led Light 3
+        /// C5 Led Light 26
         /// </summary>
-        [Description("C5 Led Light 3")]
-        C5LEDLIGHT3 = 2403,
+        [Description("C5 Led Light 26")]
+        C5LEDLIGHT26 = 2526,
 
         /// <summary>
-        /// C5 Led Light 4
+        /// C5 Led Light 35
         /// </summary>
-        [Description("C5 Led Light 4")]
-        C5LEDLIGHT4 = 2404,
+        [Description("C5 Led Light 35")]
+        C5LEDLIGHT35 = 2535,
 
-        //////////////////////////////////////////////   Third Zone (70, Channel 4 Lights)(Monitor Rechts)
+        //////////////////////////////////////////////   Third Zone (70, Channel 6 Lights)(Monitor Rechts)
 
         /// <summary>
         /// C6 Led Light 1
@@ -2952,31 +3166,38 @@ namespace Aurora.Devices
         C6LEDLIGHT1 = 2601,
 
         /// <summary>
-        /// C6 Led Light 2
+        /// C6 Led Light 10
         /// </summary>
-        [Description("C6 Led Light 2")]
-        C6LEDLIGHT2 = 2602,
+        [Description("C6 Led Light 10")]
+        C6LEDLIGHT10 = 2610,
 
         /// <summary>
-        /// C6 Led Light 3
+        /// C6 Led Light 26
         /// </summary>
-        [Description("C6 Led Light 3")]
-        C6LEDLIGHT3 = 2603,
+        [Description("C6 Led Light 26")]
+        C6LEDLIGHT26 = 2626,
 
         /// <summary>
-        /// C6 Led Light 4
+        /// C6 Led Light 35
         /// </summary>
-        [Description("C6 Led Light 4")]
-        C6LEDLIGHT4 = 2604,
+        [Description("C6 Led Light 35")]
+        C6LEDLIGHT35 = 2635,
 
-        //////////////////////////////////////////////   Fourth Zone (50, Channel 4 Lights)(NEW DESK STRIP)
+        //////////////////////////////////////////////   Fourth Zone (100, Channel 7 Lights)(NEW DESK STRIP)
 
         /// <summary>
         /// C7 Led Light 1
         /// </summary>
         [Description("C7 Led Light 1")]
-        C7LEDLIGHT1 = 2801,
+        C7LEDLIGHT1 = 2701,
 
+        //////////////////////////////////////////////   Fifth Zone (100, Channel 8 Lights)(Various)
+
+        /// <summary>
+        /// C8 Led Light 1
+        /// </summary>
+        [Description("C8 Led Light 1")]
+        C8LEDLIGHT1 = 2801,
 
         //////////////////////////////////////////////   to Support more LED Lights i need more time to Edit
     };

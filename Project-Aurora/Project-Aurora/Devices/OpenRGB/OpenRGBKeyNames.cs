@@ -9,7 +9,29 @@ namespace Aurora.Devices.OpenRGB
 {
     public static class OpenRGBKeyNames
     {
-        public static readonly Dictionary<string, DK> Keyboard = new Dictionary<string, DK>()
+        //////////////////////////////////////////////   SINGLE LOGOS begin here 
+        ///
+        public static readonly Dictionary<string, DK> MOBO_LOGO = new Dictionary<string, DK>() // (Type 0)
+        {
+            { "Logo"                  , DK.MOBO_LOGO        },
+            };
+        public static readonly Dictionary<string, DK> DRAM_LOGO = new Dictionary<string, DK>() // (Type 1)
+        {
+            { "Logo"                  , DK.DRAM_LOGO        }, // DRAM_LOGO
+            };
+        public static readonly Dictionary<string, DK> GPU_LOGO = new Dictionary<string, DK>() // (Type 2)
+        {
+            { "Logo"                  , DK.GPU_LOGO        }, // GPU_LOGO
+            };
+        public static readonly Dictionary<string, DK> COOLER_LOGO = new Dictionary<string, DK>() // (Type 3)
+        {
+            { "Logo"                  , DK.COOLER_LOGO        },
+            };
+        public static readonly Dictionary<string, DK> LEDSTRIP_LOGO = new Dictionary<string, DK>() // (Type 4)
+        {
+            { "Logo"                  , DK.Peripheral_Logo        },
+            };
+        public static readonly Dictionary<string, DK> Keyboard = new Dictionary<string, DK>() // (Type 5)
         {
             { "Key: A"                , DK.A                 },
             { "Key: B"                , DK.B                 },
@@ -139,8 +161,7 @@ namespace Aurora.Devices.OpenRGB
             { "Key: G2"               , DK.G2                },
             { "Key: G3"               , DK.G3                },
         };
-
-        public static readonly Dictionary<string, DK> Mouse = new Dictionary<string, DK>()
+        public static readonly Dictionary<string, DK> Mouse = new Dictionary<string, DK>() // (Type 6)
         {
             { "Logo"                  , DK.Peripheral_Logo        },
             { "Mouse"                 , DK.Peripheral_Logo        },
@@ -148,33 +169,106 @@ namespace Aurora.Devices.OpenRGB
             { "DPI"                   , DK.Peripheral_ScrollWheel },
             { "Front"                 , DK.Peripheral_FrontLight  },
         };
-
-        //////////////////////////////////////////////   SINGLE LOGOS begin here 
-
-        public static readonly Dictionary<string, DK> MOUSEMAT_LOGO = new Dictionary<string, DK>()
+        public static readonly Dictionary<string, DK> MOUSEMAT_LOGO = new Dictionary<string, DK>() // (Type 7)
         {
             { "Logo"                  , DK.MOUSEPAD_LOGO        },
         };
-
-        public static readonly Dictionary<string, DK> HEADSETSTAND_LOGO = new Dictionary<string, DK>()
+        public static readonly Dictionary<string, DK> HEADSET_LOGO = new Dictionary<string, DK>() // (Type 8)
+        {
+            { "Logo"                  , DK.HEADSET_LOGO        },
+            { "Strip"                 , DK.HEADSET_STRIP       }, // (G933 Stripname?)
+            };
+        public static readonly Dictionary<string, DK> HEADSETSTAND_LOGO = new Dictionary<string, DK>() // (Type 9)
         {
             { "Logo"                  , DK.HEADSETSTAND_LOGO        },
             };
-
-        public static readonly Dictionary<string, DK> MOBO_LOGO = new Dictionary<string, DK>()
+        public static readonly Dictionary<string, DK> GAMEPAD_LOGO = new Dictionary<string, DK>() // (Type 10)
         {
-            { "Logo"                  , DK.MOBO_LOGO        },
+            { "Logo"                  , DK.GAMEPAD_LOGO        }, // GAMEPAD_LOGO
             };
-
-        public static readonly Dictionary<string, DK> COOLER_LOGO = new Dictionary<string, DK>()
+        public static readonly Dictionary<string, DK> LIGHT_LOGO = new Dictionary<string, DK>() // (Type 11)
         {
-            { "Logo"                  , DK.COOLER_LOGO        },
+            { "Logo"                  , DK.HUE_LOGO        }, // LIGHT_LOGO
+            };
+        public static readonly Dictionary<string, DK> UNKNOWN_LOGO = new Dictionary<string, DK>() // (Type 0?)
+        {
+            { "Logo"                  , DK.Peripheral_Logo        },
             };
 
         //////////////////////////////////////////////   LINEAR LIGHTS begin here 
 
-
-        public static readonly List<DK> ADDITIONAL_LIGHTS = new List<DK>(new[]
+        public static readonly List<DK> MOBO_LIGHTS = new List<DK>(new[] // (Type 0)
+        {
+            DK.MOBOLIGHT1,
+            DK.MOBOLIGHT2,
+            DK.MOBOLIGHT3,
+            DK.MOBOLIGHT4,
+            DK.MOBOLIGHT5,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            });
+        ////////////////////////////////////////////////////////////////// (Type 1) DRAM IS MULIPLE DEVICE SECTION
+        public static readonly List<DK> GPU_LIGHTS = new List<DK>(new[] // (Type 2)
+        {
+            DK.GPULIGHT1,     // DK.GPULIGHT1,
+            DK.GPULIGHT2,     // DK.GPULIGHT2,
+            DK.GPULIGHT3,     // DK.GPULIGHT3,
+            DK.GPULIGHT4,     // DK.GPULIGHT4,
+            DK.GPULIGHT5,     // DK.GPULIGHT5,
+            DK.ADDITIONALLIGHT6,     // DK.GPULIGHT6,
+            DK.ADDITIONALLIGHT7,     // DK.GPULIGHT7,
+            DK.ADDITIONALLIGHT8,     // DK.GPULIGHT8,
+            DK.ADDITIONALLIGHT9,     // DK.GPULIGHT9,
+            DK.ADDITIONALLIGHT10,    // DK.GPULIGHT10,
+            DK.ADDITIONALLIGHT11,    // DK.GPULIGHT11,
+            DK.ADDITIONALLIGHT12,    // DK.GPULIGHT12,
+            DK.ADDITIONALLIGHT13,    // DK.GPULIGHT13,
+            DK.ADDITIONALLIGHT14,    // DK.GPULIGHT14,
+            DK.ADDITIONALLIGHT15,    // DK.GPULIGHT15,
+            DK.ADDITIONALLIGHT16,    // DK.GPULIGHT16,
+            DK.ADDITIONALLIGHT17,    // DK.GPULIGHT17,
+            DK.ADDITIONALLIGHT18,    // DK.GPULIGHT18,
+            DK.ADDITIONALLIGHT19,    // DK.GPULIGHT19,
+            DK.ADDITIONALLIGHT20,    // DK.GPULIGHT20,
+            });
+        public static readonly List<DK> COOLER_LIGHTS = new List<DK>(new[] // (Type 3)
+        {
+            DK.COOLERLIGHT1,
+            DK.COOLERLIGHT2,
+            DK.COOLERLIGHT3,
+            DK.COOLERLIGHT4,
+            DK.COOLERLIGHT5,
+            DK.COOLERLIGHT6,
+            DK.COOLERLIGHT7,
+            DK.COOLERLIGHT8,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            DK.NONE,
+            });
+        ///////////////////////////////////////////////////////////////////////// (Type 4) LEDSTRIP IS MULIPLE DEVICE SECTION
+        public static readonly List<DK> ADDITIONAL_LIGHTS = new List<DK>(new[] // (Type 5)
         {
             DK.ADDITIONALLIGHT1,
             DK.ADDITIONALLIGHT2,
@@ -217,8 +311,115 @@ namespace Aurora.Devices.OpenRGB
             DK.ADDITIONALLIGHT39,
             DK.ADDITIONALLIGHT40,
         });
-
-        public static readonly List<DK> PERIPHERAL_LIGHTS = new List<DK>(new[] //   UNUSED SINCE ADDED HEADSETSTANDLIGHTS
+        public static readonly List<DK> MOUSE_LIGHTS = new List<DK>(new[] // (Type 6)
+        {
+            DK.MOUSELIGHT1,    // DK.MOUSELIGHT1,
+            DK.MOUSELIGHT2,    // DK.MOUSELIGHT2,
+            DK.MOUSELIGHT3,    // DK.MOUSELIGHT3,
+            DK.MOUSELIGHT4,    // DK.MOUSELIGHT4,
+            DK.MOUSELIGHT5,    // DK.MOUSELIGHT5,
+            DK.ADDITIONALLIGHT6,    // DK.MOUSELIGHT6,
+            DK.ADDITIONALLIGHT7,    // DK.MOUSELIGHT7,
+            DK.ADDITIONALLIGHT8,    // DK.MOUSELIGHT8,
+            DK.ADDITIONALLIGHT9,    // DK.MOUSELIGHT8,
+            DK.ADDITIONALLIGHT10,   // DK.MOUSELIGHT10,
+            DK.ADDITIONALLIGHT11,   // DK.MOUSELIGHT11,
+            DK.ADDITIONALLIGHT12,   // DK.MOUSELIGHT12,
+            DK.ADDITIONALLIGHT13,   // DK.MOUSELIGHT13,
+            DK.ADDITIONALLIGHT14,   // DK.MOUSELIGHT14,
+            DK.ADDITIONALLIGHT15,   // DK.MOUSELIGHT15,
+            DK.ADDITIONALLIGHT16,   // DK.MOUSELIGHT16,
+            DK.ADDITIONALLIGHT17,   // DK.MOUSELIGHT17,
+            DK.ADDITIONALLIGHT18,   // DK.MOUSELIGHT18,
+            DK.ADDITIONALLIGHT19,   // DK.MOUSELIGHT19,
+            DK.ADDITIONALLIGHT20,   // DK.MOUSELIGHT20, 
+        });
+        public static readonly List<DK> MOUSEPAD_LIGHTS = new List<DK>(new[] // (Type 7)
+        {
+            DK.MOUSEPADLIGHT15, //   Reversed Order to match my Firefly (without interupt Official SDKs Order)
+            DK.MOUSEPADLIGHT14,
+            DK.MOUSEPADLIGHT13,
+            DK.MOUSEPADLIGHT12,
+            DK.MOUSEPADLIGHT11,
+            DK.MOUSEPADLIGHT10,
+            DK.MOUSEPADLIGHT9,
+            DK.MOUSEPADLIGHT8,
+            DK.MOUSEPADLIGHT7,
+            DK.MOUSEPADLIGHT6,
+            DK.MOUSEPADLIGHT5,
+            DK.MOUSEPADLIGHT4,
+            DK.MOUSEPADLIGHT3,
+            DK.MOUSEPADLIGHT2,
+            DK.MOUSEPADLIGHT1,
+            DK.MOUSEPADLIGHT16, //   Added 5 more Mousepad Lights for support newer models mousepad
+            DK.MOUSEPADLIGHT17,
+            DK.MOUSEPADLIGHT18,
+            DK.MOUSEPADLIGHT19,
+            DK.MOUSEPADLIGHT20,
+        });
+        public static readonly List<DK> HEADSET_LIGHTS = new List<DK>(new[] // (Type 8)
+        {
+            DK.HEADSETLIGHT1,    // DK.HEADSETLIGHT1,
+            DK.HEADSETLIGHT2,    // DK.HEADSETLIGHT2,
+            DK.HEADSETLIGHT3,    // DK.HEADSETLIGHT3,
+            DK.HEADSETLIGHT4,    // DK.HEADSETLIGHT4,
+            DK.HEADSETLIGHT5,    // DK.HEADSETLIGHT5,
+            DK.ADDITIONALLIGHT6,    // DK.HEADSETLIGHT6,
+            DK.ADDITIONALLIGHT7,    // DK.HEADSETLIGHT7,
+            DK.ADDITIONALLIGHT8,    // DK.HEADSETLIGHT8,
+            DK.ADDITIONALLIGHT9,    // DK.HEADSETLIGHT8,
+            DK.ADDITIONALLIGHT10,   // DK.HEADSETLIGHT10,
+            DK.ADDITIONALLIGHT11,   // DK.HEADSETLIGHT11,
+            DK.ADDITIONALLIGHT12,   // DK.HEADSETLIGHT12,
+            DK.ADDITIONALLIGHT13,   // DK.HEADSETLIGHT13,
+            DK.ADDITIONALLIGHT14,   // DK.HEADSETLIGHT14,
+            DK.ADDITIONALLIGHT15,   // DK.HEADSETLIGHT15,
+            DK.ADDITIONALLIGHT16,   // DK.HEADSETLIGHT16,
+            DK.ADDITIONALLIGHT17,   // DK.HEADSETLIGHT17,
+            DK.ADDITIONALLIGHT18,   // DK.HEADSETLIGHT18,
+            DK.ADDITIONALLIGHT19,   // DK.HEADSETLIGHT19,
+            DK.ADDITIONALLIGHT20,   // DK.HEADSETLIGHT20,
+        });
+        public static readonly List<DK> HEADSETSTAND_LIGHTS = new List<DK>(new[] // (Type 9)
+        {
+            DK.HEADSETSTANDLIGHT1,
+            DK.HEADSETSTANDLIGHT2,
+            DK.HEADSETSTANDLIGHT3,
+            DK.HEADSETSTANDLIGHT4,
+            DK.HEADSETSTANDLIGHT5,
+            DK.HEADSETSTANDLIGHT6,
+            DK.HEADSETSTANDLIGHT7,
+            DK.HEADSETSTANDLIGHT8,
+            DK.HEADSETSTANDLIGHT9,
+            DK.HEADSETSTANDLIGHT10,
+            DK.HEADSETSTANDLIGHT11,
+            DK.HEADSETSTANDLIGHT12,
+            DK.HEADSETSTANDLIGHT13,
+            DK.HEADSETSTANDLIGHT14,
+            DK.HEADSETSTANDLIGHT15,
+            DK.HEADSETSTANDLIGHT16, //   Added 5 more Headsetstand Lights for support newer models mousepad
+            DK.HEADSETSTANDLIGHT17,
+            DK.HEADSETSTANDLIGHT18,
+            DK.HEADSETSTANDLIGHT19,
+            DK.HEADSETSTANDLIGHT20,
+        });
+        public static readonly List<DK> GAMEPAD_LIGHTS = new List<DK>(new[] // (Type 10)
+        {
+            DK.HEADSETSTANDLIGHT1,
+            DK.HEADSETSTANDLIGHT2,
+            DK.HEADSETSTANDLIGHT3,
+            DK.HEADSETSTANDLIGHT4,
+            DK.HEADSETSTANDLIGHT5,
+        });
+        public static readonly List<DK> HUE_LIGHTS = new List<DK>(new[] // (Type 11)
+{
+            DK.HUELIGHT1,
+            DK.HUELIGHT2,
+            DK.HUELIGHT3,
+            DK.HUELIGHT4,
+            DK.HUELIGHT5,
+        });
+        public static readonly List<DK> PERIPHERAL_LIGHTS = new List<DK>(new[] // (Type 0)
         {
             DK.PERIPHERAL_LIGHT1,
             DK.PERIPHERAL_LIGHT2,
@@ -242,78 +443,9 @@ namespace Aurora.Devices.OpenRGB
             DK.PERIPHERAL_LIGHT20,
             });
 
-        public static readonly List<DK> MOUSEPAD_LIGHTS = new List<DK>(new[]
-        {
-            DK.MOUSEPADLIGHT15, //   Reversed Order to match my Firefly (without interupt Official SDKs Order)
-            DK.MOUSEPADLIGHT14,
-            DK.MOUSEPADLIGHT13,
-            DK.MOUSEPADLIGHT12,
-            DK.MOUSEPADLIGHT11,
-            DK.MOUSEPADLIGHT10,
-            DK.MOUSEPADLIGHT9,
-            DK.MOUSEPADLIGHT8,
-            DK.MOUSEPADLIGHT7,
-            DK.MOUSEPADLIGHT6,
-            DK.MOUSEPADLIGHT5,
-            DK.MOUSEPADLIGHT4,
-            DK.MOUSEPADLIGHT3,
-            DK.MOUSEPADLIGHT2,
-            DK.MOUSEPADLIGHT1,
-            DK.MOUSEPADLIGHT16, //   Added 5 more Mousepad Lights for support newer models mousepad
-            DK.MOUSEPADLIGHT17,
-            DK.MOUSEPADLIGHT18,
-            DK.MOUSEPADLIGHT19,
-            DK.MOUSEPADLIGHT20,
-        });
-
-        public static readonly List<DK> HEADSETSTAND_LIGHTS = new List<DK>(new[]
-{
-            DK.HEADSETSTANDLIGHT1, //   Reversed Order to match my Firefly (without interupt Official SDKs Order)
-            DK.HEADSETSTANDLIGHT2,
-            DK.HEADSETSTANDLIGHT3,
-            DK.HEADSETSTANDLIGHT4,
-            DK.HEADSETSTANDLIGHT5,
-            DK.HEADSETSTANDLIGHT6,
-            DK.HEADSETSTANDLIGHT7,
-            DK.HEADSETSTANDLIGHT8,
-            DK.HEADSETSTANDLIGHT8,
-            DK.HEADSETSTANDLIGHT10,
-            DK.HEADSETSTANDLIGHT11,
-            DK.HEADSETSTANDLIGHT12,
-            DK.HEADSETSTANDLIGHT13,
-            DK.HEADSETSTANDLIGHT14,
-            DK.HEADSETSTANDLIGHT15,
-            DK.HEADSETSTANDLIGHT16, //   Added 5 more Mousepad Lights for support newer models mousepad
-            DK.HEADSETSTANDLIGHT17,
-            DK.HEADSETSTANDLIGHT18,
-            DK.HEADSETSTANDLIGHT19,
-            DK.HEADSETSTANDLIGHT20,
-        });
-
-        public static readonly List<DK> MOBO_LIGHTS = new List<DK>(new[]
-        {
-            DK.MOBOLIGHT1,
-            DK.MOBOLIGHT2,
-            DK.MOBOLIGHT3,
-            DK.MOBOLIGHT4,
-            DK.MOBOLIGHT5,
-            });
-
-        public static readonly List<DK> COOLER_LIGHTS = new List<DK>(new[]
-        {
-            DK.COOLERLIGHT1,
-            DK.COOLERLIGHT2,
-            DK.COOLERLIGHT3,
-            DK.COOLERLIGHT4,
-            DK.COOLERLIGHT5,
-            DK.COOLERLIGHT6,
-            DK.COOLERLIGHT7,
-            DK.COOLERLIGHT8,
-            });
-
 //////////////////////////////////////////////////////   Multiple Devices LIGHTS begin here 
 
-        public static readonly List<List<DK>> AllRAMLights = new List<List<DK>>(new[]
+        public static readonly List<List<DK>> All_RAM_LIGHTS = new List<List<DK>>(new[] // (Type 1)
         {
             new List<DK>(new[]
             {
@@ -322,6 +454,26 @@ namespace Aurora.Devices.OpenRGB
                 DK.C0RAMLIGHT3,
                 DK.C0RAMLIGHT4,
                 DK.C0RAMLIGHT5,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
             }),
             new List<DK>(new[]
             {
@@ -330,6 +482,26 @@ namespace Aurora.Devices.OpenRGB
                 DK.C1RAMLIGHT3,
                 DK.C1RAMLIGHT4,
                 DK.C1RAMLIGHT5,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
             }),
             new List<DK>(new[]
             {
@@ -338,6 +510,26 @@ namespace Aurora.Devices.OpenRGB
                 DK.C2RAMLIGHT3,
                 DK.C2RAMLIGHT4,
                 DK.C2RAMLIGHT5,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
             }),
             new List<DK>(new[]
             {
@@ -346,14 +538,34 @@ namespace Aurora.Devices.OpenRGB
                 DK.C3RAMLIGHT3,
                 DK.C3RAMLIGHT4,
                 DK.C3RAMLIGHT5,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
             })
         });
 
-        public static readonly List<List<List<DK>>> AllLedLights = new List<List<List<DK>>>(new[]
+        public static readonly List<List<List<DK>>> ALL_LED_LIGHTS = new List<List<List<DK>>>(new[] // (Type 4)
         {
-            new List<List<DK>>(new[]
+            new List<List<DK>>(new[] // First Device
             {
-                new List<DK>(new[]
+                new List<DK>(new[] // First Device, Channel 0
                 {
                     DK.C0LEDLIGHT1,
                     DK.C0LEDLIGHT2,
@@ -396,7 +608,7 @@ namespace Aurora.Devices.OpenRGB
                     DK.C0LEDLIGHT39,
                     DK.C0LEDLIGHT40,
                 }),
-                new List<DK>(new[]
+                new List<DK>(new[] // First Device, Channel 1
                 {
                     DK.C1LEDLIGHT1,
                     DK.C1LEDLIGHT2,
@@ -440,9 +652,9 @@ namespace Aurora.Devices.OpenRGB
                     DK.C1LEDLIGHT40,
                 }),
             }),
-            new List<List<DK>>(new[]
+            new List<List<DK>>(new[] // Second Device
             {
-                new List<DK>(new[]
+                new List<DK>(new[] // Second Device, Channel 0
                 {
                     DK.C2LEDLIGHT1,
                     DK.C2LEDLIGHT2,
@@ -485,7 +697,7 @@ namespace Aurora.Devices.OpenRGB
                     DK.C2LEDLIGHT39,
                     DK.C2LEDLIGHT40,
                 }),
-                new List<DK>(new[]
+                new List<DK>(new[] // Second Device, Channel 1
                 {
                     DK.C3LEDLIGHT1,
                     DK.C3LEDLIGHT2,
@@ -529,14 +741,14 @@ namespace Aurora.Devices.OpenRGB
                     DK.C3LEDLIGHT40,
                 }),
             }),
-            new List<List<DK>>(new[]
+            new List<List<DK>>(new[] // Third Device
             {
-                new List<DK>(new[]
+                new List<DK>(new[] // Third Device, Channel 0
                 {
                     DK.C4LEDLIGHT1,
-                    DK.C4LEDLIGHT2,
-                    DK.C4LEDLIGHT3,
-                    DK.C4LEDLIGHT4,
+                    DK.C4LEDLIGHT10,
+                    DK.C4LEDLIGHT26,
+                    DK.C4LEDLIGHT35,
                     DK.NONE,
                     DK.NONE,
                     DK.NONE,
@@ -585,12 +797,12 @@ namespace Aurora.Devices.OpenRGB
                     DK.NONE,
                     DK.NONE,
                 }),
-                new List<DK>(new[]
+                new List<DK>(new[] // Third Device, Channel 1
                 {
                     DK.C5LEDLIGHT1,
-                    DK.C5LEDLIGHT2,
-                    DK.C5LEDLIGHT3,
-                    DK.C5LEDLIGHT4,
+                    DK.C5LEDLIGHT10,
+                    DK.C5LEDLIGHT26,
+                    DK.C5LEDLIGHT35,
                     DK.NONE,
                     DK.NONE,
                     DK.NONE,
@@ -638,12 +850,12 @@ namespace Aurora.Devices.OpenRGB
                     DK.NONE,
                     DK.NONE,
                 }),
-                new List<DK>(new[]
+                new List<DK>(new[] // Third Device, Channel 2
                 {
                     DK.C6LEDLIGHT1,
-                    DK.C6LEDLIGHT2,
-                    DK.C6LEDLIGHT3,
-                    DK.C6LEDLIGHT4,
+                    DK.C6LEDLIGHT10,
+                    DK.C6LEDLIGHT26,
+                    DK.C6LEDLIGHT35,
                     DK.NONE,
                     DK.NONE,
                     DK.NONE,
