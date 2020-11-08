@@ -2377,6 +2377,11 @@ namespace Aurora.Devices
         [Description("C0 Led Light 40")]
         C0LEDLIGHT40 = 2040,
 
+
+        // ADD 60 More here
+
+
+
         //////////////////////////////////////////////   Second Zone (32, Channel 1 Lights)
 
         /// <summary>
@@ -3198,6 +3203,31 @@ namespace Aurora.Devices
         /// </summary>
         [Description("C8 Led Light 1")]
         C8LEDLIGHT1 = 2801,
+
+        //////////////////////////////////////////////   Fifth Zone (100, Channel 9 Lights)(Various)
+
+        /// <summary>
+        /// C9 Led Light 1
+        /// </summary>
+        [Description("C9 Led Light 1")]
+        C9LEDLIGHT1 = 2901,
+
+        //////////////////////////////////////////////   Fifth Zone (100, Channel 10 Lights)(Various)
+
+        /// <summary>
+        /// C10 Led Light 1
+        /// </summary>
+        [Description("C10 Led Light 1")]
+        C10LEDLIGHT1 = 3001,
+
+        // ADD 50 More here
+
+
+
+
+
+
+
 
         //////////////////////////////////////////////   to Support more LED Lights i need more time to Edit
     };
