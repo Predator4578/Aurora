@@ -2209,32 +2209,32 @@ namespace Aurora.Devices
         [Description("C0 Led Light 12")]
         C0LEDLIGHT12 = 2012,
 
-        /// <summary>
-        /// C0 Led Light 13
-        /// </summary>
-        [Description("C0 Led Light 13")]
-        C0LEDLIGHT13 = 2013,
-
-        /// <summary>
-        /// C0 Led Light 14
-        /// </summary>
-        [Description("C0 Led Light 14")]
-        C0LEDLIGHT14 = 2014,
-
-        /// <summary>
-        /// C0 Led Light 15
-        /// </summary>
-        [Description("C0 Led Light 15")]
-        C0LEDLIGHT15 = 2015,
-
-        /// <summary>
-        /// C0 Led Light 16
-        /// </summary>
-        [Description("C0 Led Light 16")]
-        C0LEDLIGHT16 = 2016,
-
-        /// <summary>
-        /// C0 Led Light 17
+       /// <summary>
+       /// C0 Led Light 13
+       /// </summary>
+       [Description("C0 Led Light 13")]
+       C0LEDLIGHT13 = 2013,
+ 
+       /// <summary>
+       /// C0 Led Light 14
+       /// </summary>
+       [Description("C0 Led Light 14")]
+       C0LEDLIGHT14 = 2014,
+ 
+       /// <summary>
+       /// C0 Led Light 15
+       /// </summary>
+       [Description("C0 Led Light 15")]
+       C0LEDLIGHT15 = 2015,
+ 
+       /// <summary>
+       /// C0 Led Light 16
+       /// </summary>
+       [Description("C0 Led Light 16")]
+       C0LEDLIGHT16 = 2016,
+ 
+       /// <summary>
+       /// C0 Led Light 17
         /// </summary>
         [Description("C0 Led Light 17")]
         C0LEDLIGHT17 = 2017,
@@ -2376,6 +2376,366 @@ namespace Aurora.Devices
         /// </summary>
         [Description("C0 Led Light 40")]
         C0LEDLIGHT40 = 2040,
+
+        /// <summary>
+        /// C0 Led Light 41
+        /// </summary>
+        [Description("C0 Led Light 41")]
+        C0LEDLIGHT41 = 2041,
+
+        /// <summary>
+        /// C0 Led Light 42
+        /// </summary>
+        [Description("C0 Led Light 42")]
+        C0LEDLIGHT42 = 2042,
+
+        /// <summary>
+        /// C0 Led Light 43
+        /// </summary>
+        [Description("C0 Led Light 43")]
+        C0LEDLIGHT43 = 2043,
+
+        /// <summary>
+        /// C0 Led Light 44
+        /// </summary>
+        [Description("C0 Led Light 44")]
+        C0LEDLIGHT44 = 2044,
+
+        /// <summary>
+        /// C0 Led Light 45
+        /// </summary>
+        [Description("C0 Led Light 45")]
+        C0LEDLIGHT45 = 2045,
+
+        /// <summary>
+        /// C0 Led Light 46
+        /// </summary>
+        [Description("C0 Led Light 46")]
+        C0LEDLIGHT46 = 2046,
+
+        /// <summary>
+        /// C0 Led Light 47
+        /// </summary>
+        [Description("C0 Led Light 47")]
+        C0LEDLIGHT47 = 2047,
+
+        /// <summary>
+        /// C0 Led Light 48
+        /// </summary>
+        [Description("C0 Led Light 48")]
+        C0LEDLIGHT48 = 2048,
+
+        /// <summary>
+        /// C0 Led Light 49
+        /// </summary>
+        [Description("C0 Led Light 49")]
+        C0LEDLIGHT49 = 2049,
+
+        /// <summary>
+        /// C0 Led Light 50
+        /// </summary>
+        [Description("C0 Led Light 50")]
+        C0LEDLIGHT50 = 2050,
+
+        /// <summary>
+        /// C0 Led Light 51
+        /// </summary>
+        [Description("C0 Led Light 51")]
+        C0LEDLIGHT51 = 2051,
+
+        /// <summary>
+        /// C0 Led Light 52
+        /// </summary>
+        [Description("C0 Led Light 52")]
+        C0LEDLIGHT52 = 2052,
+
+        /// <summary>
+        /// C0 Led Light 53
+        /// </summary>
+        [Description("C0 Led Light 53")]
+        C0LEDLIGHT53 = 2053,
+
+        /// <summary>
+        /// C0 Led Light 54
+        /// </summary>
+        [Description("C0 Led Light 54")]
+        C0LEDLIGHT54 = 2054,
+
+        /// <summary>
+        /// C0 Led Light 55
+        /// </summary>
+        [Description("C0 Led Light 55")]
+        C0LEDLIGHT55 = 2055,
+
+        /// <summary>
+        /// C0 Led Light 56
+        /// </summary>
+        [Description("C0 Led Light 56")]
+        C0LEDLIGHT56 = 2056,
+
+        /// <summary>
+        /// C0 Led Light 57
+        /// </summary>
+        [Description("C0 Led Light 57")]
+        C0LEDLIGHT57 = 2057,
+
+        /// <summary>
+        /// C0 Led Light 58
+        /// </summary>
+        [Description("C0 Led Light 58")]
+        C0LEDLIGHT58 = 2058,
+
+        /// <summary>
+        /// C0 Led Light 59
+        /// </summary>
+        [Description("C0 Led Light 59")]
+        C0LEDLIGHT59 = 2059,
+
+        /// <summary>
+        /// C0 Led Light 60
+        /// </summary>
+        [Description("C0 Led Light 60")]
+        C0LEDLIGHT60 = 2060,
+
+        /// <summary>
+        /// C0 Led Light 61
+        /// </summary>
+        [Description("C0 Led Light 61")]
+        C0LEDLIGHT61 = 2061,
+
+        /// <summary>
+        /// C0 Led Light 62
+        /// </summary>
+        [Description("C0 Led Light 62")]
+        C0LEDLIGHT62 = 2062,
+
+        /// <summary>
+        /// C0 Led Light 63
+        /// </summary>
+        [Description("C0 Led Light 63")]
+        C0LEDLIGHT63 = 2063,
+
+        /// <summary>
+        /// C0 Led Light 64
+        /// </summary>
+        [Description("C0 Led Light 64")]
+        C0LEDLIGHT64 = 2064,
+
+        /// <summary>
+        /// C0 Led Light 65
+        /// </summary>
+        [Description("C0 Led Light 65")]
+        C0LEDLIGHT65 = 2065,
+
+        /// <summary>
+        /// C0 Led Light 66
+        /// </summary>
+        [Description("C0 Led Light 66")]
+        C0LEDLIGHT66 = 2066,
+
+        /// <summary>
+        /// C0 Led Light 67
+        /// </summary>
+        [Description("C0 Led Light 67")]
+        C0LEDLIGHT67 = 2067,
+
+        /// <summary>
+        /// C0 Led Light 68
+        /// </summary>
+        [Description("C0 Led Light 68")]
+        C0LEDLIGHT68 = 2068,
+
+        /// <summary>
+        /// C0 Led Light 69
+        /// </summary>
+        [Description("C0 Led Light 69")]
+        C0LEDLIGHT69 = 2069,
+
+        /// <summary>
+        /// C0 Led Light 70
+        /// </summary>
+        [Description("C0 Led Light 70")]
+        C0LEDLIGHT70 = 2070,
+
+        /// <summary>
+        /// C0 Led Light 71
+        /// </summary>
+        [Description("C0 Led Light 71")]
+        C0LEDLIGHT71 = 2071,
+
+        /// <summary>
+        /// C0 Led Light 72
+        /// </summary>
+        [Description("C0 Led Light 72")]
+        C0LEDLIGHT72 = 2072,
+
+        /// <summary>
+        /// C0 Led Light 73
+        /// </summary>
+        [Description("C0 Led Light 73")]
+        C0LEDLIGHT73 = 2073,
+
+        /// <summary>
+        /// C0 Led Light 74
+        /// </summary>
+        [Description("C0 Led Light 74")]
+        C0LEDLIGHT74 = 2074,
+
+        /// <summary>
+        /// C0 Led Light 75
+        /// </summary>
+        [Description("C0 Led Light 75")]
+        C0LEDLIGHT75 = 2075,
+
+        /// <summary>
+        /// C0 Led Light 76
+        /// </summary>
+        [Description("C0 Led Light 76")]
+        C0LEDLIGHT76 = 2076,
+
+        /// <summary>
+        /// C0 Led Light 77
+        /// </summary>
+        [Description("C0 Led Light 77")]
+        C0LEDLIGHT77 = 2077,
+
+        /// <summary>
+        /// C0 Led Light 78
+        /// </summary>
+        [Description("C0 Led Light 78")]
+        C0LEDLIGHT78 = 2078,
+
+        /// <summary>
+        /// C0 Led Light 79
+        /// </summary>
+        [Description("C0 Led Light 79")]
+        C0LEDLIGHT79 = 2079,
+
+        /// <summary>
+        /// C0 Led Light 80
+        /// </summary>
+        [Description("C0 Led Light 80")]
+        C0LEDLIGHT80 = 2080,
+
+        /// <summary>
+        /// C0 Led Light 81
+        /// </summary>
+        [Description("C0 Led Light 81")]
+        C0LEDLIGHT81 = 2081,
+
+        /// <summary>
+        /// C0 Led Light 82
+        /// </summary>
+        [Description("C0 Led Light 82")]
+        C0LEDLIGHT82 = 2082,
+
+        /// <summary>
+        /// C0 Led Light 83
+        /// </summary>
+        [Description("C0 Led Light 83")]
+        C0LEDLIGHT83 = 2083,
+
+        /// <summary>
+        /// C0 Led Light 84
+        /// </summary>
+        [Description("C0 Led Light 84")]
+        C0LEDLIGHT84 = 2084,
+
+        /// <summary>
+        /// C0 Led Light 85
+        /// </summary>
+        [Description("C0 Led Light 85")]
+        C0LEDLIGHT85 = 2085,
+
+        /// <summary>
+        /// C0 Led Light 86
+        /// </summary>
+        [Description("C0 Led Light 86")]
+        C0LEDLIGHT86 = 2086,
+
+        /// <summary>
+        /// C0 Led Light 87
+        /// </summary>
+        [Description("C0 Led Light 87")]
+        C0LEDLIGHT87 = 2087,
+
+        /// <summary>
+        /// C0 Led Light 88
+        /// </summary>
+        [Description("C0 Led Light 88")]
+        C0LEDLIGHT88 = 2088,
+
+        /// <summary>
+        /// C0 Led Light 89
+        /// </summary>
+        [Description("C0 Led Light 89")]
+        C0LEDLIGHT89 = 2089,
+
+        /// <summary>
+        /// C0 Led Light 90
+        /// </summary>
+        [Description("C0 Led Light 90")]
+        C0LEDLIGHT90 = 2090,
+
+        /// <summary>
+        /// C0 Led Light 91
+        /// </summary>
+        [Description("C0 Led Light 91")]
+        C0LEDLIGHT91 = 2091,
+
+        /// <summary>
+        /// C0 Led Light 92
+        /// </summary>
+        [Description("C0 Led Light 92")]
+        C0LEDLIGHT92 = 2092,
+
+        /// <summary>
+        /// C0 Led Light 93
+        /// </summary>
+        [Description("C0 Led Light 93")]
+        C0LEDLIGHT93 = 2093,
+
+        /// <summary>
+        /// C0 Led Light 94
+        /// </summary>
+        [Description("C0 Led Light 94")]
+        C0LEDLIGHT94 = 2094,
+
+        /// <summary>
+        /// C0 Led Light 95
+        /// </summary>
+        [Description("C0 Led Light 95")]
+        C0LEDLIGHT95 = 2095,
+
+        /// <summary>
+        /// C0 Led Light 96
+        /// </summary>
+        [Description("C0 Led Light 96")]
+        C0LEDLIGHT96 = 2096,
+
+        /// <summary>
+        /// C0 Led Light 97
+        /// </summary>
+        [Description("C0 Led Light 97")]
+        C0LEDLIGHT97 = 2097,
+
+        /// <summary>
+        /// C0 Led Light 98
+        /// </summary>
+        [Description("C0 Led Light 98")]
+        C0LEDLIGHT98 = 2098,
+
+        /// <summary>
+        /// C0 Led Light 99
+        /// </summary>
+        [Description("C0 Led Light 99")]
+        C0LEDLIGHT99 = 2099,
+
+        /// <summary>
+        /// C0 Led Light 100
+        /// </summary>
+        [Description("C0 Led Light 100")]
+        C0LEDLIGHT100 = 2100,
 
 
         // ADD 60 More here
@@ -3219,6 +3579,300 @@ namespace Aurora.Devices
         /// </summary>
         [Description("C10 Led Light 1")]
         C10LEDLIGHT1 = 3001,
+
+        /// <summary>
+        /// C10 Led Light 2
+        /// </summary>
+        [Description("C10 Led Light 2")]
+        C10LEDLIGHT2 = 3002,
+
+        /// <summary>
+        /// C10 Led Light 3
+        /// </summary>
+        [Description("C10 Led Light 3")]
+        C10LEDLIGHT3 = 3003,
+
+        /// <summary>
+        /// C10 Led Light 4
+        /// </summary>
+        [Description("C10 Led Light 4")]
+        C10LEDLIGHT4 = 3004,
+
+        /// <summary>
+        /// C10 Led Light 5
+        /// </summary>
+        [Description("C10 Led Light 5")]
+        C10LEDLIGHT5 = 3005,
+
+        /// <summary>
+        /// C10 Led Light 6
+        /// </summary>
+        [Description("C10 Led Light 6")]
+        C10LEDLIGHT6 = 3006,
+
+        /// <summary>
+        /// C10 Led Light 7
+        /// </summary>
+        [Description("C10 Led Light 7")]
+        C10LEDLIGHT7 = 3007,
+
+        /// <summary>
+        /// C10 Led Light 8
+        /// </summary>
+        [Description("C10 Led Light 8")]
+        C10LEDLIGHT8 = 3008,
+
+        /// <summary>
+        /// C10 Led Light 9
+        /// </summary>
+        [Description("C10 Led Light 9")]
+        C10LEDLIGHT9 = 3009,
+
+        /// <summary>
+        /// C10 Led Light 10
+        /// </summary>
+        [Description("C10 Led Light 10")]
+        C10LEDLIGHT10 = 3010,
+
+        /// <summary>
+        /// C10 Led Light 11
+        /// </summary>
+        [Description("C10 Led Light 11")]
+        C10LEDLIGHT11 = 3011,
+
+        /// <summary>
+        /// C10 Led Light 12
+        /// </summary>
+        [Description("C10 Led Light 12")]
+        C10LEDLIGHT12 = 3012,
+
+        /// <summary>
+        /// C10 Led Light 13
+        /// </summary>
+        [Description("C10 Led Light 13")]
+        C10LEDLIGHT13 = 3013,
+
+        /// <summary>
+        /// C10 Led Light 14
+        /// </summary>
+        [Description("C10 Led Light 14")]
+        C10LEDLIGHT14 = 3014,
+
+        /// <summary>
+        /// C10 Led Light 15
+        /// </summary>
+        [Description("C10 Led Light 15")]
+        C10LEDLIGHT15 = 3015,
+
+        /// <summary>
+        /// C10 Led Light 16
+        /// </summary>
+        [Description("C10 Led Light 16")]
+        C10LEDLIGHT16 = 3016,
+
+        /// <summary>
+        /// C10 Led Light 17
+        /// </summary>
+        [Description("C10 Led Light 17")]
+        C10LEDLIGHT17 = 3017,
+
+        /// <summary>
+        /// C10 Led Light 18
+        /// </summary>
+        [Description("C10 Led Light 18")]
+        C10LEDLIGHT18 = 3018,
+
+        /// <summary>
+        /// C10 Led Light 19
+        /// </summary>
+        [Description("C10 Led Light 19")]
+        C10LEDLIGHT19 = 3019,
+
+        /// <summary>
+        /// C10 Led Light 20
+        /// </summary>
+        [Description("C10 Led Light 20")]
+        C10LEDLIGHT20 = 3020,
+
+        /// <summary>
+        /// C10 Led Light 21
+        /// </summary>
+        [Description("C10 Led Light 21")]
+        C10LEDLIGHT21 = 3021,
+
+        /// <summary>
+        /// C10 Led Light 22
+        /// </summary>
+        [Description("C10 Led Light 22")]
+        C10LEDLIGHT22 = 3022,
+
+        /// <summary>
+        /// C10 Led Light 23
+        /// </summary>
+        [Description("C10 Led Light 23")]
+        C10LEDLIGHT23 = 3023,
+
+        /// <summary>
+        /// C10 Led Light 24
+        /// </summary>
+        [Description("C10 Led Light 24")]
+        C10LEDLIGHT24 = 3024,
+
+        /// <summary>
+        /// C10 Led Light 25
+        /// </summary>
+        [Description("C10 Led Light 25")]
+        C10LEDLIGHT25 = 3025,
+
+        /// <summary>
+        /// C10 Led Light 26
+        /// </summary>
+        [Description("C10 Led Light 26")]
+        C10LEDLIGHT26 = 3026,
+
+        /// <summary>
+        /// C10 Led Light 27
+        /// </summary>
+        [Description("C10 Led Light 27")]
+        C10LEDLIGHT27 = 3027,
+
+        /// <summary>
+        /// C10 Led Light 28
+        /// </summary>
+        [Description("C10 Led Light 28")]
+        C10LEDLIGHT28 = 3028,
+
+        /// <summary>
+        /// C10 Led Light 29
+        /// </summary>
+        [Description("C10 Led Light 29")]
+        C10LEDLIGHT29 = 3029,
+
+        /// <summary>
+        /// C10 Led Light 30
+        /// </summary>
+        [Description("C10 Led Light 30")]
+        C10LEDLIGHT30 = 3030,
+
+        /// <summary>
+        /// C10 Led Light 31
+        /// </summary>
+        [Description("C10 Led Light 31")]
+        C10LEDLIGHT31 = 3031,
+
+        /// <summary>
+        /// C10 Led Light 32
+        /// </summary>
+        [Description("C10 Led Light 32")]
+        C10LEDLIGHT32 = 3032,
+
+        /// <summary>
+        /// C10 Led Light 33
+        /// </summary>
+        [Description("C10 Led Light 33")]
+        C10LEDLIGHT33 = 3033,
+
+        /// <summary>
+        /// C10 Led Light 34
+        /// </summary>
+        [Description("C10 Led Light 34")]
+        C10LEDLIGHT34 = 3034,
+
+        /// <summary>
+        /// C10 Led Light 35
+        /// </summary>
+        [Description("C10 Led Light 35")]
+        C10LEDLIGHT35 = 3035,
+
+        /// <summary>
+        /// C10 Led Light 36
+        /// </summary>
+        [Description("C10 Led Light 36")]
+        C10LEDLIGHT36 = 3036,
+
+        /// <summary>
+        /// C10 Led Light 37
+        /// </summary>
+        [Description("C10 Led Light 37")]
+        C10LEDLIGHT37 = 3037,
+
+        /// <summary>
+        /// C10 Led Light 38
+        /// </summary>
+        [Description("C10 Led Light 38")]
+        C10LEDLIGHT38 = 3038,
+
+        /// <summary>
+        /// C10 Led Light 39
+        /// </summary>
+        [Description("C10 Led Light 39")]
+        C10LEDLIGHT39 = 3039,
+
+        /// <summary>
+        /// C10 Led Light 40
+        /// </summary>
+        [Description("C10 Led Light 40")]
+        C10LEDLIGHT40 = 3040,
+
+        /// <summary>
+        /// C10 Led Light 41
+        /// </summary>
+        [Description("C10 Led Light 41")]
+        C10LEDLIGHT41 = 3041,
+
+        /// <summary>
+        /// C10 Led Light 42
+        /// </summary>
+        [Description("C10 Led Light 42")]
+        C10LEDLIGHT42 = 3042,
+
+        /// <summary>
+        /// C10 Led Light 43
+        /// </summary>
+        [Description("C10 Led Light 43")]
+        C10LEDLIGHT43 = 3043,
+
+        /// <summary>
+        /// C10 Led Light 44
+        /// </summary>
+        [Description("C10 Led Light 44")]
+        C10LEDLIGHT44 = 3044,
+
+        /// <summary>
+        /// C10 Led Light 45
+        /// </summary>
+        [Description("C10 Led Light 45")]
+        C10LEDLIGHT45 = 3045,
+
+        /// <summary>
+        /// C10 Led Light 46
+        /// </summary>
+        [Description("C10 Led Light 46")]
+        C10LEDLIGHT46 = 3046,
+
+        /// <summary>
+        /// C10 Led Light 47
+        /// </summary>
+        [Description("C10 Led Light 47")]
+        C10LEDLIGHT47 = 3047,
+
+        /// <summary>
+        /// C10 Led Light 48
+        /// </summary>
+        [Description("C10 Led Light 48")]
+        C10LEDLIGHT48 = 3048,
+
+        /// <summary>
+        /// C10 Led Light 49
+        /// </summary>
+        [Description("C10 Led Light 49")]
+        C10LEDLIGHT49 = 3049,
+
+        /// <summary>
+        /// C10 Led Light 50
+        /// </summary>
+        [Description("C10 Led Light 50")]
+        C10LEDLIGHT50 = 3050,
 
         // ADD 50 More here
 
