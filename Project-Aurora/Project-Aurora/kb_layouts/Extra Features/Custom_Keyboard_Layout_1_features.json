@@ -156,7 +156,7 @@
     //********************ADDITIONAL LIGHTS TABLE********************
     {
       "visualName": "A01",
-      "tag": 142,
+      "tag": -1, //142,
       "margin_left": 850.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -171,7 +171,7 @@
     },
     {
       "visualName": "A02",
-      "tag": 143,
+      "tag": -1, //143,
       "margin_left": 827.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -186,7 +186,7 @@
     },
     {
       "visualName": "A03",
-      "tag": 144,
+      "tag": -1, //144,
       "margin_left": 804.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -201,7 +201,7 @@
     },
     {
       "visualName": "A04",
-      "tag": 145,
+      "tag": -1, //145,
       "margin_left": 781.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -216,7 +216,7 @@
     },
     {
       "visualName": "A05",
-      "tag": 146,
+      "tag": -1, //146,
       "margin_left": 758.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -231,7 +231,7 @@
     },
     {
       "visualName": "A06",
-      "tag": 147,
+      "tag": -1, //147,
       "margin_left": 735.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -246,7 +246,7 @@
     },
     {
       "visualName": "A07",
-      "tag": 148,
+      "tag": -1, //148,
       "margin_left": 712.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -261,7 +261,7 @@
     },
     {
       "visualName": "A08",
-      "tag": 149,
+      "tag": -1, //149,
       "margin_left": 689.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -276,7 +276,7 @@
     },
     {
       "visualName": "A09",
-      "tag": 150,
+      "tag": -1, //150,
       "margin_left": 666.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -291,7 +291,7 @@
     },
     {
       "visualName": "A10",
-      "tag": 151,
+      "tag": -1, //151,
       "margin_left": 643.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -306,7 +306,7 @@
     },
     {
       "visualName": "A11",
-      "tag": 172,
+      "tag": -1, //172,
       "margin_left": 620.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -321,7 +321,7 @@
     },
     {
       "visualName": "A12",
-      "tag": 173,
+      "tag": -1, //173,
       "margin_left": 597.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -336,7 +336,7 @@
     },
     {
       "visualName": "A13",
-      "tag": 174,
+      "tag": -1, //174,
       "margin_left": 574.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -351,7 +351,7 @@
     },
     {
       "visualName": "A14",
-      "tag": 175,
+      "tag": -1, //175,
       "margin_left": 551.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -366,7 +366,7 @@
     },
     {
       "visualName": "A15",
-      "tag": 176,
+      "tag": -1, //176,
       "margin_left": 528.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -381,7 +381,7 @@
     },
     {
       "visualName": "A16",
-      "tag": 177,
+      "tag": -1, //177,
       "margin_left": 505.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -396,7 +396,7 @@
     },
     {
       "visualName": "A17",
-      "tag": 178,
+      "tag": -1, //178,
       "margin_left": 482.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -411,7 +411,7 @@
     },
     {
       "visualName": "A18",
-      "tag": 179,
+      "tag": -1, //179,
       "margin_left": 459.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -426,7 +426,7 @@
     },
     {
       "visualName": "A19",
-      "tag": 180,
+      "tag": -1, //180,
       "margin_left": 436.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -441,7 +441,7 @@
     },
     {
       "visualName": "A20",
-      "tag": 181,
+      "tag": -1, //181,
       "margin_left": 413.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -456,7 +456,7 @@
     },
     {
       "visualName": "A21",
-      "tag": 182,
+      "tag": -1, //182,
       "margin_left": 390.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -471,7 +471,7 @@
     },
     {
       "visualName": "A22",
-      "tag": 183,
+      "tag": -1, //183,
       "margin_left": 367.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -486,7 +486,7 @@
     },
     {
       "visualName": "A23",
-      "tag": 184,
+      "tag": -1, //184,
       "margin_left": 344.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -501,7 +501,7 @@
     },
     {
       "visualName": "A24",
-      "tag": 185,
+      "tag": -1, //185,
       "margin_left": 321.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -516,7 +516,7 @@
     },
     {
       "visualName": "A25",
-      "tag": 186,
+      "tag": -1, //186,
       "margin_left": 298.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -531,7 +531,7 @@
     },
     {
       "visualName": "A26",
-      "tag": 187,
+      "tag": -1, //187,
       "margin_left": 275.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -546,7 +546,7 @@
     },
     {
       "visualName": "A27",
-      "tag": 188,
+      "tag": -1, //188,
       "margin_left": 252.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -561,7 +561,7 @@
     },
     {
       "visualName": "A28",
-      "tag": 189,
+      "tag": -1, //189,
       "margin_left": 229.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -576,7 +576,7 @@
     },
     {
       "visualName": "A29",
-      "tag": 190,
+      "tag": -1, //190,
       "margin_left": 206.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -591,7 +591,7 @@
     },
     {
       "visualName": "A30",
-      "tag": 191,
+      "tag": -1, //191,
       "margin_left": 183.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -606,7 +606,7 @@
     },
     {
       "visualName": "A31",
-      "tag": 192,
+      "tag": -1, //192,
       "margin_left": 160.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -621,7 +621,7 @@
     },
     {
       "visualName": "A32",
-      "tag": 193,
+      "tag": -1, //193,
       "margin_left": 137.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -636,7 +636,7 @@
     },
     {
       "visualName": "A33",
-      "tag": 1201,
+      "tag": -1, //1201,
       "margin_left": 114.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -651,7 +651,7 @@
     },
     {
       "visualName": "A34",
-      "tag": 1202,
+      "tag": -1, //1202,
       "margin_left": 91.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -666,7 +666,7 @@
     },
     {
       "visualName": "A35",
-      "tag": 1203,
+      "tag": -1, //1203,
       "margin_left": 68.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -681,7 +681,7 @@
     },
     {
       "visualName": "A36",
-      "tag": 1204,
+      "tag": -1, //1204,
       "margin_left": 45.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -696,7 +696,7 @@
     },
     {
       "visualName": "A37",
-      "tag": 1205,
+      "tag": -1, //1205,
       "margin_left": 22.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -711,7 +711,7 @@
     },
     {
       "visualName": "A38",
-      "tag": 1206,
+      "tag": -1, //1206,
       "margin_left": -1.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -726,7 +726,7 @@
     },
     {
       "visualName": "A39",
-      "tag": 1207,
+      "tag": -1, //1207,
       "margin_left": -24.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -741,7 +741,7 @@
     },
     {
       "visualName": "A40",
-      "tag": 1208,
+      "tag": -1, //1208,
       "margin_left": -47.0,
       "margin_top": 240.0,
       "width": 20.0,
@@ -774,7 +774,7 @@
     {
       "visualName": "TEST KB LINKS OBEN",
       "tag": -1,
-      "margin_left": -80.0,
+      "margin_left": -50.0,
       "margin_top": -100.0,
       "width": 80.0,
       "height": 10.0,
@@ -785,7 +785,7 @@
     {
       "visualName": "TEST KB LINKS UNTEN",
       "tag": -1,
-      "margin_left": -80.0,
+      "margin_left": -50.0,
       "margin_top": 415.0,
       "width": 80.0,
       "height": 10.0,

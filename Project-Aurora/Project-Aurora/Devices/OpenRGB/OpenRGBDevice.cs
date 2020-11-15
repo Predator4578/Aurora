@@ -258,7 +258,7 @@ namespace Aurora.Devices.OpenRGB
                                 //  up to 3 Devices, Channel Layout 2,2,4 channels per device, up to 200 LED Lights per channel
                                 if (dev.Type == OpenRGBDeviceType.Ledstrip)
                                 {
-                                    if (k < OpenRGBKeyNames.ALL_LED_LIGHTS[ledLightIndex][j].Count)
+                                    if (k < 200)
                                     {
                                         _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.ALL_LED_LIGHTS[ledLightIndex][j][k];
                                     }

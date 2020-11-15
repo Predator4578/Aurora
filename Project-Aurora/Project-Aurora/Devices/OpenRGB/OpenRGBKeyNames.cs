@@ -667,8 +667,8 @@ namespace Aurora.Devices.OpenRGB
                     DK.C0LEDLIGHT98,
                     DK.C0LEDLIGHT99,
                     DK.C0LEDLIGHT100,
-                    DK.C10LEDLIGHT1
-                    DK.C10LEDLIGHT2
+                    DK.C10LEDLIGHT1,
+                    DK.C10LEDLIGHT2,
                     DK.C10LEDLIGHT3,
                     DK.C10LEDLIGHT4,
                     DK.C10LEDLIGHT5,

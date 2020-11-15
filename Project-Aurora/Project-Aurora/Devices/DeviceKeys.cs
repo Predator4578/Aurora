@@ -2209,32 +2209,32 @@ namespace Aurora.Devices
         [Description("C0 Led Light 12")]
         C0LEDLIGHT12 = 2012,
 
-       /// <summary>
-       /// C0 Led Light 13
-       /// </summary>
-       [Description("C0 Led Light 13")]
-       C0LEDLIGHT13 = 2013,
+        /// <summary>
+        /// C0 Led Light 13
+        /// </summary>
+        [Description("C0 Led Light 13")]
+        C0LEDLIGHT13 = 2013,
  
-       /// <summary>
-       /// C0 Led Light 14
-       /// </summary>
-       [Description("C0 Led Light 14")]
-       C0LEDLIGHT14 = 2014,
+        /// <summary>
+        /// C0 Led Light 14
+        /// </summary>
+        [Description("C0 Led Light 14")]
+        C0LEDLIGHT14 = 2014,
  
-       /// <summary>
-       /// C0 Led Light 15
-       /// </summary>
-       [Description("C0 Led Light 15")]
-       C0LEDLIGHT15 = 2015,
+        /// <summary>
+        /// C0 Led Light 15
+        /// </summary>
+        [Description("C0 Led Light 15")]
+        C0LEDLIGHT15 = 2015,
  
-       /// <summary>
-       /// C0 Led Light 16
-       /// </summary>
-       [Description("C0 Led Light 16")]
-       C0LEDLIGHT16 = 2016,
+        /// <summary>
+        /// C0 Led Light 16
+        /// </summary>
+        [Description("C0 Led Light 16")]
+        C0LEDLIGHT16 = 2016,
  
-       /// <summary>
-       /// C0 Led Light 17
+        /// <summary>
+        /// C0 Led Light 17
         /// </summary>
         [Description("C0 Led Light 17")]
         C0LEDLIGHT17 = 2017,
@@ -2736,11 +2736,6 @@ namespace Aurora.Devices
         /// </summary>
         [Description("C0 Led Light 100")]
         C0LEDLIGHT100 = 2100,
-
-
-        // ADD 60 More here
-
-
 
         //////////////////////////////////////////////   Second Zone (32, Channel 1 Lights)
 

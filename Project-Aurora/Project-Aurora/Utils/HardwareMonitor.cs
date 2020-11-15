@@ -109,6 +109,9 @@ namespace Aurora.Utils
 
             protected float GetValue(ISensor sensor)
             {
+                if (sensor is null)
+                    return 0;
+
                 inUse = true;
                 _useTimer.Stop();
                 _useTimer.Start();

@@ -339,11 +339,8 @@
     },
     //////////////////////////////////////////////   HEADSET STAND START HERE
     //////////////////////////////////////////////   Creating Device Headset Stand Base Station Chroma            
-    //////////////////////////////////////////////   Using Border, PHERIPHERALLIGHTS 1 - 20 and Headset Device
+    //////////////////////////////////////////////   Using Border, HEADSET STAND LIGHTS 1 - 20 and Headset Device
 
-    //////////////////////////////////////////////   MOUSEPAD LIGHTS START HERE
-    //////////////////////////////////////////////   Creating Device Mousemat with Lightstrip
-    //////////////////////////////////////////////   Using Border, Mousepadlights 1 - 20 and Click Helper
     {
       //"visualName": "Razer Basestation Chroma Border",
       "tag": -1,
@@ -354,7 +351,7 @@
       "enabled": true,
       "absolute_location": true
     },
-    //////////////////////////////////////////////   MOUSEPADLIGHTS M 01 - M 15 START HERE
+    //////////////////////////////////////////////   HEADSET STAND LIGHTS M 01 - M 15 START HERE
     {
       "visualName": "H 01",
       "font_size": 9.0,
@@ -520,7 +517,7 @@
       "enabled": true,
       "absolute_location": true
     },
-    //////////////////////////////////////////////   MOUSEPADLIGHTS M 16 - M 20 START HERE
+    //////////////////////////////////////////////   HEADSET STAND LIGHTS H 16 - H 20 START HERE
     {
       "visualName": "H 16",
       "font_size": 9.0,

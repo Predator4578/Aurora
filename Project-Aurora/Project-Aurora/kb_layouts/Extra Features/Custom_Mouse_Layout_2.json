@@ -339,11 +339,8 @@
     },
     //////////////////////////////////////////////   HEADSET STAND START HERE
     //////////////////////////////////////////////   Creating Device Headset Stand Base Station Chroma            
-    //////////////////////////////////////////////   Using Border, PHERIPHERALLIGHTS 1 - 20 and Headset Device
+    //////////////////////////////////////////////   Using Border, HEADSET STAND LIGHTS 1 - 20 and Headset Device
 
-    //////////////////////////////////////////////   MOUSEPAD LIGHTS START HERE
-    //////////////////////////////////////////////   Creating Device Mousemat with Lightstrip
-    //////////////////////////////////////////////   Using Border, Mousepadlights 1 - 20 and Click Helper
     {
       //"visualName": "Razer Basestation Chroma Border",
       "tag": -1,
@@ -354,7 +351,7 @@
       "enabled": true,
       "absolute_location": true
     },
-    //////////////////////////////////////////////   MOUSEPADLIGHTS M 01 - M 15 START HERE
+    //////////////////////////////////////////////   HEADSET STAND LIGHTS M 01 - M 15 START HERE
     {
       "visualName": "H 01",
       "font_size": 9.0,
@@ -520,7 +517,7 @@
       "enabled": true,
       "absolute_location": true
     },
-    //////////////////////////////////////////////   MOUSEPADLIGHTS M 16 - M 20 START HERE
+    //////////////////////////////////////////////   HEADSET STAND LIGHTS H 16 - H 20 START HERE
     {
       "visualName": "H 16",
       "font_size": 9.0,
@@ -2410,8 +2407,8 @@
       "absolute_location": true
     },
     {
-      "visualName": "C0 L01",
-      "tag": 2001,
+      "visualName": "C3 L01",
+      "tag": 2301,
       "margin_left": 277.5,
       "margin_top": 60.0,
       "width": 30.0,
@@ -2421,8 +2418,8 @@
       "absolute_location": true
     },
     {
-      "visualName": "C0 L02",
-      "tag": 2002,
+      "visualName": "C3 L02",
+      "tag": 2302,
       "margin_left": 240.0,
       "margin_top": 60.0,
       "width": 30.0,
@@ -2432,8 +2429,8 @@
       "absolute_location": true
     },
     {
-      "visualName": "C0 L03",
-      "tag": 2003,
+      "visualName": "C3 L03",
+      "tag": 2303,
       "margin_left": 202.5,
       "margin_top": 60.0,
       "width": 30.0,
@@ -2443,8 +2440,8 @@
       "absolute_location": true
     },
     {
-      "visualName": "C0 L04",
-      "tag": 2004,
+      "visualName": "C3 L04",
+      "tag": 2304,
       "margin_left": 165.0,
       "margin_top": 60.0,
       "width": 30.0,
@@ -2454,8 +2451,8 @@
       "absolute_location": true
     },
     {
-      "visualName": "C0 L05",
-      "tag": 2005,
+      "visualName": "C3 L05",
+      "tag": 2305,
       "margin_left": 127.5,
       "margin_top": 60.0,
       "width": 30.0,
@@ -2465,75 +2462,9 @@
       "absolute_location": true
     },
     {
-      "visualName": "C0 L06",
-      "tag": 2006,
+      "visualName": "C3 L06",
+      "tag": 2306,
       "margin_left": 90.0,
-      "margin_top": 60.0,
-      "width": 30.0,
-      "height": 20.0,
-      "font_size": 9.0,
-      "enabled": true,
-      "absolute_location": true
-    },
-    {
-      "visualName": "C0 L07",
-      "tag": 2007,
-      "margin_left": 53.5,
-      "margin_top": 60.0,
-      "width": 30.0,
-      "height": 20.0,
-      "font_size": 9.0,
-      "enabled": true,
-      "absolute_location": true
-    },
-    {
-      "visualName": "C0 L08",
-      "tag": 2008,
-      "margin_left": 18.0,
-      "margin_top": 60.0,
-      "width": 30.0,
-      "height": 20.0,
-      "font_size": 9.0,
-      "enabled": true,
-      "absolute_location": true
-    },
-    {
-      "visualName": "C0 L09",
-      "tag": 2009,
-      "margin_left": -19.5,
-      "margin_top": 60.0,
-      "width": 30.0,
-      "height": 20.0,
-      "font_size": 9.0,
-      "enabled": true,
-      "absolute_location": true
-    },
-    {
-      "visualName": "C0 L10",
-      "tag": 2010,
-      "margin_left": -56.0,
-      "margin_top": 60.0,
-      "width": 30.0,
-      "height": 20.0,
-      "font_size": 9.0,
-      "enabled": true,
-      "absolute_location": true
-    },
-    {
-      "visualName": "C0 L11",
-      "tag": 2011,
-      "margin_left": -93.5,
-      "margin_top": 60.0,
-      "width": 30.0,
-      "height": 20.0,
-      "font_size": 9.0,
-      "enabled": true,
-      "absolute_location": true
-    },
-    {
-      "visualName": "C0 L12",
-      "tag": 2012,
-      "margin_left": -130.0,
       "margin_top": 60.0,
       "width": 30.0,
       "height": 20.0,
