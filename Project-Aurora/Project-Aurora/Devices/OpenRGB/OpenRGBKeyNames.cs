@@ -21,7 +21,7 @@ namespace Aurora.Devices.OpenRGB
             };
         public static readonly Dictionary<string, DK> GPU_LOGO = new Dictionary<string, DK>() // (Type 2)
         {
-            { "Logo"                  , DK.GPU_LOGO        }, // GPU_LOGO
+            { "GPU LED"                  , DK.GPU_LOGO        }, // GPU_LOGO
             };
         public static readonly Dictionary<string, DK> COOLER_LOGO = new Dictionary<string, DK>() // (Type 3)
         {
