@@ -254,18 +254,18 @@ namespace Aurora.Devices.OpenRGB
             DK.COOLERLIGHT6,
             DK.COOLERLIGHT7,
             DK.COOLERLIGHT8,
-            DK.NONE,
-            DK.NONE,
-            DK.NONE,
-            DK.NONE,
-            DK.NONE,
-            DK.NONE,
-            DK.NONE,
-            DK.NONE,
-            DK.NONE,
-            DK.NONE,
-            DK.NONE,
-            DK.NONE,
+            DK.ADDITIONALLIGHT9,     // DK.COOLERLIGHT9,
+            DK.ADDITIONALLIGHT10,    // DK.COOLERLIGHT10,
+            DK.ADDITIONALLIGHT11,    // DK.COOLERLIGHT11,
+            DK.ADDITIONALLIGHT12,    // DK.COOLERLIGHT12,
+            DK.ADDITIONALLIGHT13,    // DK.COOLERLIGHT13,
+            DK.ADDITIONALLIGHT14,    // DK.COOLERLIGHT14,
+            DK.ADDITIONALLIGHT15,    // DK.COOLERLIGHT15,
+            DK.ADDITIONALLIGHT16,    // DK.COOLERLIGHT16,
+            DK.ADDITIONALLIGHT17,    // DK.COOLERLIGHT17,
+            DK.ADDITIONALLIGHT18,    // DK.COOLERLIGHT18,
+            DK.ADDITIONALLIGHT19,    // DK.COOLERLIGHT19,
+            DK.ADDITIONALLIGHT20,    // DK.COOLERLIGHT20,
             });
         ///////////////////////////////////////////////////////////////////////// (Type 4) LEDSTRIP IS MULIPLE DEVICE SECTION
         public static readonly List<DK> ADDITIONAL_LIGHTS = new List<DK>(new[] // (Type 5)
@@ -311,6 +311,56 @@ namespace Aurora.Devices.OpenRGB
             DK.ADDITIONALLIGHT39,
             DK.ADDITIONALLIGHT40,
         });
+        public static readonly List<List<DK>> ALL_MOUSE_LIGHTS = new List<List<DK>>(new[] // (Type 6)
+        {
+            new List<DK>(new[]
+            {
+                 DK.MOUSELIGHT1,    // DK.MOUSELIGHT1,
+                 DK.MOUSELIGHT2,    // DK.MOUSELIGHT2,
+                 DK.MOUSELIGHT3,    // DK.MOUSELIGHT3,
+                 DK.MOUSELIGHT4,    // DK.MOUSELIGHT4,
+                 DK.MOUSELIGHT5,    // DK.MOUSELIGHT5,
+                 DK.ADDITIONALLIGHT6,    // DK.MOUSELIGHT6,
+                 DK.ADDITIONALLIGHT7,    // DK.MOUSELIGHT7,
+                 DK.ADDITIONALLIGHT8,    // DK.MOUSELIGHT8,
+                 DK.ADDITIONALLIGHT9,    // DK.MOUSELIGHT8,
+                 DK.ADDITIONALLIGHT10,   // DK.MOUSELIGHT10,
+                 DK.ADDITIONALLIGHT11,   // DK.MOUSELIGHT11,
+                 DK.ADDITIONALLIGHT12,   // DK.MOUSELIGHT12,
+                 DK.ADDITIONALLIGHT13,   // DK.MOUSELIGHT13,
+                 DK.ADDITIONALLIGHT14,   // DK.MOUSELIGHT14,
+                 DK.ADDITIONALLIGHT15,   // DK.MOUSELIGHT15,
+                 DK.ADDITIONALLIGHT16,   // DK.MOUSELIGHT16,
+                 DK.ADDITIONALLIGHT17,   // DK.MOUSELIGHT17,
+                 DK.ADDITIONALLIGHT18,   // DK.MOUSELIGHT18,
+                 DK.ADDITIONALLIGHT19,   // DK.MOUSELIGHT19,
+                 DK.ADDITIONALLIGHT20,   // DK.MOUSELIGHT20, 
+            }),
+            new List<DK>(new[]
+            {
+                 DK.MOUSELIGHT11,    // DK.MOUSELIGHT11,
+                 DK.MOUSELIGHT12,    // DK.MOUSELIGHT12,
+                 DK.MOUSELIGHT13,    // DK.MOUSELIGHT13,
+                 DK.MOUSELIGHT14,    // DK.MOUSELIGHT14,
+                 DK.MOUSELIGHT15,    // DK.MOUSELIGHT15,
+                 DK.ADDITIONALLIGHT6,    // DK.MOUSELIGHT6,
+                 DK.ADDITIONALLIGHT7,    // DK.MOUSELIGHT7,
+                 DK.ADDITIONALLIGHT8,    // DK.MOUSELIGHT8,
+                 DK.ADDITIONALLIGHT9,    // DK.MOUSELIGHT8,
+                 DK.ADDITIONALLIGHT10,   // DK.MOUSELIGHT10,
+                 DK.ADDITIONALLIGHT11,   // DK.MOUSELIGHT11,
+                 DK.ADDITIONALLIGHT12,   // DK.MOUSELIGHT12,
+                 DK.ADDITIONALLIGHT13,   // DK.MOUSELIGHT13,
+                 DK.ADDITIONALLIGHT14,   // DK.MOUSELIGHT14,
+                 DK.ADDITIONALLIGHT15,   // DK.MOUSELIGHT15,
+                 DK.ADDITIONALLIGHT16,   // DK.MOUSELIGHT16,
+                 DK.ADDITIONALLIGHT17,   // DK.MOUSELIGHT17,
+                 DK.ADDITIONALLIGHT18,   // DK.MOUSELIGHT18,
+                 DK.ADDITIONALLIGHT19,   // DK.MOUSELIGHT19,
+                 DK.ADDITIONALLIGHT20,   // DK.MOUSELIGHT20, 
+            })
+         });
+
         public static readonly List<DK> MOUSE_LIGHTS = new List<DK>(new[] // (Type 6)
         {
             DK.MOUSELIGHT1,    // DK.MOUSELIGHT1,

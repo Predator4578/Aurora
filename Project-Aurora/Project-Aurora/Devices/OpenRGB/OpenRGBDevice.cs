@@ -45,6 +45,7 @@ namespace Aurora.Devices.OpenRGB
 
                 int ramIndex = 0;                                           // INDEX for RAM DEVICE Count
                 int ledLightIndex = 0;                                      // INDEX for LEDLIGHT DEVICE Count
+                int mouseIndex = 0;                                         // INDEX for MOUSELIGHT DEVICE Count
                 for (var i = 0; i < _devices.Length; i++)
                 {
                     var dev = _devices[i];
@@ -278,7 +279,7 @@ namespace Aurora.Devices.OpenRGB
                                 {
                                     if (k < 20)
                                     {
-                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.MOUSE_LIGHTS[k];
+                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.ALL_MOUSE_LIGHTS[j][k];
                                     }
                                 }
                                 else
@@ -356,6 +357,11 @@ namespace Aurora.Devices.OpenRGB
                     if (dev.Type == OpenRGBDeviceType.Ledstrip) //(Type 4)
                     {
                         ledLightIndex++;
+                    }
+                    else
+                    if (dev.Type == OpenRGBDeviceType.Mouse) //(Type 5)
+                    {
+                        mouseIndex++;
                     }
                 }
             }

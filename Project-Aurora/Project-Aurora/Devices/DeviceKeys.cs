@@ -1617,6 +1617,38 @@ namespace Aurora.Devices
         [Description("Mouse Light 5")]
         MOUSELIGHT5 = 1255,
 
+
+
+        /// <summary>
+        /// Mouse Light 11
+        /// </summary>
+        [Description("Mouse Light 11")]
+        MOUSELIGHT11 = 1261,
+
+        /// <summary>
+        /// Mouse Light 12
+        /// </summary>
+        [Description("Mouse Light 12")]
+        MOUSELIGHT12 = 1262,
+
+        /// <summary>
+        /// Mouse Light 13
+        /// </summary>
+        [Description("Mouse Light 13")]
+        MOUSELIGHT13 = 1263,
+
+        /// <summary>
+        /// Mouse Light 14
+        /// </summary>
+        [Description("Mouse Light 14")]
+        MOUSELIGHT14 = 1264,
+
+        /// <summary>
+        /// Mouse Light 15
+        /// </summary>
+        [Description("Mouse Light 15")]
+        MOUSELIGHT15 = 1265,
+
         //////////////////////////////////////////////   MOUSEPADLIGHTS begin here 
         //////////////////////////////////////////////   "MOUSEPADLIGHTS" Range is 1301 - 1350
         //////////////////////////////////////////////   Added up to Nr. 20 Mousepad Lights (15 Originally)(Firefly Chroma 15)

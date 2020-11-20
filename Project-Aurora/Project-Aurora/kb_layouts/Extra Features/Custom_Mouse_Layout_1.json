@@ -1211,7 +1211,7 @@
 
 
     {
-      //"visualName": "Mouse Lights Border",
+      //"visualName": "Mouse Lights C0 Border",
       "tag": -1,
       "margin_left": -60.0,
       "margin_top": -122.0,
@@ -1271,6 +1271,73 @@
       "font_size": 6.0,
       "margin_left": 51.0,
       "margin_top": -119.0,
+      "width": 24.0,
+      "height": 24.0,
+      "enabled": true,
+      "absolute_location": true
+    },
+
+    {
+      //"visualName": "Mouse Lights C1 Border",
+      "tag": -1,
+      "margin_left": -60.0,
+      "margin_top": -342.0,
+      "width": 138.0,
+      "height": 30.0,
+      "z": 0.0,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "tag": 1261,
+      "visualName": "MOUSE LIGHT 11",
+      "font_size": 6.0,
+      "margin_left": -57.0,
+      "margin_top": -339.0,
+      "width": 24.0,
+      "height": 24.0,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "tag": 1262,
+      "visualName": "MOUSE LIGHT 12",
+      "font_size": 6.0,
+      "margin_left": -30.0,
+      "margin_top": -339.0,
+      "width": 24.0,
+      "height": 24.0,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "tag": 1263,
+      "visualName": "MOUSE LIGHT 13",
+      "font_size": 6.0,
+      "margin_left": -3.0,
+      "margin_top": -339.0,
+      "width": 24.0,
+      "height": 24.0,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "tag": 1264,
+      "visualName": "MOUSE LIGHT 14",
+      "font_size": 6.0,
+      "margin_left": 24.0,
+      "margin_top": -339.0,
+      "width": 24.0,
+      "height": 24.0,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "tag": 1265,
+      "visualName": "MOUSE LIGHT 15",
+      "font_size": 6.0,
+      "margin_left": 51.0,
+      "margin_top": -339.0,
       "width": 24.0,
       "height": 24.0,
       "enabled": true,
