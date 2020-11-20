@@ -311,35 +311,6 @@ namespace Aurora.Devices.OpenRGB
             DK.ADDITIONALLIGHT39,
             DK.ADDITIONALLIGHT40,
         });
-        public static readonly List<List<DK>> ALL_MOUSE_LIGHTS = new List<List<DK>>(new[] // (Type 6)
-        {
-            new List<DK>(new[]
-            {
-                 DK.MOUSELIGHT1,    // DK.MOUSELIGHT1,
-                 DK.MOUSELIGHT2,    // DK.MOUSELIGHT2,
-                 DK.MOUSELIGHT3,    // DK.MOUSELIGHT3,
-                 DK.MOUSELIGHT4,    // DK.MOUSELIGHT4,
-                 DK.MOUSELIGHT5,    // DK.MOUSELIGHT5,
-                 DK.ADDITIONALLIGHT6,    // DK.MOUSELIGHT6,
-                 DK.ADDITIONALLIGHT7,    // DK.MOUSELIGHT7,
-                 DK.ADDITIONALLIGHT8,    // DK.MOUSELIGHT8,
-                 DK.ADDITIONALLIGHT9,    // DK.MOUSELIGHT8,
-                 DK.ADDITIONALLIGHT10,   // DK.MOUSELIGHT10,
-            }),
-            new List<DK>(new[]
-            {
-                 DK.MOUSELIGHT11,    // DK.MOUSELIGHT11,
-                 DK.MOUSELIGHT12,    // DK.MOUSELIGHT12,
-                 DK.MOUSELIGHT13,    // DK.MOUSELIGHT13,
-                 DK.MOUSELIGHT14,    // DK.MOUSELIGHT14,
-                 DK.MOUSELIGHT15,    // DK.MOUSELIGHT15,
-                 DK.ADDITIONALLIGHT6,    // DK.MOUSELIGHT6,
-                 DK.ADDITIONALLIGHT7,    // DK.MOUSELIGHT7,
-                 DK.ADDITIONALLIGHT8,    // DK.MOUSELIGHT8,
-                 DK.ADDITIONALLIGHT9,    // DK.MOUSELIGHT8,
-                 DK.ADDITIONALLIGHT10,   // DK.MOUSELIGHT10,
-            })
-         });
 
     //   public static readonly List<DK> MOUSE_LIGHTS = new List<DK>(new[] // (Type 6)
     //   {
@@ -364,6 +335,7 @@ namespace Aurora.Devices.OpenRGB
     //       DK.ADDITIONALLIGHT19,   // DK.MOUSELIGHT19,
     //       DK.ADDITIONALLIGHT20,   // DK.MOUSELIGHT20, 
     //   });
+
         public static readonly List<DK> MOUSEPAD_LIGHTS = new List<DK>(new[] // (Type 7)
         {
             DK.MOUSEPADLIGHT15, //   Reversed Order to match my Firefly (without interupt Official SDKs Order)
@@ -590,6 +562,37 @@ namespace Aurora.Devices.OpenRGB
                 DK.NONE,
             })
         });
+
+        public static readonly List<List<DK>> ALL_MOUSE_LIGHTS = new List<List<DK>>(new[] // (Type 1)
+{
+            new List<DK>(new[]
+            {
+                 DK.MOUSELIGHT1,    // DK.MOUSELIGHT1,
+                 DK.MOUSELIGHT2,    // DK.MOUSELIGHT2,
+                 DK.MOUSELIGHT3,    // DK.MOUSELIGHT3,
+                 DK.MOUSELIGHT4,    // DK.MOUSELIGHT4,
+                 DK.MOUSELIGHT5,    // DK.MOUSELIGHT5,
+                 DK.ADDITIONALLIGHT6,    // DK.MOUSELIGHT6,
+                 DK.ADDITIONALLIGHT7,    // DK.MOUSELIGHT7,
+                 DK.ADDITIONALLIGHT8,    // DK.MOUSELIGHT8,
+                 DK.ADDITIONALLIGHT9,    // DK.MOUSELIGHT8,
+                 DK.ADDITIONALLIGHT10,   // DK.MOUSELIGHT10,
+            }),
+            new List<DK>(new[]
+            {
+                 DK.MOUSELIGHT11,    // DK.MOUSELIGHT11,
+                 DK.MOUSELIGHT12,    // DK.MOUSELIGHT12,
+                 DK.MOUSELIGHT13,    // DK.MOUSELIGHT13,
+                 DK.MOUSELIGHT14,    // DK.MOUSELIGHT14,
+                 DK.MOUSELIGHT15,    // DK.MOUSELIGHT15,
+                 DK.ADDITIONALLIGHT6,    // DK.MOUSELIGHT6,
+                 DK.ADDITIONALLIGHT7,    // DK.MOUSELIGHT7,
+                 DK.ADDITIONALLIGHT8,    // DK.MOUSELIGHT8,
+                 DK.ADDITIONALLIGHT9,    // DK.MOUSELIGHT8,
+                 DK.ADDITIONALLIGHT10,   // DK.MOUSELIGHT10,
+            })
+        });
+
 
         public static readonly List<List<List<DK>>> ALL_LED_LIGHTS = new List<List<List<DK>>>(new[] // (Type 4)
         {

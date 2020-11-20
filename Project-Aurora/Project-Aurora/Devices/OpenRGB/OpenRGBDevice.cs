@@ -46,6 +46,7 @@ namespace Aurora.Devices.OpenRGB
                 int ramIndex = 0;                                           // INDEX for RAM DEVICE Count
                 int ledLightIndex = 0;                                      // INDEX for LEDLIGHT DEVICE Count
                 int mouseIndex = 0;                                         // INDEX for MOUSELIGHT DEVICE Count
+
                 for (var i = 0; i < _devices.Length; i++)
                 {
                     var dev = _devices[i];
@@ -274,12 +275,20 @@ namespace Aurora.Devices.OpenRGB
                                     }
                                 }
                                 else
+//                               //  Method for Mouses with up to 20 LEDs (Type 6)
+//                               if (dev.Type == OpenRGBDeviceType.Mouse)
+//                               {
+//                                   if (k < 20)
+//                                   {
+//                                       _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.ALL_MOUSE_LIGHTS[mouseIndex][j][k];
+//                                   }
+//                                }
                                 //  Method for Mouses with up to 20 LEDs (Type 6)
                                 if (dev.Type == OpenRGBDeviceType.Mouse)
                                 {
                                     if (k < 20)
                                     {
-                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.ALL_MOUSE_LIGHTS[mouseIndex][j][k];
+                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.ALL_MOUSE_LIGHTS[j][k];
                                     }
                                 }
                                 else
@@ -310,24 +319,24 @@ namespace Aurora.Devices.OpenRGB
                                     }
                                 }
                                 else
-//                                //  Method for Gamepads with up to 20 LEDs (Type 10)
-//                                if (dev.Type == OpenRGBDeviceType.Gamepad)
-//                                {
-//                                    if (k < 20)
-//                                    {
-//                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.GAMEPAD_LIGHTS[k];
-//                                    }
-//                                }
-//                                else
-//                                //  Method for LIGHTs with up to 20 LEDs (Type 11)
-//                                if (dev.Type == OpenRGBDeviceType.Light)
-//                                {
-//                                    if (k < 20)
-//                                    {
-//                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.HUE_LIGHTS[k];
-//                                    }
-//                                }
-//                                else
+                                //  Method for Gamepads with up to 20 LEDs (Type 10)
+                                if (dev.Type == OpenRGBDeviceType.Gamepad)
+                                {
+                                    if (k < 20)
+                                    {
+                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.GAMEPAD_LIGHTS[k];
+                                    }
+                                }
+                                else
+                                //  Method for LIGHTs with up to 20 LEDs (Type 11)
+                                if (dev.Type == OpenRGBDeviceType.Light)
+                                {
+                                    if (k < 20)
+                                    {
+                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.HUE_LIGHTS[k];
+                                    }
+                                }
+                                else
                                 //  Method for Unknown Peripherals (Type 0)
                                 if (dev.Type == OpenRGBDeviceType.Unknown)
                                 {

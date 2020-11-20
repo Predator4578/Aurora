@@ -63,7 +63,7 @@
   </ItemGroup>
 
   <ItemGroup>
-	<PackageReference Include="Bloody.NET" Version="1.0.4"/>
+	<PackageReference Include="Bloody.NET" Version="1.0.4" />
     <PackageReference Include="Colore" Version="5.2.0" />
     <PackageReference Include="CorsairRGB.NET" Version="1.1.0" />
     <PackageReference Include="CS-Script" Version="3.30.0" />
@@ -78,7 +78,7 @@
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="NLog" Version="4.7.0" />
     <PackageReference Include="Octokit" Version="0.47.0" />
-    <PackageReference Include="OpenRGB.NET" Version="1.2.0" />
+    <PackageReference Include="OpenRGB.NET" Version="1.4.0" />
     <PackageReference Include="PropertyChanged.Fody" Version="3.2.8" />
     <PackageReference Include="SharpDX.Direct3D11" Version="4.0.1" />
     <PackageReference Include="SharpDX.RawInput" Version="4.0.1" />
