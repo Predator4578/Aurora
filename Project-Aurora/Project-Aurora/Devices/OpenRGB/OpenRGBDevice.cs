@@ -279,7 +279,7 @@ namespace Aurora.Devices.OpenRGB
                                 {
                                     if (k < 20)
                                     {
-                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.ALL_MOUSE_LIGHTS[j][k];
+                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.ALL_MOUSE_LIGHTS[mouseIndex][j][k];
                                     }
                                 }
                                 else
@@ -359,7 +359,7 @@ namespace Aurora.Devices.OpenRGB
                         ledLightIndex++;
                     }
                     else
-                    if (dev.Type == OpenRGBDeviceType.Mouse) //(Type 5)
+                    if (dev.Type == OpenRGBDeviceType.Mouse) //(Type 6)
                     {
                         mouseIndex++;
                     }
