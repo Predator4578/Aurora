@@ -13,15 +13,15 @@ namespace Aurora.Devices.OpenRGB
         ///
         public static readonly Dictionary<string, DK> MOBO_LOGO = new Dictionary<string, DK>() // (Type 0)
         {
-            { "Logo"                  , DK.MOBO_LOGO        },
+            { "Logo"                  , DK.MOBO_LOGO          },
             };
         public static readonly Dictionary<string, DK> DRAM_LOGO = new Dictionary<string, DK>() // (Type 1)
         {
-            { "Logo"                  , DK.DRAM_LOGO        }, // DRAM_LOGO
+            { "Logo"                  , DK.DRAM_LOGO          }, // DRAM_LOGO
             };
         public static readonly Dictionary<string, DK> GPU_LOGO = new Dictionary<string, DK>() // (Type 2)
         {
-            { "GPU LED"                  , DK.GPU_LOGO        }, // GPU_LOGO
+            { "GPU LED"               , DK.GPU_LOGO           }, // GPU_LOGO
             };
         public static readonly Dictionary<string, DK> COOLER_LOGO = new Dictionary<string, DK>() // (Type 3)
         {
@@ -29,7 +29,7 @@ namespace Aurora.Devices.OpenRGB
             };
         public static readonly Dictionary<string, DK> LEDSTRIP_LOGO = new Dictionary<string, DK>() // (Type 4)
         {
-            { "Logo"                  , DK.Peripheral_Logo        },
+            { "Logo"                  , DK.Peripheral_Logo    },
             };
         public static readonly Dictionary<string, DK> Keyboard = new Dictionary<string, DK>() // (Type 5)
         {
@@ -188,7 +188,11 @@ namespace Aurora.Devices.OpenRGB
             };
         public static readonly Dictionary<string, DK> LIGHT_LOGO = new Dictionary<string, DK>() // (Type 11)
         {
-            { "Logo"                  , DK.HUE_LOGO        }, // LIGHT_LOGO
+            { "Logo"                  , DK.HUE_LOGO             }, // LIGHT_LOGO
+//           { "RGB Light"             , DK.HUELIGHT1            }, // 
+//           { "RGB Light"             , DK.HUELIGHT2            },
+//           { "RGB Light"             , DK.HUELIGHT3            },
+//           { "RGB Light"             , DK.HUELIGHT4            },
             };
         public static readonly Dictionary<string, DK> UNKNOWN_LOGO = new Dictionary<string, DK>() // (Type 0?)
         {
@@ -414,7 +418,7 @@ namespace Aurora.Devices.OpenRGB
             DK.HEADSETSTANDLIGHT5,
         });
         public static readonly List<DK> HUE_LIGHTS = new List<DK>(new[] // (Type 11)
-{
+        {
             DK.HUELIGHT1,
             DK.HUELIGHT2,
             DK.HUELIGHT3,
@@ -563,7 +567,7 @@ namespace Aurora.Devices.OpenRGB
             })
         });
 
-        public static readonly List<List<DK>> ALL_MOUSE_LIGHTS = new List<List<DK>>(new[] // (Type 1)
+        public static readonly List<List<DK>> ALL_MOUSE_LIGHTS = new List<List<DK>>(new[] // (Type 6)
 {
             new List<DK>(new[]
             {
