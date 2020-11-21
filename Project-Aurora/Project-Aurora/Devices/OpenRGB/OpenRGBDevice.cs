@@ -91,6 +91,11 @@ namespace Aurora.Devices.OpenRGB
                             }
                             else
                             {
+                                _keyMappings[i].Add(DK.GPULIGHT1);
+                                _keyMappings[i].Add(DK.GPULIGHT2);
+                                _keyMappings[i].Add(DK.GPULIGHT3);
+                                _keyMappings[i].Add(DK.GPULIGHT4);
+                                _keyMappings[i].Add(DK.GPULIGHT5);
                                 _keyMappings[i].Add(DK.GPU_LOGO); // DK.GPU_LOGO - Done
                             }
                         }
