@@ -168,7 +168,7 @@ namespace Aurora.Devices.OpenRGB
             { "Scroll Wheel"          , DK.Peripheral_ScrollWheel   },
             { "DPI"                   , DK.Peripheral_ScrollWheel   },
             { "Front"                 , DK.Peripheral_FrontLight    },
-            { "Wheel LED"             , DK.Peripheral_ScrollWheel   },
+            { "Wheel LED"             , DK.Peripheral_Logo          },
             { "Lower left LED"        , DK.MOUSELIGHT1              },
             { "Lower right LED"       , DK.MOUSELIGHT11             },
         };
