@@ -145,14 +145,6 @@ namespace Aurora.Devices.OpenRGB
                             }
                             else
                             {
-                                _keyMappings[i].Add(DK.MOUSELIGHT1);
-                                _keyMappings[i].Add(DK.MOUSELIGHT11);
-                                _keyMappings[i].Add(DK.Peripheral_Logo);
-                                _keyMappings[i].Add(DK.Peripheral_Logo);
-                                _keyMappings[i].Add(DK.Peripheral_Logo);
-                                _keyMappings[i].Add(DK.Peripheral_Logo);
-                                _keyMappings[i].Add(DK.Peripheral_Logo);
-                                _keyMappings[i].Add(DK.Peripheral_Logo);
                                 _keyMappings[i].Add(DK.Peripheral_Logo);
                             }
                         }
