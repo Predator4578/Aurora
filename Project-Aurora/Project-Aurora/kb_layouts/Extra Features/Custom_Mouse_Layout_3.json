@@ -3211,10 +3211,10 @@
       "absolute_location": true
     },
     {
-      "visualName": "TEST M LINKS WIDE UNTEN",
+      "visualName": "TEST KB LINKS UNTEN",
       "tag": -1,
-      "margin_left": -1725.0,
-      "margin_top": 90.0,
+      "margin_left": -80.0,
+      "margin_top": 415.0,
       "width": 80.0,
       "height": 10.0,
       "font_size": 6.0,
@@ -3222,10 +3222,10 @@
       "absolute_location": true
     },
     {
-      "visualName": "TEST M RECHTS OBEN",
+      "visualName": "TEST KB RECHTS OBEN",
       "tag": -1,
-      "margin_left": 800.0,
-      "margin_top": -425.0,
+      "margin_left": 748.0,
+      "margin_top": -100.0,
       "width": 80.0,
       "height": 10.0,
       "font_size": 6.0,
@@ -3233,10 +3233,10 @@
       "absolute_location": true
     },
     {
-      "visualName": "TEST M RECHTS UNTEN",
+      "visualName": "TEST KB RECHTS UNTEN",
       "tag": -1,
-      "margin_left": 800.0,
-      "margin_top": 90.0,
+      "margin_left": 748.0,
+      "margin_top": 415.0,
       "width": 80.0,
       "height": 10.0,
       "font_size": 6.0,
