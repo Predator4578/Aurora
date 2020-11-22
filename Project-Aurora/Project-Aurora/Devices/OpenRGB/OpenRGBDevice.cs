@@ -44,6 +44,7 @@ namespace Aurora.Devices.OpenRGB
                 _keyMappings = new List<DK>[_devices.Length];
 
                 int ramIndex = 0;                                           // INDEX for RAM DEVICE Count
+                int mousestripIndex = 0;                                    // INDEX for RAM DEVICE Count
                 int ledLightIndex = 0;                                      // INDEX for LEDLIGHT DEVICE Count
 
                 for (var i = 0; i < _devices.Length; i++)
@@ -144,8 +145,10 @@ namespace Aurora.Devices.OpenRGB
                             }
                             else
                             {
-                                _keyMappings[i].Add(DK.MOUSELIGHT5);
-                                _keyMappings[i].Add(DK.MOUSELIGHT15);
+                                _keyMappings[i].Add(DK.Peripheral_Logo);
+                                _keyMappings[i].Add(DK.MOUSELIGHT1);
+                                _keyMappings[i].Add(DK.MOUSELIGHT11);
+                                _keyMappings[i].Add(DK.Peripheral_Logo);
                                 _keyMappings[i].Add(DK.Peripheral_Logo);
                                 _keyMappings[i].Add(DK.Peripheral_Logo);
                                 _keyMappings[i].Add(DK.Peripheral_Logo);
@@ -291,22 +294,22 @@ namespace Aurora.Devices.OpenRGB
                                     }
                                 }
                                 else
-//                               //  Method for Mouses with up to 20 LEDs (Type 6)
-//                               if (dev.Type == OpenRGBDeviceType.Mouse)
-//                               {
-//                                   if (k < 20)
-//                                   {
-//                                       _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.ALL_MOUSE_LIGHTS[mouseIndex][j][k];
-//                                   }
-//                                }
-                                //  Method for Mouses with up to 20 LEDs (Type 6)
-                                if (dev.Type == OpenRGBDeviceType.Mouse)
-                                {
-                                    if (k < 20)
-                                    {
-                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.MOUSE_LIGHTS[k];
-                                    }
+                               //  Method for Mouses with up to 20 LEDs (Type 6)
+                               if (dev.Type == OpenRGBDeviceType.Mouse)
+                               {
+                                   if (k < 20)
+                                   {
+                                       _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.ALL_MOUSE_LIGHTS[mousestripIndex][k];
+                                   }
                                 }
+//                                //  Method for Mouses with up to 20 LEDs (Type 6)
+//                                if (dev.Type == OpenRGBDeviceType.Mouse)
+//                                {
+//                                    if (k < 20)
+//                                    {
+//                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.MOUSE_LIGHTS[k];
+//                                    }
+//                                }
                                 else
                                 //  Method for Mousepads with up to 20 LEDs (Type 7)
                                 if (dev.Type == OpenRGBDeviceType.Mousemat)
@@ -377,6 +380,12 @@ namespace Aurora.Devices.OpenRGB
                     if (dev.Type == OpenRGBDeviceType.Dram) //(Type 1)
                     {
                         ramIndex++;
+                    }
+                    else
+                    if
+                        (dev.Type == OpenRGBDeviceType.Mouse) //(Type 6)
+                    {
+                        mousestripIndex++;
                     }
                     else
                     if (dev.Type == OpenRGBDeviceType.Ledstrip) //(Type 4)
