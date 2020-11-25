@@ -169,8 +169,8 @@ namespace Aurora.Devices.OpenRGB
             { "DPI"                   , DK.Peripheral_ScrollWheel   },
             { "Front"                 , DK.Peripheral_FrontLight    },
             { "Wheel LED"             , DK.Peripheral_Logo          },
-            { "Lower left LED"        , DK.MOUSELIGHT1              },
-            { "Lower right LED"       , DK.MOUSELIGHT11             },
+            { "Lower left LED"        , DK.MOUSELIGHT11              },
+            { "Lower right LED"       , DK.MOUSELIGHT1             },
         };
         public static readonly Dictionary<string, DK> MOUSEMAT_LOGO = new Dictionary<string, DK>() // (Type 7)
         {
