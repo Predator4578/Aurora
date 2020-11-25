@@ -570,10 +570,58 @@ namespace Aurora.Devices.OpenRGB
             })
         });
 
-        public static readonly List<List<DK>> ALL_MOUSE_LIGHTS = new List<List<DK>>(new[] // (Type 6)
-{
-            new List<DK>(new[]  // Mouse Zone 1 of 2 (Currently 2)
+ //       public static readonly List<List<DK>> ALL_MOUSE_LIGHTS = new List<List<DK>>(new[] // (Type 6)
+ //       {
+ //
+ //
+ //      public static readonly List<List<List<DK>>> ALL_LED_LIGHTS = new List<List<List<DK>>>(new[] // (Type 4)
+ //       {
+ //           new List<List<DK>>(new[] // Third Device
+ //           {
+ //               new List<DK>(new[] // Third Device, Channel 0
+ //               {
+ //
+ //
+ //
+ //           new List<DK>(new[]  // Mouse Zone 1 of 2 (Currently 2)
+ //           {
+ //               DK.MOUSELIGHT2,    // DK.MOUSELIGHT2,
+ //               DK.MOUSELIGHT3,    // DK.MOUSELIGHT3,
+ //               DK.MOUSELIGHT4,    // DK.MOUSELIGHT4,
+ //               DK.MOUSELIGHT5,    // DK.MOUSELIGHT5,
+ //               DK.ADDITIONALLIGHT6,    // DK.MOUSELIGHT6,
+ //               DK.ADDITIONALLIGHT7,    // DK.MOUSELIGHT7,
+ //               DK.ADDITIONALLIGHT8,    // DK.MOUSELIGHT8,
+ //               DK.ADDITIONALLIGHT9,    // DK.MOUSELIGHT8,
+ //               DK.ADDITIONALLIGHT10,   // DK.MOUSELIGHT10,
+ //               DK.ADDITIONALLIGHT11,   // DK.MOUSELIGHT11,
+ //           }),
+ //           new List<DK>(new[]  // Mouse Zone 2 of 2 (Currently 2)
+ //           {
+ //               DK.MOUSELIGHT12,    // DK.MOUSELIGHT12,
+ //               DK.MOUSELIGHT13,    // DK.MOUSELIGHT13,
+ //               DK.MOUSELIGHT14,    // DK.MOUSELIGHT14,
+ //               DK.MOUSELIGHT15,    // DK.MOUSELIGHT15,
+ //               DK.ADDITIONALLIGHT6,    // DK.MOUSELIGHT6,
+ //               DK.ADDITIONALLIGHT7,    // DK.MOUSELIGHT7,
+ //               DK.ADDITIONALLIGHT8,    // DK.MOUSELIGHT8,
+ //               DK.ADDITIONALLIGHT9,    // DK.MOUSELIGHT8,
+ //               DK.ADDITIONALLIGHT10,   // DK.MOUSELIGHT10,
+ //               DK.ADDITIONALLIGHT11,   // DK.MOUSELIGHT11,
+ //
+ //
+ //               }),
+ //           }),
+ //       });
+ //   }
+
+
+    public static readonly List<List<List<DK>>> ALL_MOUSE_LIGHTS = new List<List<List<DK>>>(new[] // (Type 4)
+  {
+            new List<List<DK>>(new[] // First Mouse Device
             {
+                new List<DK>(new[] // First Mouse Device, Channel 0
+                {
                 DK.MOUSELIGHT2,    // DK.MOUSELIGHT2,
                 DK.MOUSELIGHT3,    // DK.MOUSELIGHT3,
                 DK.MOUSELIGHT4,    // DK.MOUSELIGHT4,
@@ -584,9 +632,9 @@ namespace Aurora.Devices.OpenRGB
                 DK.ADDITIONALLIGHT9,    // DK.MOUSELIGHT8,
                 DK.ADDITIONALLIGHT10,   // DK.MOUSELIGHT10,
                 DK.ADDITIONALLIGHT11,   // DK.MOUSELIGHT11,
-            }),
-            new List<DK>(new[]  // Mouse Zone 2 of 2 (Currently 2)
-            {
+                }),
+                new List<DK>(new[] // First Mouse Device, Channel 1
+                {
                 DK.MOUSELIGHT12,    // DK.MOUSELIGHT12,
                 DK.MOUSELIGHT13,    // DK.MOUSELIGHT13,
                 DK.MOUSELIGHT14,    // DK.MOUSELIGHT14,
@@ -597,10 +645,92 @@ namespace Aurora.Devices.OpenRGB
                 DK.ADDITIONALLIGHT9,    // DK.MOUSELIGHT8,
                 DK.ADDITIONALLIGHT10,   // DK.MOUSELIGHT10,
                 DK.ADDITIONALLIGHT11,   // DK.MOUSELIGHT11,
-            })
+                }),
+                new List<DK>(new[] // First Mouse Device, Channel 2 (mapped to 0)
+                {
+                DK.MOUSELIGHT2,    // DK.MOUSELIGHT2,
+                DK.MOUSELIGHT3,    // DK.MOUSELIGHT3,
+                DK.MOUSELIGHT4,    // DK.MOUSELIGHT4,
+                DK.MOUSELIGHT5,    // DK.MOUSELIGHT5,
+                DK.ADDITIONALLIGHT6,    // DK.MOUSELIGHT6,
+                DK.ADDITIONALLIGHT7,    // DK.MOUSELIGHT7,
+                DK.ADDITIONALLIGHT8,    // DK.MOUSELIGHT8,
+                DK.ADDITIONALLIGHT9,    // DK.MOUSELIGHT8,
+                DK.ADDITIONALLIGHT10,   // DK.MOUSELIGHT10,
+                DK.ADDITIONALLIGHT11,   // DK.MOUSELIGHT11,
+                }),
+                new List<DK>(new[] // First Mouse Device, Channel 3 (mapped to 1)
+                {
+                DK.MOUSELIGHT12,    // DK.MOUSELIGHT12,
+                DK.MOUSELIGHT13,    // DK.MOUSELIGHT13,
+                DK.MOUSELIGHT14,    // DK.MOUSELIGHT14,
+                DK.MOUSELIGHT15,    // DK.MOUSELIGHT15,
+                DK.ADDITIONALLIGHT6,    // DK.MOUSELIGHT6,
+                DK.ADDITIONALLIGHT7,    // DK.MOUSELIGHT7,
+                DK.ADDITIONALLIGHT8,    // DK.MOUSELIGHT8,
+                DK.ADDITIONALLIGHT9,    // DK.MOUSELIGHT8,
+                DK.ADDITIONALLIGHT10,   // DK.MOUSELIGHT10,
+                DK.ADDITIONALLIGHT11,   // DK.MOUSELIGHT11,
+                }),
+            }),
+            new List<List<DK>>(new[] // Second Mouse Device
+            {
+                new List<DK>(new[] // Second Mouse Device, Channel 0
+                {
+                DK.MOUSELIGHT2,    // DK.MOUSELIGHT2,
+                DK.MOUSELIGHT3,    // DK.MOUSELIGHT3,
+                DK.MOUSELIGHT4,    // DK.MOUSELIGHT4,
+                DK.MOUSELIGHT5,    // DK.MOUSELIGHT5,
+                DK.ADDITIONALLIGHT6,    // DK.MOUSELIGHT6,
+                DK.ADDITIONALLIGHT7,    // DK.MOUSELIGHT7,
+                DK.ADDITIONALLIGHT8,    // DK.MOUSELIGHT8,
+                DK.ADDITIONALLIGHT9,    // DK.MOUSELIGHT8,
+                DK.ADDITIONALLIGHT10,   // DK.MOUSELIGHT10,
+                DK.ADDITIONALLIGHT11,   // DK.MOUSELIGHT11,
+                }),
+                new List<DK>(new[] // Second Mouse Device, Channel 1
+                {
+                DK.MOUSELIGHT12,    // DK.MOUSELIGHT12,
+                DK.MOUSELIGHT13,    // DK.MOUSELIGHT13,
+                DK.MOUSELIGHT14,    // DK.MOUSELIGHT14,
+                DK.MOUSELIGHT15,    // DK.MOUSELIGHT15,
+                DK.ADDITIONALLIGHT6,    // DK.MOUSELIGHT6,
+                DK.ADDITIONALLIGHT7,    // DK.MOUSELIGHT7,
+                DK.ADDITIONALLIGHT8,    // DK.MOUSELIGHT8,
+                DK.ADDITIONALLIGHT9,    // DK.MOUSELIGHT8,
+                DK.ADDITIONALLIGHT10,   // DK.MOUSELIGHT10,
+                DK.ADDITIONALLIGHT11,   // DK.MOUSELIGHT11,
+                }),
+                new List<DK>(new[] // Second Mouse Device, Channel 2 (mapped to 0)
+                {
+                DK.MOUSELIGHT2,    // DK.MOUSELIGHT2,
+                DK.MOUSELIGHT3,    // DK.MOUSELIGHT3,
+                DK.MOUSELIGHT4,    // DK.MOUSELIGHT4,
+                DK.MOUSELIGHT5,    // DK.MOUSELIGHT5,
+                DK.ADDITIONALLIGHT6,    // DK.MOUSELIGHT6,
+                DK.ADDITIONALLIGHT7,    // DK.MOUSELIGHT7,
+                DK.ADDITIONALLIGHT8,    // DK.MOUSELIGHT8,
+                DK.ADDITIONALLIGHT9,    // DK.MOUSELIGHT8,
+                DK.ADDITIONALLIGHT10,   // DK.MOUSELIGHT10,
+                DK.ADDITIONALLIGHT11,   // DK.MOUSELIGHT11,
+                }),
+                new List<DK>(new[] // Second Mouse Device, Channel 3 (mapped to 1)
+                {
+                DK.MOUSELIGHT12,    // DK.MOUSELIGHT12,
+                DK.MOUSELIGHT13,    // DK.MOUSELIGHT13,
+                DK.MOUSELIGHT14,    // DK.MOUSELIGHT14,
+                DK.MOUSELIGHT15,    // DK.MOUSELIGHT15,
+                DK.ADDITIONALLIGHT6,    // DK.MOUSELIGHT6,
+                DK.ADDITIONALLIGHT7,    // DK.MOUSELIGHT7,
+                DK.ADDITIONALLIGHT8,    // DK.MOUSELIGHT8,
+                DK.ADDITIONALLIGHT9,    // DK.MOUSELIGHT8,
+                DK.ADDITIONALLIGHT10,   // DK.MOUSELIGHT10,
+                DK.ADDITIONALLIGHT11,   // DK.MOUSELIGHT11,
+                }),
+            }),
         });
 
-        public static readonly List<List<List<DK>>> ALL_LED_LIGHTS = new List<List<List<DK>>>(new[] // (Type 4)
+    public static readonly List<List<List<DK>>> ALL_LED_LIGHTS = new List<List<List<DK>>>(new[] // (Type 4)
         {
             new List<List<DK>>(new[] // Third Device
             {

@@ -290,7 +290,7 @@ namespace Aurora.Devices.OpenRGB
                                {
                                    if (k < 20)
                                    {
-                                       _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.ALL_MOUSE_LIGHTS[mousestripIndex][k];
+                                       _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.ALL_MOUSE_LIGHTS[mousestripIndex][j][k];
                                    }
                                 }
 //                                //  Method for Mouses with up to 20 LEDs (Type 6)
