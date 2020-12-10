@@ -1,0 +1,66 @@
+{
+  "group_tag": "keyboard",
+  "origin_region": 3,
+  "grouped_keys": [
+    {
+      "visualName": "LOGO",
+      "tag": 128,
+      "margin_left": 395.0,
+      "margin_top": 0.0,
+      "width": 30.0,
+      "height": 30.0,
+      "font_size": 9.0,
+      "width_bits": 3,
+      "height_bits": 3,
+      "margin_left_bits": 32,
+      "margin_top_bits": 0,
+      "image": "Razer_logo.png",
+      "enabled": true,
+      "absolute_location": true
+    
+    },
+
+    //////////////////////////////////////////////   TEST MARKER START HERE
+    //////////////////////////////////////////////   Creating Device for TEST 
+    //////////////////////////////////////////////   a Specific Coordinate on Layout
+    //    
+    //////////////////////////////////////////////   BORDER MARKERS START HERE
+    //////////////////////////////////////////////   Creating Devices for seamless Setup
+    //////////////////////////////////////////////   Mouse and Keyboard Layouts
+    {
+      "visualName": "TEST KB LINKS OBEN",
+      "tag": -1,
+      "margin_left": -100.0,
+      "margin_top": -393.0,
+      "width": 80.0,
+      "height": 10.0,
+      "font_size": 6.0,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "visualName": "TEST KB LINKS UNTEN",
+      "tag": -1,
+      "margin_left": -100.0,
+      "margin_top": 120.0,
+      "width": 80.0,
+      "height": 10.0,
+      "font_size": 6.0,
+      "enabled": true,
+      "absolute_location": true
+    },
+    
+    {
+      "visualName": "TEST KB RECHTS UNTEN",
+      "tag": -1,
+      "margin_left": 800.0,
+      "margin_top": 290.0,
+      "width": 80.0,
+      "height": 10.0,
+      "font_size": 6.0,
+      "enabled": true,
+      "absolute_location": true
+    }
+  ]
+}
+ 
