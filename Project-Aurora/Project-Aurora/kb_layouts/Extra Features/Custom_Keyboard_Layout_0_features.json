@@ -774,7 +774,7 @@
     {
       "visualName": "TEST KB LINKS OBEN",
       "tag": -1,
-      "margin_left": -80.0,
+      "margin_left": -50.0,
       "margin_top": -100.0,
       "width": 80.0,
       "height": 10.0,
@@ -785,7 +785,7 @@
     {
       "visualName": "TEST KB LINKS UNTEN",
       "tag": -1,
-      "margin_left": -80.0,
+      "margin_left": -50.0,
       "margin_top": 415.0,
       "width": 80.0,
       "height": 10.0,

@@ -155,22 +155,24 @@ namespace Aurora.Settings
         None = 0,
 
         // Custom Layouts here
+        [Description("Custom Keyboard Layout 0")]
+        Custom_Keyboard_Layout_0 = 1,
         [Description("Custom Keyboard Layout 1")]
-        Custom_Keyboard_Layout_1 = 1,
+        Custom_Keyboard_Layout_1 = 2,
         [Description("Custom Keyboard Layout 2")]
-        Custom_Keyboard_Layout_2 = 2,
+        Custom_Keyboard_Layout_2 = 3,
         [Description("Custom Keyboard Layout 3")]
-        Custom_Keyboard_Layout_3 = 3,
+        Custom_Keyboard_Layout_3 = 4,
 
         // Custom USER Layouts here
         [Description("Logitech - G910 - Codename-Antares Edition")]
-        Logitech_G910_Codename_Antares_Edition = 4,
+        Logitech_G910_Codename_Antares_Edition = 5,
 
         [Description("Generic Laptop")]
-        GenericLaptop = 5,
+        GenericLaptop = 10,
 
         [Description("Generic Laptop (Numpad)")]
-        GenericLaptopNumpad = 6,
+        GenericLaptopNumpad = 11,
 
         /*
         [Description("Logitech")]
@@ -370,21 +372,23 @@ namespace Aurora.Settings
         None = 0,
 
         //Custom Layouts here
+        [Description("Custom Mouse Layout 0")]
+        Custom_Mouse_Layout_0 = 1,
         [Description("Custom Mouse Layout 1")]
-        Custom_Mouse_Layout_1 = 1,
+        Custom_Mouse_Layout_1 = 2,
         [Description("Custom Mouse Layout 2")]
-        Custom_Mouse_Layout_2 = 2,
+        Custom_Mouse_Layout_2 = 3,
         [Description("Custom Mouse Layout 3")]
-        Custom_Mouse_Layout_3 = 3,
+        Custom_Mouse_Layout_3 = 4,
 
         //Custom User Layouts here
         [Description("Razer/Corsair Mousepad + Mouse - Codename Antares Edition")]
-        Generic_Mousepad_Codename_Antares_Edition = 4,
+        Generic_Mousepad_Codename_Antares_Edition = 5,
 
         [Description("Generic Peripheral")]
-        Generic_Peripheral = 5,
+        Generic_Peripheral = 10,
         [Description("Razer/Corsair Mousepad + Mouse")]
-        Generic_Mousepad = 6,
+        Generic_Mousepad = 11,
 
         //Logitech range is 100-199
         [Description("Logitech - G900")]

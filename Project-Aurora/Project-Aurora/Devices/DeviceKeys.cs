@@ -1909,6 +1909,98 @@ namespace Aurora.Devices
         [Description("Mainboard Light 5")]
         MOBOLIGHT5 = 1505,
 
+        /// <summary>
+        /// MOBO Light 6
+        /// </summary>
+        [Description("Mainboard Light 6")]
+        MOBOLIGHT6 = 1506,
+
+        /// <summary>
+        /// MOBO Light 7
+        /// </summary>
+        [Description("Mainboard Light 7")]
+        MOBOLIGHT7 = 1507,
+
+        /// <summary>
+        /// MOBO Light 8
+        /// </summary>
+        [Description("Mainboard Light 8")]
+        MOBOLIGHT8 = 1508,
+
+        /// <summary>
+        /// MOBO Light 9
+        /// </summary>
+        [Description("Mainboard Light 9")]
+        MOBOLIGHT9 = 1509,
+
+        /// <summary>
+        /// MOBO Light 10
+        /// </summary>
+        [Description("Mainboard Light 10")]
+        MOBOLIGHT10 = 1510,
+
+        /// <summary>
+        /// MOBO Light 1
+        /// </summary>
+        [Description("Mainboard Light 11")]
+        MOBOLIGHT11 = 1511,
+
+        /// <summary>
+        /// MOBO Light 2
+        /// </summary>
+        [Description("Mainboard Light 12")]
+        MOBOLIGHT12 = 1512,
+
+        /// <summary>
+        /// MOBO Light 3
+        /// </summary>
+        [Description("Mainboard Light 13")]
+        MOBOLIGHT13 = 1513,
+
+        /// <summary>
+        /// MOBO Light 4
+        /// </summary>
+        [Description("Mainboard Light 14")]
+        MOBOLIGHT14 = 1514,
+
+        /// <summary>
+        /// MOBO Light 5
+        /// </summary>
+        [Description("Mainboard Light 15")]
+        MOBOLIGHT15 = 1515,
+
+        /// <summary>
+        /// MOBO Light 6
+        /// </summary>
+        [Description("Mainboard Light 16")]
+        MOBOLIGHT16 = 1516,
+
+        /// <summary>
+        /// MOBO Light 7
+        /// </summary>
+        [Description("Mainboard Light 17")]
+        MOBOLIGHT17 = 1517,
+
+        /// <summary>
+        /// MOBO Light 8
+        /// </summary>
+        [Description("Mainboard Light 18")]
+        MOBOLIGHT18 = 1518,
+
+        /// <summary>
+        /// MOBO Light 9
+        /// </summary>
+        [Description("Mainboard Light 19")]
+        MOBOLIGHT19 = 1519,
+
+        /// <summary>
+        /// MOBO Light 10
+        /// </summary>
+        [Description("Mainboard Light 20")]
+        MOBOLIGHT20 = 1520,
+
+
+
         //////////////////////////////////////////////   COOLERLIGHTS begin here 
         //////////////////////////////////////////////   COOLERLIGHTS Range 1601 - 1650 
         //////////////////////////////////////////////   Added up to 8 Cooler Lights (NZXT KRAKEN SERIES X62)

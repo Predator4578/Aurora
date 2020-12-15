@@ -43,8 +43,9 @@ namespace Aurora.Devices.OpenRGB
                 _deviceColors = new OpenRGBColor[_devices.Length][];
                 _keyMappings = new List<DK>[_devices.Length];
 
+                int moboIndex = 0;                                          // INDEX for Mainboard DEVICE Count
                 int ramIndex = 0;                                           // INDEX for RAM DEVICE Count
-                int mousestripIndex = 0;                                    // INDEX for RAM DEVICE Count
+                int mousestripIndex = 0;                                    // INDEX for Mousestrip DEVICE Count
                 int ledLightIndex = 0;                                      // INDEX for LEDLIGHT DEVICE Count
 
                 for (var i = 0; i < _devices.Length; i++)
@@ -232,9 +233,9 @@ namespace Aurora.Devices.OpenRGB
                                 //  Method for Motherboards with up to 5 LEDs (Type 0)
                                 if (dev.Type == OpenRGBDeviceType.Motherboard)
                                 {
-                                    if (k < 5)
+                                    if (k < 100)
                                     {
-                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.MOBO_LIGHTS[k];
+                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.ALL_MOBO_LIGHTS[moboIndex][j][k];
                                     }
                                 }
                                 else
@@ -244,7 +245,7 @@ namespace Aurora.Devices.OpenRGB
                                 {
                                     if (k < 25)
                                     {
-                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.All_RAM_LIGHTS[ramIndex][k];
+                                        _keyMappings[i][(int)(LedOffset + k)] = OpenRGBKeyNames.ALL_RAM_LIGHTS[ramIndex][k];
                                     }
                                 }
                                 else
@@ -371,6 +372,12 @@ namespace Aurora.Devices.OpenRGB
                     if (dev.Type == OpenRGBDeviceType.Dram) //(Type 1)
                     {
                         ramIndex++;
+                    }
+                    else
+                    if
+                        (dev.Type == OpenRGBDeviceType.Motherboard) //(Type 2)
+                    {
+                       moboIndex++;
                     }
                     else
                     if

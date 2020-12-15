@@ -688,7 +688,9 @@ namespace Aurora.Settings
 
             var layoutConfigPath = "";
 
-            if (keyboard_preference == PreferredKeyboard.Custom_Keyboard_Layout_1)
+            if (keyboard_preference == PreferredKeyboard.Custom_Keyboard_Layout_0)
+                layoutConfigPath = Path.Combine(layoutsPath, "Custom_Keyboard_Layout_0.json");
+            else if (keyboard_preference == PreferredKeyboard.Custom_Keyboard_Layout_1)
                 layoutConfigPath = Path.Combine(layoutsPath, "Custom_Keyboard_Layout_1.json");
             else if (keyboard_preference == PreferredKeyboard.Custom_Keyboard_Layout_2)
                 layoutConfigPath = Path.Combine(layoutsPath, "Custom_Keyboard_Layout_2.json");
@@ -869,6 +871,9 @@ namespace Aurora.Settings
 
                 switch (mouse_preference)
                 {
+                    case PreferredMouse.Custom_Mouse_Layout_0:
+                        mouse_feature_path = Path.Combine(layoutsPath, "Extra Features", "Custom_Mouse_Layout_0.json");
+                        break;
                     case PreferredMouse.Custom_Mouse_Layout_1:
                         mouse_feature_path = Path.Combine(layoutsPath, "Extra Features", "Custom_Mouse_Layout_1.json");
                         break;
