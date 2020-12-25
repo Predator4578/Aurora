@@ -473,114 +473,128 @@ namespace Aurora.Devices.OpenRGB
             {
                 new List<DK>(new[] // First Mouse Device, Channel 0
                 {
-
-//      public static readonly List<List<DK>> ALL_MOBO_LIGHTS = new List<List<DK>>(new[] // (Type 1)
-//      {
-//          new List<DK>(new[]
-//          {
-                DK.C0LEDLIGHT1,      // MOBO 1-10
-                DK.C0LEDLIGHT1,
-                DK.C0LEDLIGHT2,
-                DK.C0LEDLIGHT3,
-                DK.C0LEDLIGHT4,
-                DK.C0LEDLIGHT5,
-                DK.C0LEDLIGHT6,
-                DK.C0LEDLIGHT7,
-                DK.C0LEDLIGHT8,
-                DK.C0LEDLIGHT9,
-                DK.C0LEDLIGHT10,
+                DK.MOBOLIGHT1,      // MOBO Aura Zones + RGB Header
+                DK.MOBOLIGHT2,
+                DK.MOBOLIGHT3,
+                DK.MOBOLIGHT4,
+                DK.MOBOLIGHT5,
+                DK.MOBOLIGHT6,
+                DK.MOBOLIGHT7,
+                DK.MOBOLIGHT8,
+                DK.MOBOLIGHT9,
+                DK.MOBOLIGHT10,
                 }),
                 new List<DK>(new[] // MOBO ARGB Header 1, (WS2812B)
                 {
-                DK.C1LEDLIGHT1,
-                DK.C1LEDLIGHT2,
-                DK.C1LEDLIGHT3,
-                DK.C1LEDLIGHT4,
-                DK.C1LEDLIGHT5,
-                DK.C1LEDLIGHT6,
-                DK.C1LEDLIGHT7,
-                DK.C1LEDLIGHT8,
-                DK.C1LEDLIGHT9,
-                DK.C1LEDLIGHT10,
-                DK.C1LEDLIGHT11,
-                DK.C1LEDLIGHT12,
-                DK.C1LEDLIGHT13,
-                DK.C1LEDLIGHT14,
-                DK.C1LEDLIGHT15,
-                DK.C1LEDLIGHT16,
-                DK.C1LEDLIGHT17,
-                DK.C1LEDLIGHT18,
-                DK.C1LEDLIGHT19,
-                DK.C1LEDLIGHT20,
-                DK.C1LEDLIGHT21,
-                DK.C1LEDLIGHT22,
-                DK.C1LEDLIGHT23,
-                DK.C1LEDLIGHT24,
-                DK.C1LEDLIGHT25,
-                DK.C1LEDLIGHT26,
-                DK.C1LEDLIGHT27,
-                DK.C1LEDLIGHT28,
-                DK.C1LEDLIGHT29,
-                DK.C1LEDLIGHT30,
-                DK.C1LEDLIGHT31,
-                DK.C1LEDLIGHT32,
-                DK.C1LEDLIGHT33,
-                DK.C1LEDLIGHT34,
-                DK.C1LEDLIGHT35,
-                DK.C1LEDLIGHT36,
-                DK.C1LEDLIGHT37,
-                DK.C1LEDLIGHT38,
-                DK.C1LEDLIGHT39,
-                DK.C1LEDLIGHT40,
-                DK.C1LEDLIGHT41,
-                DK.C1LEDLIGHT42,
-                DK.C1LEDLIGHT43,
-                DK.C1LEDLIGHT44,
-                DK.C1LEDLIGHT45,
-                DK.C1LEDLIGHT46,
-                DK.C1LEDLIGHT47,
-                DK.C1LEDLIGHT48,
-                DK.C1LEDLIGHT49,
-                DK.C1LEDLIGHT50,
-                DK.C4LEDLIGHT1,
-                DK.C4LEDLIGHT2,
-                DK.C4LEDLIGHT3,
-                DK.C4LEDLIGHT4,
-                DK.C4LEDLIGHT5,
-                DK.C4LEDLIGHT6,
-                DK.C4LEDLIGHT7,
-                DK.C4LEDLIGHT8,
-                DK.C4LEDLIGHT9,
-                DK.C4LEDLIGHT10,
+                DK.MOBOLIGHT11,
+                DK.MOBOLIGHT12,
+                DK.MOBOLIGHT13,
+                DK.MOBOLIGHT14,
+                DK.MOBOLIGHT15,
+                DK.MOBOLIGHT16,
+                DK.MOBOLIGHT17,
+                DK.MOBOLIGHT18,
+                DK.MOBOLIGHT19,
+                DK.MOBOLIGHT20,
+                DK.MOBOLIGHT21,
+                DK.MOBOLIGHT22,
+                DK.MOBOLIGHT23,
+                DK.MOBOLIGHT24,
+                DK.MOBOLIGHT25,
+                DK.MOBOLIGHT26,
+                DK.MOBOLIGHT27,
+                DK.MOBOLIGHT28,
+                DK.MOBOLIGHT29,
+                DK.MOBOLIGHT30,
+                DK.MOBOLIGHT31,
+                DK.MOBOLIGHT32,
+                DK.MOBOLIGHT33,
+                DK.MOBOLIGHT34,
+                DK.MOBOLIGHT35,
+                DK.MOBOLIGHT36,
+                DK.MOBOLIGHT37,
+                DK.MOBOLIGHT38,
+                DK.MOBOLIGHT39,
+                DK.MOBOLIGHT40,
+                DK.MOBOLIGHT41,
+                DK.MOBOLIGHT42,
+                DK.MOBOLIGHT43,
+                DK.MOBOLIGHT44,
+                DK.MOBOLIGHT45,
+                DK.MOBOLIGHT46,
+                DK.MOBOLIGHT47,
+                DK.MOBOLIGHT48,
+                DK.MOBOLIGHT49,
+                DK.MOBOLIGHT50,
+                DK.MOBOLIGHT51,
+                DK.MOBOLIGHT52,
+                DK.MOBOLIGHT53,
+                DK.MOBOLIGHT54,
+                DK.MOBOLIGHT55,
+                DK.MOBOLIGHT56,
+                DK.MOBOLIGHT57,
+                DK.MOBOLIGHT58,
+                DK.MOBOLIGHT59,
+                DK.MOBOLIGHT60,
+                DK.MOBOLIGHT61,
+                DK.MOBOLIGHT62,
+                DK.MOBOLIGHT63,
+                DK.MOBOLIGHT64,
+                DK.MOBOLIGHT65,
+                DK.MOBOLIGHT66,
+                DK.MOBOLIGHT67,
+                DK.MOBOLIGHT68,
+                DK.MOBOLIGHT69,
+                DK.MOBOLIGHT70,
                 }),
                 new List<DK>(new[] // MOBO ARGB Header 2, (Power Supply)
                 {
-                DK.ADDITIONALLIGHT1,    // DK.MOUSELIGHT2,
-                DK.ADDITIONALLIGHT2,    // DK.MOUSELIGHT2,
-                DK.ADDITIONALLIGHT3,    // DK.MOUSELIGHT3,
-                DK.ADDITIONALLIGHT4,    // DK.MOUSELIGHT4,
-                DK.ADDITIONALLIGHT5,    // DK.MOUSELIGHT5,
-                DK.ADDITIONALLIGHT6,    // DK.MOUSELIGHT6,
-                DK.ADDITIONALLIGHT7,    // DK.MOUSELIGHT7,
-                DK.ADDITIONALLIGHT8,    // DK.MOUSELIGHT8,
-                DK.ADDITIONALLIGHT9,    // DK.MOUSELIGHT8,
-                DK.ADDITIONALLIGHT10,   // DK.MOUSELIGHT10,
-                DK.ADDITIONALLIGHT11,   // DK.MOUSELIGHT11,
-                DK.ADDITIONALLIGHT12,    // DK.MOUSELIGHT2,
-                DK.ADDITIONALLIGHT13,    // DK.MOUSELIGHT3,
-                DK.ADDITIONALLIGHT14,    // DK.MOUSELIGHT4,
-                DK.ADDITIONALLIGHT15,    // DK.MOUSELIGHT5,
-                DK.ADDITIONALLIGHT16,    // DK.MOUSELIGHT6,
-                DK.ADDITIONALLIGHT17,    // DK.MOUSELIGHT7,
-                DK.ADDITIONALLIGHT18,    // DK.MOUSELIGHT8,
-                DK.ADDITIONALLIGHT19,    // DK.MOUSELIGHT8,
-                DK.ADDITIONALLIGHT20,   // DK.MOUSELIGHT10,
+                DK.MOBOLIGHT71,
+                DK.MOBOLIGHT72,
+                DK.MOBOLIGHT73,
+                DK.MOBOLIGHT74,
+                DK.MOBOLIGHT75,
+                DK.MOBOLIGHT76,
+                DK.MOBOLIGHT77,
+                DK.MOBOLIGHT78,
+                DK.MOBOLIGHT79,
+                DK.MOBOLIGHT80,
+                DK.MOBOLIGHT81,
+                DK.MOBOLIGHT82,
+                DK.MOBOLIGHT83,
+                DK.MOBOLIGHT84,
+                DK.MOBOLIGHT85,
+                DK.MOBOLIGHT86,
+                DK.MOBOLIGHT87,
+                DK.MOBOLIGHT88,
+                DK.MOBOLIGHT89,
+                DK.MOBOLIGHT90,
                 }),
             }),
             new List<List<DK>>(new[] // First Mouse Device
             {
             new List<DK>(new[]
                 {
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
                 DK.NONE,
                 }),
             }),
@@ -589,12 +603,52 @@ namespace Aurora.Devices.OpenRGB
             new List<DK>(new[]
                 {
                 DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
                 }),
             }),
             new List<List<DK>>(new[] // First Mouse Device
             {
             new List<DK>(new[]
                 {
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
                 DK.NONE,
                 }),
             }),
@@ -879,7 +933,7 @@ namespace Aurora.Devices.OpenRGB
     public static readonly List<List<List<DK>>> ALL_LED_LIGHTS = new List<List<List<DK>>>(new[] // (Type 4)
         {
 
-          new List<List<DK>>(new[] // Third Device
+          new List<List<DK>>(new[] // Third Device (NZXT HUE+1)
             {
                 new List<DK>(new[] // Third Device, Channel 0 (Mapped to 4)
                 {
@@ -2259,7 +2313,7 @@ namespace Aurora.Devices.OpenRGB
                     DK.C10LEDLIGHT50,
                 }),
             }),
-            new List<List<DK>>(new[] // Third Device
+            new List<List<DK>>(new[] // Third Device (NZXT HUE+2)
             {
                 new List<DK>(new[] // Third Device, Channel 0 (Mapped to 4)
                 {
@@ -3639,7 +3693,7 @@ namespace Aurora.Devices.OpenRGB
                     DK.C10LEDLIGHT50,
                 }),
             }),
-             new List<List<DK>>(new[] // Fourth Device
+             new List<List<DK>>(new[] // Fourth Device (E1.31 MM)
             {
                 new List<DK>(new[] // fourth Device, Channel 0 (Mapped to 5)
                 {
@@ -5070,7 +5124,7 @@ namespace Aurora.Devices.OpenRGB
                 }),
             }),
 
-             new List<List<DK>>(new[] // Fifth Device
+             new List<List<DK>>(new[] // Fifth Device (E1.31 LM)
             {
                 new List<DK>(new[] // Fifth Device, Channel 0 (Mapped to 6)
                 {
@@ -6501,7 +6555,7 @@ namespace Aurora.Devices.OpenRGB
                 }),
             }),
 
-             new List<List<DK>>(new[] // Sixth Device
+             new List<List<DK>>(new[] // Sixth Device (E1.31 RM)
             {
                 new List<DK>(new[] // Sixth Device, Channel 0 (Mapped to 7)
                 {
@@ -7933,7 +7987,7 @@ namespace Aurora.Devices.OpenRGB
             }),
 
 
-            new List<List<DK>>(new[] // First Device
+            new List<List<DK>>(new[] // First Device (E1.31 Desk Strip)
             {
                 new List<DK>(new[] // First Device, Channel 0 (Mapped to 0)
                 {
@@ -9417,6 +9471,16 @@ namespace Aurora.Devices.OpenRGB
                     DK.C2LEDLIGHT48,
                     DK.C2LEDLIGHT49,
                     DK.C2LEDLIGHT50,
+                    DK.C2LEDLIGHT51,
+                    DK.C2LEDLIGHT52,
+                    DK.C2LEDLIGHT53,
+                    DK.C2LEDLIGHT54,
+                    DK.C2LEDLIGHT55,
+                    DK.C2LEDLIGHT56,
+                    DK.C2LEDLIGHT57,
+                    DK.C2LEDLIGHT58,
+                    DK.C2LEDLIGHT59,
+                    DK.C2LEDLIGHT60,
                     DK.C9LEDLIGHT1,
                     DK.C9LEDLIGHT2,
                     DK.C9LEDLIGHT3,

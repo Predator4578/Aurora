@@ -1583,6 +1583,66 @@ namespace Aurora.Devices
         [Description("Additional Light 40")]
         ADDITIONALLIGHT40 = 1208,
 
+        /// <summary>
+        /// Additional Light 41
+        /// </summary>
+        [Description("Additional Light 41")]
+        ADDITIONALLIGHT41 = 1209,
+
+        /// <summary>
+        /// Additional Light 42
+        /// </summary>
+        [Description("Additional Light 42")]
+        ADDITIONALLIGHT42 = 1210,
+
+        /// <summary>
+        /// Additional Light 43
+        /// </summary>
+        [Description("Additional Light 43")]
+        ADDITIONALLIGHT43 = 1211,
+
+        /// <summary>
+        /// Additional Light 44
+        /// </summary>
+        [Description("Additional Light 44")]
+        ADDITIONALLIGHT44 = 1212,
+
+        /// <summary>
+        /// Additional Light 45
+        /// </summary>
+        [Description("Additional Light 45")]
+        ADDITIONALLIGHT45 = 1213,
+
+        /// <summary>
+        /// Additional Light 46
+        /// </summary>
+        [Description("Additional Light 46")]
+        ADDITIONALLIGHT46 = 1214,
+
+        /// <summary>
+        /// Additional Light 47
+        /// </summary>
+        [Description("Additional Light 47")]
+        ADDITIONALLIGHT47 = 1215,
+
+        /// <summary>
+        /// Additional Light 48
+        /// </summary>
+        [Description("Additional Light 48")]
+        ADDITIONALLIGHT48 = 1216,
+
+        /// <summary>
+        /// Additional Light 49
+        /// </summary>
+        [Description("Additional Light 49")]
+        ADDITIONALLIGHT49 = 1217,
+
+        /// <summary>
+        /// Additional Light 50
+        /// </summary>
+        [Description("Additional Light 50")]
+        ADDITIONALLIGHT50 = 1218,
+
         //////////////////////////////////////////////   MOUSELIGHTS begin here 
         //////////////////////////////////////////////   "MOUSELIGHTS" Range is 1251 - 1300
         //////////////////////////////////////////////   Added up to 5 MouseLights (Various)
@@ -1940,66 +2000,544 @@ namespace Aurora.Devices
         MOBOLIGHT10 = 1510,
 
         /// <summary>
-        /// MOBO Light 1
+        /// MOBO Light 11
         /// </summary>
         [Description("Mainboard Light 11")]
         MOBOLIGHT11 = 1511,
 
         /// <summary>
-        /// MOBO Light 2
+        /// MOBO Light 12
         /// </summary>
         [Description("Mainboard Light 12")]
         MOBOLIGHT12 = 1512,
 
         /// <summary>
-        /// MOBO Light 3
+        /// MOBO Light 13
         /// </summary>
         [Description("Mainboard Light 13")]
         MOBOLIGHT13 = 1513,
 
         /// <summary>
-        /// MOBO Light 4
+        /// MOBO Light 14
         /// </summary>
         [Description("Mainboard Light 14")]
         MOBOLIGHT14 = 1514,
 
         /// <summary>
-        /// MOBO Light 5
+        /// MOBO Light 15
         /// </summary>
         [Description("Mainboard Light 15")]
         MOBOLIGHT15 = 1515,
 
         /// <summary>
-        /// MOBO Light 6
+        /// MOBO Light 16
         /// </summary>
         [Description("Mainboard Light 16")]
         MOBOLIGHT16 = 1516,
 
         /// <summary>
-        /// MOBO Light 7
+        /// MOBO Light 17
         /// </summary>
         [Description("Mainboard Light 17")]
         MOBOLIGHT17 = 1517,
 
         /// <summary>
-        /// MOBO Light 8
+        /// MOBO Light 18
         /// </summary>
         [Description("Mainboard Light 18")]
         MOBOLIGHT18 = 1518,
 
         /// <summary>
-        /// MOBO Light 9
+        /// MOBO Light 19
         /// </summary>
         [Description("Mainboard Light 19")]
         MOBOLIGHT19 = 1519,
 
         /// <summary>
-        /// MOBO Light 10
+        /// MOBO Light 20
         /// </summary>
         [Description("Mainboard Light 20")]
         MOBOLIGHT20 = 1520,
 
+        /// <summary>
+        /// MOBO Light 21
+        /// </summary>
+        [Description("Mainboard Light 21")]
+        MOBOLIGHT21 = 1521,
 
+        /// <summary>
+        /// MOBO Light 22
+        /// </summary>
+        [Description("Mainboard Light 22")]
+        MOBOLIGHT22 = 1522,
+
+        /// <summary>
+        /// MOBO Light 23
+        /// </summary>
+        [Description("Mainboard Light 23")]
+        MOBOLIGHT23 = 1523,
+
+        /// <summary>
+        /// MOBO Light 24
+        /// </summary>
+        [Description("Mainboard Light 24")]
+        MOBOLIGHT24 = 1524,
+
+        /// <summary>
+        /// MOBO Light 25
+        /// </summary>
+        [Description("Mainboard Light 25")]
+        MOBOLIGHT25 = 1525,
+
+        /// <summary>
+        /// MOBO Light 26
+        /// </summary>
+        [Description("Mainboard Light 26")]
+        MOBOLIGHT26 = 1526,
+
+        /// <summary>
+        /// MOBO Light 27
+        /// </summary>
+        [Description("Mainboard Light 27")]
+        MOBOLIGHT27 = 1527,
+
+        /// <summary>
+        /// MOBO Light 28
+        /// </summary>
+        [Description("Mainboard Light 28")]
+        MOBOLIGHT28 = 1528,
+
+        /// <summary>
+        /// MOBO Light 29
+        /// </summary>
+        [Description("Mainboard Light 29")]
+        MOBOLIGHT29 = 1529,
+
+        /// <summary>
+        /// MOBO Light 30
+        /// </summary>
+        [Description("Mainboard Light 30")]
+        MOBOLIGHT30 = 1530,
+
+        /// <summary>
+        /// MOBO Light 31
+        /// </summary>
+        [Description("Mainboard Light 31")]
+        MOBOLIGHT31 = 1531,
+
+        /// <summary>
+        /// MOBO Light 32
+        /// </summary>
+        [Description("Mainboard Light 32")]
+        MOBOLIGHT32 = 1532,
+
+        /// <summary>
+        /// MOBO Light 33
+        /// </summary>
+        [Description("Mainboard Light 33")]
+        MOBOLIGHT33 = 1533,
+
+        /// <summary>
+        /// MOBO Light 34
+        /// </summary>
+        [Description("Mainboard Light 34")]
+        MOBOLIGHT34 = 1534,
+
+        /// <summary>
+        /// MOBO Light 35
+        /// </summary>
+        [Description("Mainboard Light 35")]
+        MOBOLIGHT35 = 1535,
+
+        /// <summary>
+        /// MOBO Light 36
+        /// </summary>
+        [Description("Mainboard Light 36")]
+        MOBOLIGHT36 = 1536,
+
+        /// <summary>
+        /// MOBO Light 37
+        /// </summary>
+        [Description("Mainboard Light 37")]
+        MOBOLIGHT37 = 1537,
+
+        /// <summary>
+        /// MOBO Light 38
+        /// </summary>
+        [Description("Mainboard Light 38")]
+        MOBOLIGHT38 = 1538,
+
+        /// <summary>
+        /// MOBO Light 39
+        /// </summary>
+        [Description("Mainboard Light 39")]
+        MOBOLIGHT39 = 1539,
+
+        /// <summary>
+        /// MOBO Light 40
+        /// </summary>
+        [Description("Mainboard Light 40")]
+        MOBOLIGHT40 = 1540,
+
+        /// <summary>
+        /// MOBO Light 41
+        /// </summary>
+        [Description("Mainboard Light 41")]
+        MOBOLIGHT41 = 1541,
+
+        /// <summary>
+        /// MOBO Light 42
+        /// </summary>
+        [Description("Mainboard Light 42")]
+        MOBOLIGHT42 = 1542,
+
+        /// <summary>
+        /// MOBO Light 43
+        /// </summary>
+        [Description("Mainboard Light 43")]
+        MOBOLIGHT43 = 1543,
+
+        /// <summary>
+        /// MOBO Light 44
+        /// </summary>
+        [Description("Mainboard Light 44")]
+        MOBOLIGHT44 = 1544,
+
+        /// <summary>
+        /// MOBO Light 45
+        /// </summary>
+        [Description("Mainboard Light 45")]
+        MOBOLIGHT45 = 1545,
+
+        /// <summary>
+        /// MOBO Light 46
+        /// </summary>
+        [Description("Mainboard Light 46")]
+        MOBOLIGHT46 = 1546,
+
+        /// <summary>
+        /// MOBO Light 47
+        /// </summary>
+        [Description("Mainboard Light 47")]
+        MOBOLIGHT47 = 1547,
+
+        /// <summary>
+        /// MOBO Light 48
+        /// </summary>
+        [Description("Mainboard Light 48")]
+        MOBOLIGHT48 = 1548,
+
+        /// <summary>
+        /// MOBO Light 49
+        /// </summary>
+        [Description("Mainboard Light 49")]
+        MOBOLIGHT49 = 1549,
+
+        /// <summary>
+        /// MOBO Light 50
+        /// </summary>
+        [Description("Mainboard Light 50")]
+        MOBOLIGHT50 = 1550,
+
+        /// <summary>
+        /// MOBO Light 51
+        /// </summary>
+        [Description("Mainboard Light 51")]
+        MOBOLIGHT51 = 1551,
+
+        /// <summary>
+        /// MOBO Light 52
+        /// </summary>
+        [Description("Mainboard Light 52")]
+        MOBOLIGHT52 = 1552,
+
+        /// <summary>
+        /// MOBO Light 53
+        /// </summary>
+        [Description("Mainboard Light 53")]
+        MOBOLIGHT53 = 1553,
+
+        /// <summary>
+        /// MOBO Light 54
+        /// </summary>
+        [Description("Mainboard Light 54")]
+        MOBOLIGHT54 = 1554,
+
+        /// <summary>
+        /// MOBO Light 55
+        /// </summary>
+        [Description("Mainboard Light 55")]
+        MOBOLIGHT55 = 1555,
+
+        /// <summary>
+        /// MOBO Light 56
+        /// </summary>
+        [Description("Mainboard Light 56")]
+        MOBOLIGHT56 = 1556,
+
+        /// <summary>
+        /// MOBO Light 57
+        /// </summary>
+        [Description("Mainboard Light 57")]
+        MOBOLIGHT57 = 1557,
+
+        /// <summary>
+        /// MOBO Light 58
+        /// </summary>
+        [Description("Mainboard Light 58")]
+        MOBOLIGHT58 = 1558,
+
+        /// <summary>
+        /// MOBO Light 59
+        /// </summary>
+        [Description("Mainboard Light 59")]
+        MOBOLIGHT59 = 1559,
+
+        /// <summary>
+        /// MOBO Light 60
+        /// </summary>
+        [Description("Mainboard Light 60")]
+        MOBOLIGHT60 = 1560,
+
+        /// <summary>
+        /// MOBO Light 61
+        /// </summary>
+        [Description("Mainboard Light 61")]
+        MOBOLIGHT61 = 1561,
+
+        /// <summary>
+        /// MOBO Light 62
+        /// </summary>
+        [Description("Mainboard Light 62")]
+        MOBOLIGHT62 = 1562,
+
+        /// <summary>
+        /// MOBO Light 63
+        /// </summary>
+        [Description("Mainboard Light 63")]
+        MOBOLIGHT63 = 1563,
+
+        /// <summary>
+        /// MOBO Light 64
+        /// </summary>
+        [Description("Mainboard Light 64")]
+        MOBOLIGHT64 = 1564,
+
+        /// <summary>
+        /// MOBO Light 65
+        /// </summary>
+        [Description("Mainboard Light 65")]
+        MOBOLIGHT65 = 1565,
+
+        /// <summary>
+        /// MOBO Light 66
+        /// </summary>
+        [Description("Mainboard Light 66")]
+        MOBOLIGHT66 = 1566,
+
+        /// <summary>
+        /// MOBO Light 67
+        /// </summary>
+        [Description("Mainboard Light 67")]
+        MOBOLIGHT67 = 1567,
+
+        /// <summary>
+        /// MOBO Light 68
+        /// </summary>
+        [Description("Mainboard Light 68")]
+        MOBOLIGHT68 = 1568,
+
+        /// <summary>
+        /// MOBO Light 69
+        /// </summary>
+        [Description("Mainboard Light 69")]
+        MOBOLIGHT69 = 1569,
+
+        /// <summary>
+        /// MOBO Light 70
+        /// </summary>
+        [Description("Mainboard Light 70")]
+        MOBOLIGHT70 = 1570,
+
+        /// <summary>
+        /// MOBO Light 71
+        /// </summary>
+        [Description("Mainboard Light 71")]
+        MOBOLIGHT71 = 1571,
+
+        /// <summary>
+        /// MOBO Light 72
+        /// </summary>
+        [Description("Mainboard Light 72")]
+        MOBOLIGHT72 = 1572,
+
+        /// <summary>
+        /// MOBO Light 73
+        /// </summary>
+        [Description("Mainboard Light 73")]
+        MOBOLIGHT73 = 1573,
+
+        /// <summary>
+        /// MOBO Light 74
+        /// </summary>
+        [Description("Mainboard Light 74")]
+        MOBOLIGHT74 = 1574,
+
+        /// <summary>
+        /// MOBO Light 75
+        /// </summary>
+        [Description("Mainboard Light 75")]
+        MOBOLIGHT75 = 1575,
+
+        /// <summary>
+        /// MOBO Light 76
+        /// </summary>
+        [Description("Mainboard Light 76")]
+        MOBOLIGHT76 = 1576,
+
+        /// <summary>
+        /// MOBO Light 77
+        /// </summary>
+        [Description("Mainboard Light 77")]
+        MOBOLIGHT77 = 1577,
+
+        /// <summary>
+        /// MOBO Light 78
+        /// </summary>
+        [Description("Mainboard Light 78")]
+        MOBOLIGHT78 = 1578,
+
+        /// <summary>
+        /// MOBO Light 79
+        /// </summary>
+        [Description("Mainboard Light 79")]
+        MOBOLIGHT79 = 1579,
+
+        /// <summary>
+        /// MOBO Light 80
+        /// </summary>
+        [Description("Mainboard Light 80")]
+        MOBOLIGHT80 = 1580,
+
+        /// <summary>
+        /// MOBO Light 81
+        /// </summary>
+        [Description("Mainboard Light 81")]
+        MOBOLIGHT81 = 1581,
+
+        /// <summary>
+        /// MOBO Light 82
+        /// </summary>
+        [Description("Mainboard Light 82")]
+        MOBOLIGHT82 = 1582,
+
+        /// <summary>
+        /// MOBO Light 83
+        /// </summary>
+        [Description("Mainboard Light 83")]
+        MOBOLIGHT83 = 1583,
+
+        /// <summary>
+        /// MOBO Light 84
+        /// </summary>
+        [Description("Mainboard Light 84")]
+        MOBOLIGHT84 = 1584,
+
+        /// <summary>
+        /// MOBO Light 85
+        /// </summary>
+        [Description("Mainboard Light 85")]
+        MOBOLIGHT85 = 1585,
+
+        /// <summary>
+        /// MOBO Light 86
+        /// </summary>
+        [Description("Mainboard Light 86")]
+        MOBOLIGHT86 = 1586,
+
+        /// <summary>
+        /// MOBO Light 87
+        /// </summary>
+        [Description("Mainboard Light 87")]
+        MOBOLIGHT87 = 1587,
+
+        /// <summary>
+        /// MOBO Light 88
+        /// </summary>
+        [Description("Mainboard Light 88")]
+        MOBOLIGHT88 = 1588,
+
+        /// <summary>
+        /// MOBO Light 89
+        /// </summary>
+        [Description("Mainboard Light 89")]
+        MOBOLIGHT89 = 1589,
+
+        /// <summary>
+        /// MOBO Light 90
+        /// </summary>
+        [Description("Mainboard Light 90")]
+        MOBOLIGHT90 = 1590,
+
+        /// <summary>
+        /// MOBO Light 91
+        /// </summary>
+        [Description("Mainboard Light 91")]
+        MOBOLIGHT91 = 1591,
+
+        /// <summary>
+        /// MOBO Light 92
+        /// </summary>
+        [Description("Mainboard Light 92")]
+        MOBOLIGHT92 = 1592,
+
+        /// <summary>
+        /// MOBO Light 93
+        /// </summary>
+        [Description("Mainboard Light 93")]
+        MOBOLIGHT93 = 1593,
+
+        /// <summary>
+        /// MOBO Light 94
+        /// </summary>
+        [Description("Mainboard Light 94")]
+        MOBOLIGHT94 = 1594,
+
+        /// <summary>
+        /// MOBO Light 95
+        /// </summary>
+        [Description("Mainboard Light 95")]
+        MOBOLIGHT95 = 1595,
+
+        /// <summary>
+        /// MOBO Light 96
+        /// </summary>
+        [Description("Mainboard Light 96")]
+        MOBOLIGHT96 = 1596,
+
+        /// <summary>
+        /// MOBO Light 97
+        /// </summary>
+        [Description("Mainboard Light 97")]
+        MOBOLIGHT97 = 1597,
+
+        /// <summary>
+        /// MOBO Light 98
+        /// </summary>
+        [Description("Mainboard Light 98")]
+        MOBOLIGHT98 = 1598,
+
+        /// <summary>
+        /// MOBO Light 99
+        /// </summary>
+        [Description("Mainboard Light 99")]
+        MOBOLIGHT99 = 1599,
+
+        /// <summary>
+        /// MOBO Light 100
+        /// </summary>
+        [Description("Mainboard Light 100")]
+        MOBOLIGHT100 = 1600,
 
         //////////////////////////////////////////////   COOLERLIGHTS begin here 
         //////////////////////////////////////////////   COOLERLIGHTS Range 1601 - 1650 
@@ -3465,6 +4003,66 @@ namespace Aurora.Devices
         /// </summary>
         [Description("C2 Led Light 50")]
         C2LEDLIGHT50 = 2250,
+
+        /// <summary>
+        /// C2 Led Light 51
+        /// </summary>
+        [Description("C2 Led Light 51")]
+        C2LEDLIGHT51 = 2251,
+
+        /// <summary>
+        /// C2 Led Light 52
+        /// </summary>
+        [Description("C2 Led Light 52")]
+        C2LEDLIGHT52 = 2252,
+
+        /// <summary>
+        /// C2 Led Light 53
+        /// </summary>
+        [Description("C2 Led Light 53")]
+        C2LEDLIGHT53 = 2253,
+
+        /// <summary>
+        /// C2 Led Light 54
+        /// </summary>
+        [Description("C2 Led Light 54")]
+        C2LEDLIGHT54 = 2254,
+
+        /// <summary>
+        /// C2 Led Light 55
+        /// </summary>
+        [Description("C2 Led Light 55")]
+        C2LEDLIGHT55 = 2255,
+
+        /// <summary>
+        /// C2 Led Light 56
+        /// </summary>
+        [Description("C2 Led Light 56")]
+        C2LEDLIGHT56 = 2256,
+
+        /// <summary>
+        /// C2 Led Light 57
+        /// </summary>
+        [Description("C2 Led Light 57")]
+        C2LEDLIGHT57 = 2257,
+
+        /// <summary>
+        /// C2 Led Light 58
+        /// </summary>
+        [Description("C2 Led Light 58")]
+        C2LEDLIGHT58 = 2258,
+
+        /// <summary>
+        /// C2 Led Light 59
+        /// </summary>
+        [Description("C2 Led Light 59")]
+        C2LEDLIGHT59 = 2259,
+
+        /// <summary>
+        /// C2 Led Light 60
+        /// </summary>
+        [Description("C2 Led Light 60")]
+        C2LEDLIGHT60 = 2260,
 
         //////////////////////////////////////////////   Second Zone (40, Channel 3 Lights)
 
