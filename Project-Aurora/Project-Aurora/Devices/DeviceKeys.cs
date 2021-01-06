@@ -2662,8 +2662,26 @@ namespace Aurora.Devices
         [Description("C0 RAM Light 5")]
         C0RAMLIGHT5 = 1705,
 
+        /// <summary>
+        /// C0 RAM Light 6
+        /// </summary>
+        [Description("C0 RAM Light 6")]
+        C0RAMLIGHT6 = 1741,
+
+        /// <summary>
+        /// C0 RAM Light 7
+        /// </summary>
+        [Description("C0 RAM Light 7")]
+        C0RAMLIGHT7 = 1742,
+
+        /// <summary>
+        /// C0 RAM Light 8
+        /// </summary>
+        [Description("C0 RAM Light 8")]
+        C0RAMLIGHT8 = 1743,
+
         ////////////////////////////////// DIMM 2
-        
+
         /// <summary>
         /// C1 RAM Light 1
         /// </summary>
@@ -2694,8 +2712,26 @@ namespace Aurora.Devices
         [Description("C1 RAM Light 5")]
         C1RAMLIGHT5 = 1710,
 
+        /// <summary>
+        /// C1 RAM Light 6
+        /// </summary>
+        [Description("C1 RAM Light 6")]
+        C1RAMLIGHT6 = 1746,
+
+        /// <summary>
+        /// C1 RAM Light 7
+        /// </summary>
+        [Description("C1 RAM Light 7")]
+        C1RAMLIGHT7 = 1747,
+
+        /// <summary>
+        /// C1 RAM Light 8
+        /// </summary>
+        [Description("C1 RAM Light 8")]
+        C1RAMLIGHT8 = 1748,
+
         ////////////////////////////////// DIMM 3
-        
+
         /// <summary>
         /// C2  RAM Light 1
         /// </summary>
@@ -2725,9 +2761,27 @@ namespace Aurora.Devices
         /// </summary>
         [Description("C2 RAM Light 5")]
         C2RAMLIGHT5 = 1715,
-        
+
+        /// <summary>
+        /// C2 RAM Light 6
+        /// </summary>
+        [Description("C2 RAM Light 6")]
+        C2RAMLIGHT6 = 1751,
+
+        /// <summary>
+        /// C2 RAM Light 7
+        /// </summary>
+        [Description("C2 RAM Light 7")]
+        C2RAMLIGHT7 = 1752,
+
+        /// <summary>
+        /// C2 RAM Light 8
+        /// </summary>
+        [Description("C2 RAM Light 8")]
+        C2RAMLIGHT8 = 1753,
+
         ////////////////////////////////// DIMM 4
-        
+
         /// <summary>
         /// C3 RAM Light 1
         /// </summary>
@@ -2757,6 +2811,24 @@ namespace Aurora.Devices
         /// </summary>
         [Description("C3 RAM Light 5")]
         C3RAMLIGHT5 = 1720,
+
+        /// <summary>
+        /// C3 RAM Light 6
+        /// </summary>
+        [Description("C3 RAM Light 6")]
+        C3RAMLIGHT6 = 1756,
+
+        /// <summary>
+        /// C3 RAM Light 7
+        /// </summary>
+        [Description("C3 RAM Light 7")]
+        C3RAMLIGHT7 = 1757,
+
+        /// <summary>
+        /// C3 RAM Light 8
+        /// </summary>
+        [Description("C3 RAM Light 8")]
+        C3RAMLIGHT8 = 1758,
 
         //////////////////////////////////////////////   HUELIGHTS begin here 
         //////////////////////////////////////////////   "HUELIGHTS" Range is 1901 - 1950
