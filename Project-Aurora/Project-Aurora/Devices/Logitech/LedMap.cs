@@ -169,7 +169,7 @@ namespace Aurora.Devices.Logitech
             [DeviceKeys.Peripheral_ScrollWheel] = (DeviceType.Mouse, 2),
             [DeviceKeys.MOUSEPADLIGHT1] = (DeviceType.Mousemat, 0),
 
-            [DeviceKeys.ADDITIONALLIGHT1] = (DeviceType.Speaker,0),           //Remapped to match my Devicekeys Configuration , Needs to added Speaker Lights soon
+            [DeviceKeys.ADDITIONALLIGHT1] = (DeviceType.Speaker, 0),           //Remapped to match my Devicekeys Configuration , Needs to added Speaker Lights soon
             [DeviceKeys.ADDITIONALLIGHT2] = (DeviceType.Speaker, 1),
             [DeviceKeys.ADDITIONALLIGHT3] = (DeviceType.Speaker, 2),
             [DeviceKeys.ADDITIONALLIGHT4] = (DeviceType.Speaker, 3),
