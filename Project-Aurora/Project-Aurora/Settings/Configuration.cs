@@ -163,16 +163,18 @@ namespace Aurora.Settings
         Custom_Keyboard_Layout_2 = 3,
         [Description("Custom Keyboard Layout 3")]
         Custom_Keyboard_Layout_3 = 4,
+        [Description("Custom Keyboard Layout 4")]
+        Custom_Keyboard_Layout_4 = 5,
 
         // Custom USER Layouts here
         [Description("Logitech - G910 - Codename-Antares Edition")]
-        Logitech_G910_Codename_Antares_Edition = 5,
+        Logitech_G910_Codename_Antares_Edition = 97,
 
         [Description("Generic Laptop")]
-        GenericLaptop = 10,
+        GenericLaptop = 98,
 
         [Description("Generic Laptop (Numpad)")]
-        GenericLaptopNumpad = 11,
+        GenericLaptopNumpad = 99,
 
         /*
         [Description("Logitech")]
@@ -380,15 +382,17 @@ namespace Aurora.Settings
         Custom_Mouse_Layout_2 = 3,
         [Description("Custom Mouse Layout 3")]
         Custom_Mouse_Layout_3 = 4,
+        [Description("Custom Mouse Layout 4")]
+        Custom_Mouse_Layout_4 = 5,
 
         //Custom User Layouts here
         [Description("Razer/Corsair Mousepad + Mouse - Codename Antares Edition")]
-        Generic_Mousepad_Codename_Antares_Edition = 5,
+        Generic_Mousepad_Codename_Antares_Edition = 97,
 
         [Description("Generic Peripheral")]
-        Generic_Peripheral = 10,
+        Generic_Peripheral = 98,
         [Description("Razer/Corsair Mousepad + Mouse")]
-        Generic_Mousepad = 11,
+        Generic_Mousepad = 99,
 
         //Logitech range is 100-199
         [Description("Logitech - G900")]
