@@ -1743,6 +1743,117 @@ namespace Aurora.Devices
         [Description("Mousepad Light 20")]
         MOUSEPADLIGHT20 = 1305,
 
+
+
+
+        /// <summary>
+        /// SS Mousepad Light 1
+        /// </summary>
+        [Description("SS Mousepad Light 1")]
+        SSMOUSEPADLIGHT1 = 1333,
+
+        /// <summary>
+        /// SS Mousepad Light 2
+        /// </summary>
+        [Description("SS Mousepad Light 2")]
+        SSMOUSEPADLIGHT2 = 1334,
+
+        /// <summary>
+        /// SS Mousepad Light 3
+        /// </summary>
+        [Description("SS Mousepad Light 3")]
+        SSMOUSEPADLIGHT3 = 1335,
+
+        /// <summary>
+        /// SS Mousepad Light 4
+        /// </summary>
+        [Description("SS Mousepad Light 4")]
+        SSMOUSEPADLIGHT4 = 1336,
+
+        /// <summary>
+        /// SS Mousepad Light 5
+        /// </summary>
+        [Description("SS Mousepad Light 5")]
+        SSMOUSEPADLIGHT5 = 1337,
+
+        /// <summary>
+        /// SS Mousepad Light 6
+        /// </summary>
+        [Description("SS Mousepad Light 6")]
+        SSMOUSEPADLIGHT6 = 1338,
+
+        /// <summary>
+        /// SS Mousepad Light 7
+        /// </summary>
+        [Description("SS Mousepad Light 7")]
+        SSMOUSEPADLIGHT7 = 1339,
+
+        /// <summary>
+        /// SS Mousepad Light 8
+        /// </summary>
+        [Description("SS Mousepad Light 8")]
+        SSMOUSEPADLIGHT8 = 1340,
+
+        /// <summary>
+        /// SS Mousepad Light 9
+        /// </summary>
+        [Description("SS Mousepad Light 9")]
+        SSMOUSEPADLIGHT9 = 1341,
+
+        /// <summary>
+        /// SS Mousepad Light 10
+        /// </summary>
+        [Description("SS Mousepad Light 10")]
+        SSMOUSEPADLIGHT10 = 1342,
+
+        /// <summary>
+        /// SS Mousepad Light 11
+        /// </summary>
+        [Description("SS Mousepad Light 11")]
+        SSMOUSEPADLIGHT11 = 1343,
+
+        /// <summary>
+        /// SS Mousepad Light 12
+        /// </summary>
+        [Description("SS Mousepad Light 12")]
+        SSMOUSEPADLIGHT12 = 1344,
+
+        /// <summary>
+        /// SS Mousepad Light 13
+        /// </summary>
+        [Description("SS Mousepad Light 13")]
+        SSMOUSEPADLIGHT13 = 1345,
+
+        /// <summary>
+        /// SS Mousepad Light 14
+        /// </summary>
+        [Description("SS Mousepad Light 14")]
+        SSMOUSEPADLIGHT14 = 1346,
+
+        /// <summary>
+        /// SS Mousepad Light 15
+        /// </summary>
+        [Description("SS Mousepad Light 15")]
+        SSMOUSEPADLIGHT15 = 1347,
+
+        /// <summary>
+        /// SS Mousepad Light 16
+        /// </summary>
+        [Description("SS Mousepad Light 16")]
+        SSMOUSEPADLIGHT16 = 1348,
+
+        /// <summary>
+        /// SS Mousepad Light Bottom
+        /// </summary>
+        [Description("SS Mousepad Light Bottom")]
+        SSMOUSEPADLIGHTBOTTOM = 1349,
+
+        /// <summary>
+        /// SS Mousepad Light Top
+        /// </summary>
+        [Description("SS Mousepad Light Top")]
+        SSMOUSEPADLIGHTTOP = 1350,
+
         //////////////////////////////////////////////   HEADSETLIGHTS begin here 
         //////////////////////////////////////////////   "HEADSETLIGHTS" Range is 1351 - 1400
         //////////////////////////////////////////////   Added up to 5 HeadsetLights (Various)

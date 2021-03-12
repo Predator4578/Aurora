@@ -163,18 +163,33 @@ namespace Aurora.Devices.SteelSeries
                         case DeviceKeys.Peripheral_ScrollWheel:
                             SendColorToPeripheralZone(key.Key, color, payload);
                             break;
-                        case DeviceKeys.MOUSEPADLIGHT1:
-                        case DeviceKeys.MOUSEPADLIGHT2:
-                        case DeviceKeys.MOUSEPADLIGHT3:
-                        case DeviceKeys.MOUSEPADLIGHT4:
-                        case DeviceKeys.MOUSEPADLIGHT5:
-                        case DeviceKeys.MOUSEPADLIGHT6:
-                        case DeviceKeys.MOUSEPADLIGHT7:
-                        case DeviceKeys.MOUSEPADLIGHT8:
-                        case DeviceKeys.MOUSEPADLIGHT9:
-                        case DeviceKeys.MOUSEPADLIGHT10:
-                        case DeviceKeys.MOUSEPADLIGHT11:
-                        case DeviceKeys.MOUSEPADLIGHT12:
+                        case DeviceKeys.SSMOUSEPADLIGHTTOP:
+                        case DeviceKeys.SSMOUSEPADLIGHTBOTTOM:
+//                       case DeviceKeys.MOUSEPADLIGHT3:
+//                       case DeviceKeys.MOUSEPADLIGHT4:
+//                       case DeviceKeys.MOUSEPADLIGHT5:
+//                       case DeviceKeys.MOUSEPADLIGHT6:
+//                       case DeviceKeys.MOUSEPADLIGHT7:
+//                       case DeviceKeys.MOUSEPADLIGHT8:
+//                       case DeviceKeys.MOUSEPADLIGHT9:
+//                       case DeviceKeys.MOUSEPADLIGHT10:
+//                       case DeviceKeys.MOUSEPADLIGHT11:
+//                       case DeviceKeys.MOUSEPADLIGHT12:
+                            // colors_mousepad[Convert.ToInt32(key.Key) - 201] = Tuple.Create(color.R, color.G, color.B);
+                            colorsMousepad.Add(Tuple.Create(color.R, color.G, color.B));
+                            break;
+                        case DeviceKeys.SSMOUSEPADLIGHT1:
+                        case DeviceKeys.SSMOUSEPADLIGHT2:
+                        case DeviceKeys.SSMOUSEPADLIGHT3:
+                        case DeviceKeys.SSMOUSEPADLIGHT4:
+                        case DeviceKeys.SSMOUSEPADLIGHT5:
+                        case DeviceKeys.SSMOUSEPADLIGHT6:
+                        case DeviceKeys.SSMOUSEPADLIGHT7:
+                        case DeviceKeys.SSMOUSEPADLIGHT8:
+                        case DeviceKeys.SSMOUSEPADLIGHT9:
+                        case DeviceKeys.SSMOUSEPADLIGHT10:
+                        case DeviceKeys.SSMOUSEPADLIGHT11:
+                        case DeviceKeys.SSMOUSEPADLIGHT12:
                             // colors_mousepad[Convert.ToInt32(key.Key) - 201] = Tuple.Create(color.R, color.G, color.B);
                             colorsMousepad.Add(Tuple.Create(color.R, color.G, color.B));
                             break;

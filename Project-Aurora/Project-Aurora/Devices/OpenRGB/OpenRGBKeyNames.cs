@@ -656,7 +656,7 @@ namespace Aurora.Devices.OpenRGB
 
         public static readonly List<List<DK>> ALL_RAM_LIGHTS = new List<List<DK>>(new[] // (Type 1)
         {
-            new List<DK>(new[]
+            new List<DK>(new[]  //First DIMM
             {
                 DK.C0RAMLIGHT1,
                 DK.C0RAMLIGHT2,
@@ -684,7 +684,7 @@ namespace Aurora.Devices.OpenRGB
                 DK.NONE,
                 DK.NONE,
             }),
-            new List<DK>(new[]
+            new List<DK>(new[]  //Second DIMM
             {
                 DK.C1RAMLIGHT1,
                 DK.C1RAMLIGHT2,
@@ -712,7 +712,7 @@ namespace Aurora.Devices.OpenRGB
                 DK.NONE,
                 DK.NONE,
             }),
-            new List<DK>(new[]
+            new List<DK>(new[]  //Third DIMM
             {
                 DK.C2RAMLIGHT1,
                 DK.C2RAMLIGHT2,
@@ -740,7 +740,35 @@ namespace Aurora.Devices.OpenRGB
                 DK.NONE,
                 DK.NONE,
             }),
-            new List<DK>(new[]
+            new List<DK>(new[]  //Fourth DIMM
+            {
+                DK.C3RAMLIGHT1,
+                DK.C3RAMLIGHT2,
+                DK.C3RAMLIGHT3,
+                DK.C3RAMLIGHT4,
+                DK.C3RAMLIGHT5,
+                DK.C3RAMLIGHT6,
+                DK.C3RAMLIGHT7,
+                DK.C3RAMLIGHT8,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+                DK.NONE,
+            }),
+            new List<DK>(new[]  //Fifth DIMM //Backup DIMM 3 for OpenRGB Detection error, will later been changed to C4
             {
                 DK.C3RAMLIGHT1,
                 DK.C3RAMLIGHT2,

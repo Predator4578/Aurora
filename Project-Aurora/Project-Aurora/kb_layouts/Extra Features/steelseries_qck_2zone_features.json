@@ -44,8 +44,8 @@
             "absolute_location": true
         },
         {
-            "visualName": "",
-            "tag": 201,
+            "visualName": "T",
+            "tag": 1349,
             "margin_left": 15.0,
             "margin_top": -200.0,
             "width": 16.0,
@@ -59,8 +59,8 @@
             "absolute_location": true
         },
         {
-            "visualName": "",
-            "tag": 202,
+            "visualName": "B",
+            "tag": 1350,
             "margin_left": 200.0,
             "margin_top": -200.0,
             "width": 16.0,
