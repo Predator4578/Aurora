@@ -1743,8 +1743,9 @@ namespace Aurora.Devices
         [Description("Mousepad Light 20")]
         MOUSEPADLIGHT20 = 1305,
 
-
-
+        //////////////////////////////////////////////   SSMOUSEPADLIGHTS begin here 
+        //////////////////////////////////////////////   "SSMOUSEPADLIGHTS" Range is 1333 - 1348
+        //////////////////////////////////////////////   Added up to Nr. 16 SS Mousepad Lights (12 Originally)(Steelseries QCK Prism and 2 Zone)
 
         /// <summary>
         /// SS Mousepad Light 1
