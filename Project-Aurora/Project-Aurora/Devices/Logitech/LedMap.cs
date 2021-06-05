@@ -1,4 +1,4 @@
-﻿using LedCSharp;
+using LedCSharp;
 using System;
 using System.Collections.Generic;
 using System.Linq;

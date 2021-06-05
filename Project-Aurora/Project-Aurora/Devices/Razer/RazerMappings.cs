@@ -1,4 +1,4 @@
-﻿using Corale.Colore.Razer.Keyboard;
+using Corale.Colore.Razer.Keyboard;
 using Corale.Colore.Razer.Mouse;
 using System;
 using System.Collections.Generic;

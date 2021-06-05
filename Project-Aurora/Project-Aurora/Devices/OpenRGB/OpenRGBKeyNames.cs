@@ -161,6 +161,7 @@ namespace Aurora.Devices.OpenRGB
             { "Key: Media Play/Pause" , DK.MEDIA_PLAY_PAUSE  },
             { "Key: Media Mute"       , DK.VOLUME_MUTE       },
             { "Logo"                  , DK.LOGO              },
+            { "Nameplate"             , DK.LOGO2              },
             { "Key: Brightness"       , DK.BRIGHTNESS_SWITCH },
             { "Key: M1"               , DK.G1                },
             { "Key: M2"               , DK.G2                },
@@ -171,13 +172,19 @@ namespace Aurora.Devices.OpenRGB
             { "Key: G1"               , DK.G1                },
             { "Key: G2"               , DK.G2                },
             { "Key: G3"               , DK.G3                },
+            { "Key: G4"               , DK.G4                },
+            { "Key: G5"               , DK.G5                },
+            { "Key: G6"               , DK.G6                },
+            { "Key: G7"               , DK.G7                },
+            { "Key: G8"               , DK.G8                },
+            { "Key: G9"               , DK.G9                },
         };
         public static readonly Dictionary<string, DK> Mouse = new Dictionary<string, DK>() // (Type 6)
         {
             { "Logo"                  , DK.Peripheral_Logo          },
             { "Mouse"                 , DK.Peripheral_Logo          },
             { "Scroll Wheel"          , DK.Peripheral_ScrollWheel   },
-            { "DPI"                   , DK.Peripheral_ScrollWheel   },
+            { "DPI"                   , DK.PERIPHERAL_DPI           },
             { "Front"                 , DK.Peripheral_FrontLight    },
             { "Wheel LED"             , DK.Peripheral_Logo          },
             { "Lower left LED"        , DK.MOUSELIGHT11             },
@@ -185,7 +192,9 @@ namespace Aurora.Devices.OpenRGB
         };
         public static readonly Dictionary<string, DK> MOUSEMAT_LOGO = new Dictionary<string, DK>() // (Type 7)
         {
-            { "Logo"                  , DK.MOUSEPAD_LOGO        },
+            { "Logo"                  , DK.MOUSEPAD_LOGO                },
+            { "Mat Top LED"           , DK.SSMOUSEPADLIGHTTOP           },
+            { "Mat Bottom LED"        , DK.SSMOUSEPADLIGHTBOTTOM        },
         };
         public static readonly Dictionary<string, DK> HEADSET_LOGO = new Dictionary<string, DK>() // (Type 8)
         {

@@ -2827,7 +2827,7 @@
       "absolute_location": true
     },
 
-    //////////////////////////////////////////////// CHANNEL 1 FAN 1 (TOP 1)
+    //////////////////////////////////////////////// CHANNEL 1 FAN 1 (TOP 1 Upper)
 
     {
       //"visualName": "C1 FAN 1",
@@ -2842,97 +2842,199 @@
     },
     {
       "visualName": "C1 L3",
-      "font_size": 8.0,
+      "font_size": 6.0,
       "tag": 2103,
       "margin_left": 767.0,
       "margin_top": -332.0,
       "width": 25.0,
-      "height": 15.0,
+      "height": 7.5,
       "enabled": true,
       "absolute_location": true
     },
     {
       "visualName": "C1 L4",
-      "font_size": 8.0,
+      "font_size": 6.0,
       "tag": 2104,
       "margin_left": 740.0,
       "margin_top": -332.0,
       "width": 25.0,
-      "height": 15.0,
+      "height": 7.5,
       "enabled": true,
       "absolute_location": true
     },
     {
       "visualName": "C1 L5",
-      "font_size": 8.0,
+      "font_size": 6.0,
       "tag": 2105,
       "margin_left": 712.0,
       "margin_top": -332.0,
       "width": 25.0,
-      "height": 15.0,
+      "height": 7.5,
       "enabled": true,
       "absolute_location": true
     },
     {
       "visualName": "C1 L6",
-      "font_size": 8.0,
+      "font_size": 6.0,
       "tag": 2106,
       "margin_left": 685.0,
       "margin_top": -332.0,
       "width": 25.0,
-      "height": 15.0,
+      "height": 7.5,
       "enabled": true,
       "absolute_location": true
     },
     {
       "visualName": "C1 L2",
-      "font_size": 8.0,
+      "font_size": 6.0,
       "tag": 2102,
       "margin_left": 767.0,
-      "margin_top": -315.0,
+      "margin_top": -324.5,
       "width": 25.0,
-      "height": 15.0,
+      "height": 7.5,
       "enabled": true,
       "absolute_location": true
     },
     {
       "visualName": "C1 L1",
-      "font_size": 8.0,
+      "font_size": 6.0,
       "tag": 2101,
       "margin_left": 740.0,
-      "margin_top": -315.0,
+      "margin_top": -324.5,
       "width": 25.0,
-      "height": 15.0,
+      "height": 7.5,
       "enabled": true,
       "absolute_location": true
     },
     {
       "visualName": "C1 L8",
-      "font_size": 8.0,
+      "font_size": 6.0,
       "tag": 2108,
       "margin_left": 712.0,
-      "margin_top": -315.0,
+      "margin_top": -324.5,
       "width": 25.0,
-      "height": 15.0,
+      "height": 7.5,
       "enabled": true,
       "absolute_location": true
     },
     {
       "visualName": "C1 L7",
-      "font_size": 8.0,
+      "font_size": 6.0,
       "tag": 2107,
       "margin_left": 685.0,
-      "margin_top": -315.0,
+      "margin_top": -324.5,
       "width": 25.0,
-      "height": 15.0,
+      "height": 7.5,
       "enabled": true,
       "absolute_location": true
     },
 
-    //////////////////////////////////////////////// CHANNEL 1 FAN 2 (TOP 2)
+    //////////////////////////////////////////////// CHANNEL 1 FAN 1 (TOP 1 Lower)
 
     {
-      //"visualName": "C1 FAN 2",
+      //"visualName": "C1 FAN 1 Lower",
+      "tag": -1,
+      "margin_left": 682.0,
+      "margin_top": -316.0,
+      "width": 112.5,
+      "height": 19.0,
+      "z": 0.0,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "visualName": "C1 L3",
+      "font_size": 6.0,
+      "tag": 2111,
+      "margin_left": 767.0,
+      "margin_top": -315.0,
+      "width": 25.0,
+      "height": 7.5,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "visualName": "C1 L4",
+      "font_size": 6.0,
+      "tag": 2112,
+      "margin_left": 740.0,
+      "margin_top": -315.0,
+      "width": 25.0,
+      "height": 7.5,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "visualName": "C1 L5",
+      "font_size": 6.0,
+      "tag": 2113,
+      "margin_left": 712.0,
+      "margin_top": -315.0,
+      "width": 25.0,
+      "height": 7.5,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "visualName": "C1 L6",
+      "font_size": 6.0,
+      "tag": 2114,
+      "margin_left": 685.0,
+      "margin_top": -315.0,
+      "width": 25.0,
+      "height": 7.5,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "visualName": "C1 L2",
+      "font_size": 6.0,
+      "tag": 2110,
+      "margin_left": 767.0,
+      "margin_top": -307.5,
+      "width": 25.0,
+      "height": 7.5,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "visualName": "C1 L1",
+      "font_size": 6.0,
+      "tag": 2109,
+      "margin_left": 740.0,
+      "margin_top": -307.5,
+      "width": 25.0,
+      "height": 7.5,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "visualName": "C1 L8",
+      "font_size": 6.0,
+      "tag": 2116,
+      "margin_left": 712.0,
+      "margin_top": -307.5,
+      "width": 25.0,
+      "height": 7.5,
+      "enabled": true,
+      "absolute_location": true
+    },
+    {
+      "visualName": "C1 L7",
+      "font_size": 6.0,
+      "tag": 2115,
+      "margin_left": 685.0,
+      "margin_top": -307.5,
+      "width": 25.0,
+      "height": 7.5,
+      "enabled": true,
+      "absolute_location": true
+    },
+
+    //////////////////////////////////////////////// CHANNEL 1 FAN 3 (TOP 2)
+
+    {
+      //"visualName": "C1 FAN 3",
       "tag": -1,
       "margin_left": 567.0,
       "margin_top": -335.0,
@@ -2945,7 +3047,7 @@
     {
       "visualName": "C1 L11",
       "font_size": 8.0,
-      "tag": 2111,
+      "tag": 2119,
       "margin_left": 652.0,
       "margin_top": -332.0,
       "width": 25.0,
@@ -2956,7 +3058,7 @@
     {
       "visualName": "C1 L12",
       "font_size": 8.0,
-      "tag": 2112,
+      "tag": 2120,
       "margin_left": 625.0,
       "margin_top": -332.0,
       "width": 25.0,
@@ -2967,7 +3069,7 @@
     {
       "visualName": "C1 L13",
       "font_size": 8.0,
-      "tag": 2113,
+      "tag": 2121,
       "margin_left": 597.0,
       "margin_top": -332.0,
       "width": 25.0,
@@ -2978,7 +3080,7 @@
     {
       "visualName": "C1 L14",
       "font_size": 8.0,
-      "tag": 2114,
+      "tag": 2122,
       "margin_left": 570.0,
       "margin_top": -332.0,
       "width": 25.0,
@@ -2989,7 +3091,7 @@
     {
       "visualName": "C1 L10",
       "font_size": 8.0,
-      "tag": 2110,
+      "tag": 2118,
       "margin_left": 652.0,
       "margin_top": -315.0,
       "width": 25.0,
@@ -3000,7 +3102,7 @@
     {
       "visualName": "C1 L9",
       "font_size": 8.0,
-      "tag": 2109,
+      "tag": 2117,
       "margin_left": 625.0,
       "margin_top": -315.0,
       "width": 25.0,
@@ -3011,7 +3113,7 @@
     {
       "visualName": "C1 L16",
       "font_size": 8.0,
-      "tag": 2116,
+      "tag": 2124,
       "margin_left": 597.0,
       "margin_top": -315.0,
       "width": 25.0,
@@ -3022,7 +3124,7 @@
     {
       "visualName": "C1 L15",
       "font_size": 8.0,
-      "tag": 2115,
+      "tag": 2123,
       "margin_left": 570.0,
       "margin_top": -315.0,
       "width": 25.0,
@@ -3031,10 +3133,10 @@
       "absolute_location": true
     },
 
-    //////////////////////////////////////////////// CHANNEL 1 FAN 3 (TOP 3)
+    //////////////////////////////////////////////// CHANNEL 1 FAN 4 (TOP 3)
 
     {
-      //"visualName": "C1 FAN 3",
+      //"visualName": "C1 FAN 4",
       "tag": -1,
       "margin_left": 452.0,
       "margin_top": -335.0,
@@ -3047,7 +3149,7 @@
     {
       "visualName": "C1 L19",
       "font_size": 8.0,
-      "tag": 2119,
+      "tag": 2127,
       "margin_left": 537.0,
       "margin_top": -332.0,
       "width": 25.0,
@@ -3058,7 +3160,7 @@
     {
       "visualName": "C1 L20",
       "font_size": 8.0,
-      "tag": 2120,
+      "tag": 2128,
       "margin_left": 510.0,
       "margin_top": -332.0,
       "width": 25.0,
@@ -3069,7 +3171,7 @@
     {
       "visualName": "C1 L21",
       "font_size": 8.0,
-      "tag": 2121,
+      "tag": 2129,
       "margin_left": 482.0,
       "margin_top": -332.0,
       "width": 25.0,
@@ -3080,7 +3182,7 @@
     {
       "visualName": "C1 L22",
       "font_size": 8.0,
-      "tag": 2122,
+      "tag": 2130,
       "margin_left": 455.0,
       "margin_top": -332.0,
       "width": 25.0,
@@ -3091,7 +3193,7 @@
     {
       "visualName": "C1 L18",
       "font_size": 8.0,
-      "tag": 2118,
+      "tag": 2126,
       "margin_left": 537.0,
       "margin_top": -315.0,
       "width": 25.0,
@@ -3102,7 +3204,7 @@
     {
       "visualName": "C1 L17",
       "font_size": 8.0,
-      "tag": 2117,
+      "tag": 2125,
       "margin_left": 510.0,
       "margin_top": -315.0,
       "width": 25.0,
@@ -3113,7 +3215,7 @@
     {
       "visualName": "C1 L24",
       "font_size": 8.0,
-      "tag": 2124,
+      "tag": 2132,
       "margin_left": 482.0,
       "margin_top": -315.0,
       "width": 25.0,
@@ -3124,7 +3226,7 @@
     {
       "visualName": "C1 L23",
       "font_size": 8.0,
-      "tag": 2123,
+      "tag": 2131,
       "margin_left": 455.0,
       "margin_top": -315.0,
       "width": 25.0,
@@ -3133,10 +3235,10 @@
       "absolute_location": true
     },
 
-    //////////////////////////////////////////////// CHANNEL 1 FAN 4 (REAR FAN)
+    //////////////////////////////////////////////// CHANNEL 1 FAN 5 (REAR FAN)
 
     {
-      //"visualName": "C1 FAN 4",
+      //"visualName": "C1 FAN 5",
       "tag": -1,
       "margin_left": 408.0,
       "margin_top": -294.0,
@@ -3149,7 +3251,7 @@
     {
       "visualName": "C1 L28",
       "font_size": 8.0,
-      "tag": 2128,
+      "tag": 2136,
       "margin_left": 410.5,
       "margin_top": -209.0,
       "width": 15.0,
@@ -3160,7 +3262,7 @@
     {
       "visualName": "C1 L27",
       "font_size": 8.0,
-      "tag": 2127,
+      "tag": 2135,
       "margin_left": 410.5,
       "margin_top": -236.5,
       "width": 15.0,
@@ -3171,7 +3273,7 @@
     {
       "visualName": "C1 L26",
       "font_size": 8.0,
-      "tag": 2126,
+      "tag": 2134,
       "margin_left": 410.5,
       "margin_top": -264.0,
       "width": 15.0,
@@ -3182,7 +3284,7 @@
     {
       "visualName": "C1 L25",
       "font_size": 8.0,
-      "tag": 2125,
+      "tag": 2133,
       "margin_left": 410.5,
       "margin_top": -291.5,
       "width": 15.0,
@@ -3193,7 +3295,7 @@
     {
       "visualName": "C1 L29",
       "font_size": 8.0,
-      "tag": 2129,
+      "tag": 2137,
       "margin_left": 428.0,
       "margin_top": -209.0,
       "width": 15.0,
@@ -3204,7 +3306,7 @@
     {
       "visualName": "C1 L30",
       "font_size": 8.0,
-      "tag": 2130,
+      "tag": 2138,
       "margin_left": 428.0,
       "margin_top": -236.5,
       "width": 15.0,
@@ -3215,7 +3317,7 @@
     {
       "visualName": "C1 L31",
       "font_size": 8.0,
-      "tag": 2131,
+      "tag": 2139,
       "margin_left": 428.0,
       "margin_top": -264.0,
       "width": 15.0,
@@ -3226,7 +3328,7 @@
     {
       "visualName": "C1 L32",
       "font_size": 8.0,
-      "tag": 2132,
+      "tag": 2140,
       "margin_left": 428.0,
       "margin_top": -291.5,
       "width": 15.0,

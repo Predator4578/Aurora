@@ -89,7 +89,7 @@ namespace Aurora.Devices.Razer
             if (!IsInitialized)
                 return false;
 
-            if (keyColors.TryGetValue(DeviceKeys.Peripheral_Logo, out var clr))
+            if (keyColors.TryGetValue(DeviceKeys.GPU_LOGO, out var clr))
             {
                 keyboard.Set(ToColore(clr));
                 mousepad.Set(ToColore(clr));
